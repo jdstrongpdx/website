@@ -11,7 +11,7 @@ import StaffPage from './pages/StaffPage.js';
 import Contact from './pages/ContactPage.js';
 import IdealConditionsPage from './pages/IdealConditionsPage.js';
 import ResumePage from './pages/ResumePage.js';
-
+import PortfolioPage from './pages/PortfolioPage.js';
 
 import RentalHomesPage from './pages/RentalHomesPage.js';
 import AddHomePageForm from './components/RentalHomes/AddHomePageForm.js';
@@ -40,6 +40,7 @@ function App() {
                     <Route path="/ContactPage" element={<Contact/>}/>
                     <Route path="/IdealConditionsPage" element={<IdealConditionsPage/>}/>
                     <Route path="/ResumePage" element={<ResumePage/>}/>
+                    <Route path="/PortfolioPage" element={<PortfolioPage/>}/>
 
                     <Route path="/RentalHomesPage" element={<RentalHomesPage setHome={setHomeToEdit}/>} />
                     <Route path="/create" element={<AddHomePageForm />} /> 
