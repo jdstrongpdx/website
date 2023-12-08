@@ -30,7 +30,6 @@ function App() {
 
           <div className="content">
           <main>
-            <h1>THIS WEBSITE IS UNDER DEVELOPMENT</h1>
             <section>
                 <Routes> 
                     <Route path="/" element={<HomePage/>}/>

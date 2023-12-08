@@ -43,7 +43,6 @@
   /*  ----- Page layout blocks -----  */
   header {}
 
-
   main {}
   section {}
   article {}
@@ -62,7 +61,7 @@
   left: 0px;
   padding: 30px 8px 30px 8px;
   width: 325px;
-  background: linear-gradient(180deg, var(--blueberry) 0%, var(--trans-navy) 100%);
+  background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 125%);
   color: var(--color-cream);
   font-size: 1.2em;
   text-align: center;
@@ -93,11 +92,9 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-  margin: 0px 0px 0px 385px;
+  margin: 0px 0px 0px 365px;
   font-size: 1.2em;
-  height: 100vh;
-  overflow: auto;
-  padding: 40px 20px 40px 20px;
+  padding: 0px 20px 40px 20px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -120,11 +117,15 @@ div.content {
     float: none;
   }
 } 
+
+.centered {
+  text-align: center;
+}
   
   /* ----- Anchors ----- Text links */
   a {}
   a:link {
-    color:var(--rust)
+    color:var(--color-cream)
   }
   a:hover {
     color:var(--rust)
@@ -155,12 +156,10 @@ div.content {
   h1 {
     font-size: 2.7em;
     font-weight: 900;
-    text-align: center;
   }
   h2 {
     font-size: 2.2em;
     font-weight: 900;
-    text-align: center;
   }
 
   h3 { 
@@ -322,8 +321,8 @@ div.content {
     border-radius: 5px;
 }
 
-  styledButton {
-    background-color: black;
+.styledButton {
+    background-color: var(--blueberry);
     color: white;
     font-size: 20px;
     padding: 10px 60px;
@@ -474,6 +473,20 @@ i {
   height: 200px;
   border-radius: 20px;
 }
+
+.skillsParent {
+  display: flex;
+  justify-content: left;
+  flex-wrap: wrap;
+}
+
+.skillsChild {
+   width: 300px;
+   height: 400px;
+   padding: 10px 10px 10px 10px;
+}
+
+
   
   .floatright {}
   .floatleft {}

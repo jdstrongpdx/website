@@ -20,28 +20,21 @@ function NavBar() {
         <Link to="/PortfolioPage"><FaLaptopCode /> &ensp; Portfolio</Link>
         <Link to="/ContactPage"> <MdEmail /> &ensp; Contact</Link>
 
-    <p>
-
-      <a href="https://www.linkedin.com/in/joel-strong/" target="https://www.linkedin.com/in/joel-strong/">
-        <img height="50" alt="LinkedIn logo" src="./images/LinkedIn.png"/> 
+        <a href="https://www.linkedin.com/in/joel-strong/" target="https://www.linkedin.com/in/joel-strong/">
+        <img height="50" alt="LinkedIn logo" src="./logos/linkedin.png"/> 
         </a>
 
         <a href="https://github.com/jdstrongpdx" target="https://github.com/jdstrongpdx">
-        <img height="50" alt="GitHub logo" src="./images/GitHub_Logo.png"/> 
+        <img height="50" alt="GitHub logo" src="./logos/github.png"/> 
         </a>
 
         <a href="https://leetcode.com/jdstrongpdx/" target="https://leetcode.com/jdstrongpdx/">
-        <img height="50" alt="Leetcode logo" src="./images/LeetCode_logo.png"/> 
-        </a>
-
-        <a href="https://hyperskill.org/profile/404595637" target="https://hyperskill.org/profile/404595637">
-        <img height="50" alt="Hyperskill logo" src="./images/Hyperskill.jpg"/> 
+        <img height="50" alt="Leetcode logo" src="./logos/leetcode.png"/> 
         </a>
 
         <br></br>
         &copy; 2023 Joel Strong
 
-      </p>
     </div>
     </>
   );
