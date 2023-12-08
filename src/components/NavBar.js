@@ -11,7 +11,7 @@ function NavBar() {
     <img src="./images/headshot.jpg" className='headshot' alt="Website Logo"></img>
     <h1>Joel Strong </h1>
 
-    <p>Hi, my name is Joel Strong and I am aspiring Full Stack Software Engineer.  Weclome to my personal website!</p>
+    <p>Hi, my name is Joel Strong and I am aspiring Full Stack Software Engineer.  Welcome to my personal website!</p>
 
 
 
