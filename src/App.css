@@ -1,38 +1,563 @@
-.App {
+/*  ===== MOBILE styles (reside at the top and are inherited by all devices) ===== */
+/*  ===== See tablet, desktop, and print @media queries at the bottom. */
+
+/*   ----- Imports  -----  */
+  /* @import 'node_modules/modern-normalize/modern-normalize.css';  npm install modern-normalize  Resets elements for browser consistency.  https://www.npmjs.com/package/modern-normalize */         
+  /* @import "component1.css";   Component-specific stylesheets, if any.   */
+  /* @import url(//fonts.googleapis.com/css?family=Font+Name); Add fonts from a hosted services like Google Fonts.   */
+
+  @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+  @import "~react-image-gallery/styles/css/image-gallery.css";
+
+/*   ----- Variables  -----  */
+:root {
+    --color-sky-blue: #96BFD9;
+    --color-grey-blue: #b4d1dddd;  /* transparency */
+    --color-trans-grey-blue: #cbdbdbd0;  /* transparency */
+    --color-non-trans-grey-blue: rgb(115, 110, 118);
+    --color-cream: #ECEBDB;
+    --color-light-orange: rgb(236, 208, 170);
+    --less-light-orange: rgb(235, 200, 150);
+    --color-dark-brown: #483e38;
+    --blueberry: #6b7a8f;
+    --tan: #DCC7AA;
+    --navy: #1c1f4c;
+    --trans-navy: #1c1f4c88;  /* transparency */
+    --rust: #9b5913;
+    --blend-blue: rgb(153, 175, 205);
+  }
+  
+  /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
+  html {
+  }
+
+  body { 
+    background-attachment: fixed;
+    background-image: url("images/cannon_beach.jpg");
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-color: var(--color-trans-grey-blue);
+
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 300;
+    font-size: 1em;
+    max-width: 1400px;
+    color: var(--color-dark-brown);
+
+  }
+  
+  /*  ----- Page layout blocks -----  */
+  header {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    background-color: var(--navy);
+    padding-left: 30px;
+    text-align: left;
+    color: var(--color-cream);
+    height: 70px;
+    width: 1570px;
+  }
+  header img {
+    position: relative; 
+    top: 10px;
+    left: 40px;
+    height: 45px;
+  }
+
+  main {
+  }
+  section {}
+  article {}
+    #topic1 {}
+    #topic2 {}
+  div {}
+  aside {
+    width: 30%;
+    padding-left: 1%;
+    margin-left: 1%;
+    float: right;
+    box-shadow: inset 5px 5px 5px -5px var(--navy);
+    font-style: italic;
+    color: var(--rust);
+  }
+
+
+  footer {
+    background-color: var(--navy);
+    text-align: left;
+    line-height: 80px;
+    color: var(--color-cream);
+    width: 1600px;
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    height: 80px;
+  }
+
+   /* The side navigation menu */
+.sidebar {
+  position: relative;
+  width: 200px;
+  background: linear-gradient(180deg, var(--navy) 0%, var(--trans-navy) 100%);
+  color: var(--color-cream);
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+
+.sidebarRight {
+  margin-left: 1400px;
+  width: 200px;
+  background: linear-gradient(180deg, var(--navy) 0%, var(--trans-navy) 100%);
+  color: var(--color-cream);
+  position: fixed;
+  height: 100vh;
+  overflow: auto;
+}
+
+/* Sidebar links */
+.sidebar a {
+  display: block;
+  color: var(--color-cream);
+  padding: 15px;
+  text-decoration: none;
+  border: 4px solid var(--color-cream);
+  border-width: 0 0 1px 0;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3em;
+  font-weight: 700;
+}
+
+/* Active/current link */
+.sidebar a.active {
+  color: var(--color-cream);
+}
+
+/* Links on mouse-over */
+.sidebar a:hover:not(.active) {
+  color: var(--less-light-orange);
+  background-color: var(--color-non-trans-grey-blue);
+}
+
+/* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+div.content {
+  margin: 70px 0px 40px 200px;
+  font-size: 1.2em;
+  height: 100vh;
+  overflow: auto;
+  padding: 1% 2% 2% 2%;
+  background-color: var(--color-trans-grey-blue);
+}
+
+/* On screens that are less than 700px wide, make the sidebar into a topbar */
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    margin-top: 80px;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+/* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+@media screen and (max-width: 400px) {
+  .sidebar a {
+
+    text-align: center;
+    float: none;
+  }
+} 
+  
+  /* ----- Anchors ----- Text links */
+  a {}
+  a:link {
+    color:var(--rust)
+  }
+  a:hover {
+    color:var(--rust)
+  }
+  a:active {}
+  a:visited {color:inherit}
+  
+  /*  ----- Navigation ----- Override text links for navigation only.  */
+  nav {
+  }
+  nav a {
+  }
+  nav a:hover {
+  }
+  
+  /*  -----  Typography  ----- */
+  p {
+    margin: 2%;
+  }
+  br {}
+  ol, ul, dl {
+    margin: 2%;
+  }
+  li {}
+  dt {}
+  dd {}
+  
+  h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3em;
+    font-weight: 300;
+    margin: 0;
+  }
+  h2 {
+    font-family: 'DM Serif Display', serif; 
+    font-size: 2.2em;
+    text-align: center;
+  }
+
+  h3 { 
+    font-family: 'DM Serif Display', serif; 
+    font-size: 1.7em;
+    margin: 0px;
+  } 
+
+  h4 { 
+    font-family: 'DM Serif Display', serif; 
+    font-size: 1.3em;
+    margin: 0px;
+  } 
+
+
+  h5 {}
+  h6 {}
+  
+  abbr {}
+  acronym {}
+  address {}
+  blockquote {}
+    q {}
+    cite {}
+  em {}
+  hr {}
+  mark {}
+  s {}
+  span {}
+  strong {font-weight: 700}
+  sub {}
+  sup {}
+  time {}
+  
+  /*  ----- Coding or instructional typography ----- */
+  pre {}
+  code {}
+  kbd {}
+  samp {}
+  var {}
+  del {} 
+  ins {}
+  
+  /*  ----- Table ----- */
+  table {
+    border-collapse:collapse;
+    width: 99%;
+  }
+  caption {
+    color:var(--navy);
+    font-weight:bold;
+    padding:1% 0;
+  }
+  thead {
+    border: 2px solid var(--color-dark-brown);
+    color: var(--color-cream);
+    background-color:  var(--navy);
+  }
+  .theadCenter {
+    text-align: center;
+    border: 2px solid var(--color-dark-brown);
+    color: var(--color-cream);
+    background-color:  var(--navy);
+  }
+  tbody {
+    text-align:right;
+  }
+  tfoot {
+    border: 2px solid var(--color-dark-brown);
+    color: var(--color-cream);
+    background-color:  var(--navy);
+  }
+  tr, td {
+    height: 40px;
+    border-bottom:1px solid var(--color-dark-brown);
+
+  }
+    tr:nth-child(even) {
+      background-color:  var(--color-grey-blue);
+    }
+
+
+  tr {
+
+  }
+  th {
+    padding:1%;
+    text-align: right;
+  }
+  td {}
+  td:nth-child(1) {}
+
+  table img {
+    border: solid var(--color-dark-brown);
+    border-width: 2px;
+    border-radius: 9px;
+  }
+
+  colgroup {}
+  data {}
+  datalist {}
+  
+  
+  /*  ----- Form ----- */j
+  form, button, input, select, textarea, legend, label{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.3em;
+    font-weight: 600;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  fieldset {
+    border: 2px solid var(--color-dark-brown);
+    margin-bottom: 1%;
+    width: 80%;
+    display: block;
+    text-align: center;
+ 
+  }
+  legend {
+    background-color: var(--trans-navy);
+    color: var(--color-light-orange);
+    border: 2px solid var(--navy);
+    padding: 1%;
+    font-size: 110%;
+  }
+  label {
+    display: block;
+    margin-top: 2%;
+    color: var(--color-dark-brown)
+  }
+
+  button {
+    -webkit-appearance: button;
+    -webkit-writing-mode: horizontal-tb !important;
+    text-rendering: auto;
+    color: white;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: center;
+    align-items: flex-start;
+    cursor: pointer;
+    background-color: black;
+    box-sizing: border-box;
+    margin: 10px 0px;
+    font: 400 11px system-ui;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
+    border-image: initial;
+    border-radius: 5px;
+}
+
+  styledButton {
+    background-color: black;
+    color: white;
+    font-size: 20px;
+    padding: 10px 60px;
+    border-radius: 5px;
+    margin: 10px 0px;
+    cursor: pointer;
+  }
+
+  input {
+    padding: 1%;
+    font-size: 110%;
+    background-color: var(--color-cream);
+    margin-bottom: 2%;
+  }
+  select {}
+    optgroup {}
+    option {}
+
+  textarea {
+    padding: 1%;
+    font-size: 110%;
+    height: 200px;
+    width: 90%;
+    background-color: var(--color-cream);
+    align-items: center;
+  }
+  output {}
+  meter {}
+  progress {}
+  
+  *:required {
+    border:2px solid green;
+}
+.address {
+  width: 90%;
+}
+
+.form_intro {
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+  
+  /* ----- Media ----- */
+  figure {
+    /* flex attribute inherited from .gallery class */
+    flex-basis: 400px;
   }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  figcaption {
+    text-align: center;
+    padding: 1%;
+  }
+
+  figure img {
+    border: 3px solid var(--color-dark-brown);
+    object-fit: cover;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  svg {}
+  picture {}
+    source {}
+  iframe {}
+  video {}
+  audio {}
+  embed {}
+  object {}
+  
+  /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .image-gallery-wrapper {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    max-width: 95%;
+    margin: 0 auto;
+    border: 1px solid var(--navy);
+    box-shadow: #2b15453d 1px 10px 10px 5px;
+    height: 900px;
+  }
+
+  .image-gallery-image {
+    height: 750px;
+  }
+
+  .image-gallery-thumbnails {
+    height: 150px;
+  }
+
+  .image-gallery-thumbnails-container {
+    height: 140px;
+  }
+
+.image-gallery-description { bottom:0px!important; } 
+
+.local {
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-wrap: wrap;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.3em;
+  font-weight: 700;
+  background: linear-gradient(90deg, var(--color-trans-grey-blue) 0%, var(--less-light-orange) 50%, var(--color-trans-grey-blue) 100%);
+}
+.local a {
+
+  color:var(--color-dark-brown);
+  border: 2px solid var(--blueberry);
+  border-width: 0 1px 0 1px;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.0em;
+  font-weight:700px;
+  text-align:center;
+  text-decoration:none;
+  padding: 4px 15px 4px 15px;
+  
 }
 
-.App-link {
-  color: #61dafb;
+.local a:hover {
+  color: var(--color-light-orange);
+  background: var(--trans-navy);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+i {
+  font-size: 140%;
+  cursor: pointer;
 }
+
+.emoji {
+  font-size: 200%;
+}
+
+.icon {
+  height: 45px;
+}
+
+.certificate {
+  height: 150px;
+}
+  
+  .floatright {}
+  .floatleft {}
+  .center-middle {}
+  
+  .ten {}
+  .twenty {}
+  .thirty {}
+  .forty {}
+  .fifty {}
+  .sixty {}
+  .seventy {}
+  .eighty {}
+  
+  .radius {}
+  .circle {}
+  .boxshadow {}
+  .tshadow {} 
+  .gradient {}
+  .shape {}
+  
+  @keyframes App-logo {}
+  
+  /*   ===== TABLET  media query overrides mobile styles ===== */
+  @media all and (min-width: 600px) {}
+  
+  /*   ===== DESKTOP  media query overrides mobile and tablet styles ===== */
+  @media all and (min-width: 1080px) {}
+  
+  /*   ===== PRINT  media query overrides previous styles =====  */
+  @media print {}
+  
