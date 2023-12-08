@@ -13,27 +13,20 @@ function PortfolioPage() {
     
     </article>
 
-
-    <article>
-        <h3>Career Goals:</h3>
-                <p>I am currently a full time student working towards the skills needed to be a full stack developer using a React/Typescript frontend, AWS CDK hosting, and Java backend.  While I am not stuck on a single stack implementation, I believe these languages and skills give me the foundations needed for building in similar tech stacks.  As well as maintaining a 4.0 GPA, I have been working on certifications for OOP programming in Python and Java, Java backend solutions using SpringBoot, and AWS CDK practitioner and developer certifications.</p>
-
-        </article>
-
         <article >
             <h3>Notable Projects:</h3>
 
-            <h4>Java/SprintBoot Recipe Application</h4>
+            <h4>Java/SprintBoot Backend Recipe Application</h4>
             <p>The foundations for this website came from my Web Development class. The class started by building a website in basic HTML, adding CSS styling, learning and including JavaScript, connecting the website to a MongoDB database, and finally converting the whole site to a React Single Page Application. </p>
                 <p>Text description</p>
                 <p>Video</p>
             
-            <h4>This Website</h4>
+            <h4>Personal Website</h4>
             <p>text </p>
             <ul>
-                <li><strong>Frontend: </strong> <em>Languages: HTML, CSS, JavaScript and React.</em>  Uses several React modules, Express and Nodemon.</li>
+                <li><em>Frontend uses HTML, CSS, JavaScript, TypeScript and React.</em>  Uses several React modules, Axios, Express.</li>
                 <li><strong>Backend: </strong> Uses modules for Express, Nodemon, Rest and Mongoose to connect to a MongoDB Atlas Cluster using a MVC model.</li>
-                <li><strong>Hosting: </strong> *TBD* Hosted on AWS using AWS Amplify.</li>
+                <li><strong>Hosting: </strong> AWS Amplify</li>
             </ul>
 
             <h4>Ideal Conditions</h4>

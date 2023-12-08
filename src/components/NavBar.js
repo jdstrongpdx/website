@@ -8,7 +8,7 @@ function NavBar() {
   return (
     <>
     <div className='sidebar'>
-    <img src="./images/headshot.jpg" className='headshot' alt="Website Logo"></img>
+    <img src="./images/headshot.jpg" className='headshot' width='220px' alt="Website Logo"></img>
     <h1>Joel Strong </h1>
 
     <p>Hi, my name is Joel Strong and I am aspiring Full Stack Software Engineer.  Welcome to my personal website!</p>
