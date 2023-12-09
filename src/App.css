@@ -265,6 +265,7 @@ div.content {
   
   /*  ----- Form ----- */j
   form, button, input, select, textarea, legend, label{
+    
     font-size: 1.3em;
     font-weight: 600;
   }
@@ -277,6 +278,7 @@ div.content {
 
   }
   fieldset {
+
     border: 2px solid var(--color-dark-brown);
     margin-bottom: 1%;
     width: 80%;
@@ -335,7 +337,7 @@ div.content {
   input {
     padding: 1%;
     font-size: 110%;
-    background-color: var(--color-cream);
+    background-color: white;
     margin-bottom: 2%;
   }
   select {}
@@ -346,8 +348,8 @@ div.content {
     padding: 1%;
     font-size: 110%;
     height: 200px;
-    width: 90%;
-    background-color: var(--color-cream);
+    width: 600px;
+    background-color: white;
     align-items: center;
   }
   output {}
