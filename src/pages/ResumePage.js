@@ -6,8 +6,8 @@ function ResumePage() {
  
     <h2>Resume</h2>
 
-    <img width="1000px" border="0" align="center" alt="Resume" src="./images/resume.png"/> 
-        <p></p>
+        <p>TODO: UPDATE AND INCLUDE INTERACTIVE VERSION OF YOUR RESUME</p>
+        
     <Certifications id="certifications"/>
 
     </>

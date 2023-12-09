@@ -42,7 +42,7 @@ function Certifications() {
                     </tbody>
                     
                     </table> 
-
+                    {/* TODO UPDATE AS THE FOLLOWING ARE EARNED:
                     <table>
                     <thead>
                         <tr>
@@ -71,7 +71,7 @@ function Certifications() {
                     </tbody>
                     
                     </table> 
-
+                    */}
         </article>
         </>
     )
