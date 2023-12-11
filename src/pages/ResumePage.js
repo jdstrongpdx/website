@@ -4,9 +4,8 @@ import Certifications from '../components/Certifications';
 function ResumePage() {
     return (<>
  
-    <h2>Resume</h2>
+    <h1>Resume</h1>
 
-        <p>TODO: UPDATE AND INCLUDE INTERACTIVE VERSION OF YOUR RESUME</p>
         
     <Certifications id="certifications"/>
 

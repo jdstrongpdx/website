@@ -60,13 +60,18 @@
 
   padding: 30px 8px 30px 8px;
   width: 325px;
-  background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 125%);
+  background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 120%);
   color: var(--color-cream);
   font-size: 1.2em;
   text-align: center;
   position: fixed;
   height: 100%;
   overflow: auto;
+}
+
+.sidebar div{
+  display: flex;
+  flex-direction: row;
 }
 
 /* Sidebar links */
@@ -443,10 +448,6 @@ i {
   height: 45px;
 }
 
-.certificate {
-  height: 150px;
-}
-
 .headshot {
   height: 200px;
   border-radius: 20px;
@@ -460,9 +461,10 @@ i {
 
 .skillsChild {
    width: 300px;
-   height: 250px;
+   height: auto;
    padding: 10px 10px 10px 10px;
 }
+
 
 .right { 
   float: right;

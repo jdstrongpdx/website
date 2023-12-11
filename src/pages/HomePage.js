@@ -12,7 +12,7 @@ function HomePage() {
 
     <article>
         <h4>Junior Full Stack Software Engineer</h4>
-        <p>I am a full time student and aspiring Full Stack developer in Portland, Oregon.  In addition to maintaining a 4.0 GPA in my Computer Science degree, I have spent hundreds of hours working towards the languages, skills, and certifications needed to be a successful developer. developing projects</p>
+        <p>I am a full time student and aspiring Full Stack developer in Portland, Oregon.  In addition to maintaining a 4.0 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to become a successful developer. Please take a look at my Portfolio page for examples of my Projects and work!</p>
     </article>
 
     <button><Link to="/PortfolioPage"><FaLaptopCode />Portfolio</Link></button> &emsp;

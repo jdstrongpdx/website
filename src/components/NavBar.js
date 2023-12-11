@@ -34,7 +34,6 @@ function NavBar() {
         </a>
         </div>
 
-        <br></br>
         &copy; 2023 Joel Strong
 
     </div>

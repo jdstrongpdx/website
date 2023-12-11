@@ -59,16 +59,18 @@ function PortfolioPage() {
             </ul>
             <p><em>Project Link:</em> <Link to="/RentalHomesPage">Rental Homes</Link></p>
 
-            <h4>Past SWE Projects & Experience </h4>
-                <p>TODO Self taught programming skills to improve departmental efficiency and quality.</p>
+            <h4>Past SWE Work Experience </h4>
+                <p>Creation/modification of in-house software modules using Filemaker Pro/MS Access</p>
                 <ul>
                     <li>Managing the lifecycle for half the company&apos;s software modules including planning for new modules/improvements, design, development, quality control, documentation, training, deployment, and integrations.</li>
                     <li>New customer orders and shipping modules featuring direct integration with UPS Worldship to improve customer relations, prevent shipping errors, and improve shipping efficiency.</li>
                     <li>New materials modules including materials tracking, formulations, production, quality control, inventory, and reporting.</li>
                     <li> New workflow module to streamline engineering and document changes with configurable workflows and notifications.</li>
-                    <li>Technical Lead of SAAS ERP transition successfully transitioning nine modules to a new platform.</li>
-                    <li>Backup IT Administrator of both Windows and Apple server environments and database/ERP systems.</li>
                 </ul>
+
+                <p>Technical Lead of SAAS ERP implementation successfully transitioning nine modules to a new platform &#40; Plex Online &#41;.<br>
+                 </br>Backup IT Administrator of both Windows and Apple server environments and database/ERP systems.</p>
+
             
             {/* 
             <h4>React/JS Projects</h4>
@@ -83,8 +85,8 @@ function PortfolioPage() {
 
             <h4>Portfolio Projects from my classes and certifications:</h4>
             <ul>
-                <li><a href="https://github.com/jdstrongpdx/IdealConditions">TODO INCLUDE C Implementation of a Linux Shell</a></li>
-                <li><a href="https://github.com/jdstrongpdx/Java-Data-Access-Object-Implementation">Java Data Access Object CRUD Car Sharing Application</a></li>
+                <li><a href="https://github.com/jdstrongpdx/Smallsh">C Implementation of a Linux Shell</a></li>
+                <li><a href="https://github.com/jdstrongpdx/Java-Data-Access-Object-Implementation">Java Car Sharing REST Backend using PostgreSQL</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Low-Level-OA-SA-Hash-Table-Implementation">Python SA & OA Hash Table Implementation</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Java-OOP-SQL-Meal-Planner">Java OOP & SQL Meal Planner</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Java-OOP-Two-Player-Battleship">Java OOP Two Player Battleship Game</a></li>
