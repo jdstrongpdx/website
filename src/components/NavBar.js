@@ -20,7 +20,7 @@ function NavBar() {
         <Link to="/PortfolioPage"><FaLaptopCode /> &ensp; Portfolio</Link>
         <Link to="/ContactPage"> <MdEmail /> &ensp; Contact</Link>
 
-        <p>
+        <div>
         <a href="https://www.linkedin.com/in/joel-strong/" target="https://www.linkedin.com/in/joel-strong/">
         <img height="50" alt="LinkedIn logo" src="./logos/linkedin.png"/> 
         </a>
@@ -32,7 +32,7 @@ function NavBar() {
         <a href="https://leetcode.com/jdstrongpdx/" target="https://leetcode.com/jdstrongpdx/">
         <img height="50" alt="Leetcode logo" src="./logos/leetcode.png"/> 
         </a>
-        </p>
+        </div>
 
         <br></br>
         &copy; 2023 Joel Strong

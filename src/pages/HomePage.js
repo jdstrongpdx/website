@@ -19,8 +19,8 @@ function HomePage() {
     <button className='styledButton'><Link to="/ResumePage"><IoDocument />Resume</Link></button>
 
     <article>
-        <h3>Languages</h3>
-    </article>
+        <h3>Languages & Frameworks</h3>
+        <p>This is a list of languages & frameworks that I have learned with the expressed interest in building applications with them.  I am completely open to learning new languages and frameworks that help me achieve the goals of the project I am working on.</p>
 
     <div className='skillsParent'>
         <div className='skillsChild'>
@@ -32,8 +32,12 @@ function HomePage() {
             <p>Designing practical solutions using fundamental and advanced Java features.  Implementation of different OOP models and design patterns using SOLID principles.</p>
         </div>        
          <div className='skillsChild'>
-            <h4><img height="50" alt="JavaScript logo" src="./logos/javascript.png"/> &ensp; JavaScript & TypeScript</h4>
+            <h4><img height="50" alt="JavaScript logo" src="./logos/javascript.png"/> &ensp; JavaScript</h4>
             <p>Implementing frontend solutions using both JavaScript and TypeScript.  Experience fetching and parsing data multiple sources and utilizing a MVC model to take in user input, perform CRUD operations and return results to the user.</p>
+        </div>
+        <div className='skillsChild'>
+            <h4><img height="50" alt="JavaScript logo" src="./logos/typescript.png"/> &ensp; TypeScript</h4>
+            <p>TODO: Implementing frontend solutions using both JavaScript and TypeScript.  Experience fetching and parsing data multiple sources and utilizing a MVC model to take in user input, perform CRUD operations and return results to the user.</p>
         </div>
         <div className='skillsChild'>
             <h4><img height="50" alt="React logo" src="./logos/react.png"/> &ensp; React</h4>
@@ -57,6 +61,7 @@ function HomePage() {
         </div>
     </div>
 
+    </article>
     <article>
         <h3>Skills</h3>
     </article>

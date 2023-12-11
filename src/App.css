@@ -93,7 +93,7 @@
 div.content {
   margin: 0px 0px 0px 365px;
   font-size: 1.2em;
-  padding: 0px 20px 40px 20px;
+  padding: 5px 20px 40px 20px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -110,7 +110,6 @@ div.content {
 /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
 @media screen and (max-width: 400px) {
   .sidebar a {
-
     text-align: center;
     float: none;
   }
@@ -118,6 +117,7 @@ div.content {
 
 .centered {
   text-align: center;
+  align-items: center;
 }
   
   /* ----- Anchors ----- Text links */
@@ -348,7 +348,8 @@ div.content {
     padding: 1%;
     font-size: 110%;
     height: 200px;
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     background-color: white;
     align-items: center;
   }
@@ -428,32 +429,6 @@ div.content {
   }
 
 .image-gallery-description { bottom:0px!important; } 
-
-.local {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  font-size: 1.3em;
-  font-weight: 700;
-  background: linear-gradient(90deg, var(--color-trans-grey-blue) 0%, var(--less-light-orange) 50%, var(--color-trans-grey-blue) 100%);
-}
-.local a {
-
-  color:var(--color-dark-brown);
-  border: 2px solid var(--blueberry);
-  border-width: 0 1px 0 1px;
-  font-size: 1.0em;
-  font-weight:700px;
-  text-align:center;
-  text-decoration:none;
-  padding: 4px 15px 4px 15px;
-  
-}
-
-.local a:hover {
-  color: var(--color-light-orange);
-  background: var(--trans-navy);
-}
 
 i {
   font-size: 140%;
