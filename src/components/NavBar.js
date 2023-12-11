@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { FaLaptopCode } from "react-icons/fa";
+import { TiWeatherPartlySunny } from "react-icons/ti";
 
 function NavBar() {
   return (
@@ -18,7 +19,9 @@ function NavBar() {
         <Link to="/"> <MdPerson /> &ensp; About Me</Link>
         <Link to="/ResumePage"><IoDocument /> &ensp; Resume</Link>
         <Link to="/PortfolioPage"><FaLaptopCode /> &ensp; Portfolio</Link>
+        <Link to="/IdealConditionsPage"> <TiWeatherPartlySunny /> &ensp; Ideal Conditions App</Link>
         <Link to="/ContactPage"> <MdEmail /> &ensp; Contact</Link>
+
 
         <div>
         <a href="https://www.linkedin.com/in/joel-strong/" target="https://www.linkedin.com/in/joel-strong/">

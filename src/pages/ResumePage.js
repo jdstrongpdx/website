@@ -6,9 +6,13 @@ function ResumePage() {
  
     <h1>Resume</h1>
 
-        
-    <Certifications id="certifications"/>
+    <p className='warning'>OLD RESUME - NEED TO UPDATE & REPLACE</p>
 
+    <img className='address' alt="Joel Strong Resume" border="0" align="center"  src="./images/Resume.png"/> 
+
+    <p>
+    <Certifications id="certifications"/>
+    </p>
     </>
     );
 }

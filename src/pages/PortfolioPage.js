@@ -5,7 +5,7 @@ import Certifications from '../components/Certifications';
 function PortfolioPage() {
     return (<>
  
-    <h2>My SWE Experience and Portfolio</h2>
+    <h2>Portfolio</h2>
 
     <article>
         <h3>Introduction:</h3>
@@ -22,10 +22,9 @@ function PortfolioPage() {
                 <li><em>Frontend:</em>  Used Postman to interface with client facing API endpoints.</li>
                 <li><em>Backend: </em> Java 17, SpringBoot, Gradle, and PostgreSQL running locally.</li>
             </ul>
-
-            <p>TODO Video Demonstration</p>
             
             <h4>Personal Website</h4>
+            <p className='warning'>Update image.</p>
             <div className='centered'><img height='200px' alt="website screenshot" src="./images/website.png"/></div>
 
             <p> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the React/JS/CSS code to develop the site.  I transferred in several React project from my Web Development Class &#40;see React/JS Projects below&#41; as well as my portfolio projects from my Frontend development class &#40;see Ideal Conditions below&#41;. I then converted the site from JavaScript to TypeScript.</p>
@@ -44,12 +43,15 @@ function PortfolioPage() {
                 <li><em>Backend: </em> Uses an AWS Lambda Function running Python.  Uses an AWS API Gateway with Proxy Integration to inject the request into the Lambda function and return the response.  Code was written in PyCharm, tested, deployed to AWS and tested using Postman. </li>
                 <li><em>Hosting: </em> The backend is served by a non-persistent AWS Lambda function and the frontend is served by an AWS Amplify app.</li>
             </ul>
+                <p className='warning'>Video demonstration.</p>
+                <p className='warning'>Update github files.</p>
                 <p><em>Project Link:</em> <Link to="/IdealConditionsPage">Ideal Conditions</Link></p>
-                <p><em>TODO: Video Demonstration</em></p>
-                <p><em>TODO: UPDATE FILES ONCE FULLY COMPLETE </em> <a href="https://github.com/jdstrongpdx/IdealConditions">Ideal Conditions GitHub</a> </p>   
+                <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/IdealConditions">Ideal Conditions GitHub</a> </p>   
 
             <h4>Rental Homes</h4>
-
+                <p className='warning'>Video demonstration.</p>
+                <p className='warning'>Update github files.</p>
+                <p className='warning'>Update image.</p>
             <div className='centered'><img height='200px' alt="ideal conditions app screenshot" src="./images/idealConditions.png"/></div>
             <p> A simple Full Stack CRUD application to update a database with Rental Home information. </p>
             <ul>

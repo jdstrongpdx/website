@@ -17,6 +17,9 @@ class Contact extends Component {
             <h1>Contact Page</h1>
 
             <p>Welcome to my contact page!  I would love you hear from you.  Type your message in below and it will forward the message to my e-mail address. </p>
+            
+            <p className='warning'>FEATURE UNDER DEVELOPMENT</p>
+            
             <form className="contact-form" onSubmit={ (e) => this.formSubmit(e)}>
 
             <label className="message-name" htmlFor="message-name">Your Name</label>

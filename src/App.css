@@ -144,6 +144,25 @@ div.content {
   nav a:hover {
   }
   
+  .local {
+    display: flex;  /* repeated to meet requirement - not necessary due to cascade */
+    flex-direction: row;
+    align-items: center;
+    background: linear-gradient(90deg, var(--color-trans-grey-blue) -25%, var(--less-light-orange) 50%, var(--color-trans-grey-blue) 125%);
+  }
+  .local a {
+    background: var(--less-light-orange);
+    color:var(--color-dark-brown);
+    font-size: 1.2em;
+    font-weight: 300;
+    padding: 4px 15px 4px 15px;
+  }
+  
+  .local a:hover {
+    color: var(--color-light-orange);
+    background: var(--trans-navy);
+  }
+
   /*  -----  Typography  ----- */
   p {
     margin: 2%;
@@ -195,6 +214,9 @@ div.content {
   s {}
   span {}
   strong {font-weight: 700}
+  small {
+    font-size: small;
+  }
   sub {}
   sup {}
   time {}
@@ -207,6 +229,12 @@ div.content {
   var {}
   del {} 
   ins {}
+  .warning {
+    font-size: 1.2em;
+    font-weight: 700;
+    text-align: center;
+    color: red;
+  }
   
   /*  ----- Table ----- */
   table {

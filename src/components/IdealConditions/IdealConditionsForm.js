@@ -31,7 +31,9 @@ export const IdealConditionsForm = () => {
 
     return (
         <>
-        <h2>Search for Ideal Conditions.</h2>
+        <h3>Search for Ideal Conditions.</h3>
+
+        <p className='warning'>FEATURE UNDER DEVELOPMENT</p>
 
         <form className="form" onSubmit={(e) => { e.preventDefault();}}>
             <fieldset>
@@ -82,28 +84,6 @@ export const IdealConditionsForm = () => {
 
             </fieldset>
         </form>
-            
-        <h2>Results</h2>
-
-        <div class="search_results">
-            <p ><span role="img" className="emoji" aria-label="cycling">🚴🏼</span>  Cycling Ideal Conditions:</p>
-            <ul>
-            <li>Time window: 5 hours.  10/27/2023 from 11 AM to 4 PM</li>
-            <li>Time window: 2 hours.  10/30/2023 from 9 AM to 11 AM</li>
-            </ul>
-
-            <p ><span role="img" className="emoji" aria-label="running">🏃🏼</span>   Running IdealConditions:</p>
-            <ul>
-            <li>Time window: 8 hours.  10/27/2023 from 9 AM to 5 PM</li>
-            <li>Time window: 4 hours.  10/30/2023 from 8 AM to 12 AM</li>
-            </ul>
-
-
-            <p><span role="img" className="emoji" aria-label="skiing">⛷️</span>  Skiing Ideal Conditions:</p>
-            <ul>
-            <li>No times with ideal conditions were found.</li>
-            </ul>
-        </div>
         </>
     );
 }

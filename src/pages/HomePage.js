@@ -25,20 +25,16 @@ function HomePage() {
     <div className='skillsParent'>
         <div className='skillsChild'>
             <h4><img height="50" alt="Python logo" src="./logos/python.png"/> &ensp; Python</h4>
-            <p>Utilizing Pythonic Syntax and OOP design. Using standard and third-party libraries to develop efficient solutions. Ability to fetch, parse, and transform data from and to multiple sources.</p>
-        </div>
+            <p>Todo.</p>        </div>
         <div className='skillsChild'>
             <h4><img height="50" alt="Java logo" src="./logos/java.png"/> &ensp; Java</h4>
-            <p>Designing practical solutions using fundamental and advanced Java features.  Implementation of different OOP models and design patterns using SOLID principles.</p>
-        </div>        
+            <p>Todo.</p>        </div>        
          <div className='skillsChild'>
             <h4><img height="50" alt="JavaScript logo" src="./logos/javascript.png"/> &ensp; JavaScript</h4>
-            <p>Implementing frontend solutions using both JavaScript and TypeScript.  Experience fetching and parsing data multiple sources and utilizing a MVC model to take in user input, perform CRUD operations and return results to the user.</p>
-        </div>
+            <p>Todo.</p>        </div>
         <div className='skillsChild'>
             <h4><img height="50" alt="JavaScript logo" src="./logos/typescript.png"/> &ensp; TypeScript</h4>
-            <p>TODO: Implementing frontend solutions using both JavaScript and TypeScript.  Experience fetching and parsing data multiple sources and utilizing a MVC model to take in user input, perform CRUD operations and return results to the user.</p>
-        </div>
+            <p>Todo.</p>        </div>
         <div className='skillsChild'>
             <h4><img height="50" alt="React logo" src="./logos/react.png"/> &ensp; React</h4>
             <p>Todo.</p>
