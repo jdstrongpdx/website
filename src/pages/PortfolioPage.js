@@ -87,6 +87,7 @@ function PortfolioPage() {
 
             <h4>Portfolio Projects from my classes and certifications:</h4>
             <ul>
+                <li><a href="https://github.com/jdstrongpdx/Docker-Composer">Docker Container API running Python and Flask</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Smallsh">C Implementation of a Linux Shell</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Java-Data-Access-Object-Implementation">Java Car Sharing REST Backend using PostgreSQL</a></li>
                 <li><a href="https://github.com/jdstrongpdx/Low-Level-OA-SA-Hash-Table-Implementation">Python SA & OA Hash Table Implementation</a></li>

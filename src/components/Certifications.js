@@ -39,6 +39,18 @@ function Certifications() {
                                     </a><p><strong>Java Backend</strong></p>
                 </div>
 
+                <div className='skillsChild'>
+                <a href="https://hyperskill.org/certificates/15d81f1e-1b4d-4456-b773-2bba997a6c18.pdf" target="https://hyperskill.org/certificates/15d81f1e-1b4d-4456-b773-2bba997a6c18.pdf">
+                                    <img width="220" alt="Introduction to Docker Certification" border="0" align="center"  src="./certifications/IntroDocker.png"/> 
+                                    </a><p><strong>Introduction to Docker</strong></p>
+                </div>
+
+                <div className='skillsChild'>
+                <a href="https://hyperskill.org/certificates/e644e4cf-640a-4c89-88bb-a90f09e0b699.pdf" target="https://hyperskill.org/certificates/e644e4cf-640a-4c89-88bb-a90f09e0b699.pdf">
+                                    <img width="220" alt="Introduction to Git Certification" border="0" align="center"  src="./certifications/IntroGit.png"/> 
+                                    </a><p><strong>Introduction to Git</strong></p>
+                </div>
+
         </div>
 
         </article>

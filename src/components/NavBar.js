@@ -32,9 +32,6 @@ function NavBar() {
         <img height="50" alt="GitHub logo" src="./logos/github.png"/> 
         </a>
 
-        <a href="https://leetcode.com/jdstrongpdx/" target="https://leetcode.com/jdstrongpdx/">
-        <img height="50" alt="Leetcode logo" src="./logos/leetcode.png"/> 
-        </a>
         </div>
 
         &copy; 2023 Joel Strong
