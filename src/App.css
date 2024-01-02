@@ -125,6 +125,13 @@ div.content {
   align-items: center;
 }
   
+.project {
+  border: 2px solid black;
+  border-radius: 20px;
+  padding-left: 2%;
+  padding-right: 2%;
+  margin-bottom: 20px;
+}
   /* ----- Anchors ----- Text links */
   a {}
   a:link {
@@ -171,7 +178,9 @@ div.content {
   ol, ul, dl {
     margin: 2%;
   }
-  li {}
+  li {
+    margin-bottom: 2%;
+  }
   dt {}
   dd {}
   

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
-import { FaLaptopCode } from "react-icons/fa";
+import { FaLaptopCode, FaCameraRetro } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 
 function NavBar() {
@@ -21,6 +21,7 @@ function NavBar() {
         <Link to="/PortfolioPage"><FaLaptopCode /> &ensp; Portfolio</Link>
         <Link to="/IdealConditionsPage"> <TiWeatherPartlySunny /> &ensp; Ideal Conditions App</Link>
         <Link to="/ContactPage"> <MdEmail /> &ensp; Contact</Link>
+        <Link to="/GalleryPage"> <FaCameraRetro /> &ensp; Gallery</Link>
 
 
         <div>
