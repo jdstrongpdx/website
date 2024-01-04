@@ -1,4 +1,4 @@
-import IdealConditionsForm from "../components/IdealConditions/IdealConditionsForm";
+import IdealConditionsV2 from "../components/IdealConditions/IdealConditionsV2";
 
 function IdealConditionsPage() {
     return (
@@ -55,12 +55,8 @@ function IdealConditionsPage() {
           </ol>
         </article>
 
-        <article id="form">
-
-        </article>
-
-        <article id="results" >
-          <IdealConditionsForm/>
+        <article id="form" >
+          <IdealConditionsV2/>
         </article>
 
         <p>For support or questions about this website, contact <a href="mailto:jdstrongpdx@gmail.com">jdstrongpdx@gmail.com</a></p>

@@ -170,6 +170,10 @@ div.content {
     background: var(--trans-navy);
   }
 
+  .results {
+    width: 80%;
+  }
+
   /*  -----  Typography  ----- */
   p {
     margin: 2%;
@@ -455,11 +459,11 @@ div.content {
     margin: 0 auto;
     border: 1px solid var(--navy);
     box-shadow: #2b15453d 1px 10px 10px 5px;
-    height: 900px;
+    height: 1100px;
   }
 
   .image-gallery-image {
-    height: 750px;
+    height: 900px;
   }
 
   .image-gallery-thumbnails {

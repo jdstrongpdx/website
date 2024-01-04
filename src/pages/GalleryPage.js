@@ -3,38 +3,31 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
     {
-    original: 'images/aws-lambda-api-gateway.jpg',
-    thumbnail: 'images/aws-lambda-api-gateway.jpg',
+    original: 'images/AWS-lambda.png',
+    thumbnail: 'images/AWS-lambda.png',
     description: 'Programming an API Endpoint using AWS Lambda API Gateway in Python.',
-    originalHeight: '450px'
     }, {
-    original: 'images/java-backend-certificate.jpg',
-    thumbnail: 'images/java-backend-certificate.jpg',
-    description: 'Independent learning and certification in Java Backend Solutions.',
-    originalHeight: '450px',
+    original: 'images/Multi-thread-code.png',
+    thumbnail: 'images/Multi-thread-code.png',
+    description: 'Multi-threaded Java Blockchain creator & miner',
     }, {
-    original: 'images/python-wrapper-matplotlib.jpg',
-    thumbnail: 'images/python-wrapper-matplotlib.jpg',
+    original: 'images/MultiThreadJava.png',
+    thumbnail: 'images/MultiThreadJava.png',
+    description: 'Ten core processor mining 9 threads for Java Blockchain app.',
+  }, {
+    original: 'images/blockchain-example.png',
+    thumbnail: 'images/blockchain-example.png',
+    description: 'Blockchain mining output example.',
+    }, {
+    original: 'images/matplot.png',
+    thumbnail: 'images/matplot.png',
     description: 'Using wrappers in Python and Matplotlib to compare sorting algorithms.',
-    originalHeight: '450px',
     }, {
-    original: 'images/snippetslab-saving-code.jpg',
-    thumbnail: 'images/snippetslab-saving-code.jpg',
+    original: 'images/snippets.png',
+    thumbnail: 'images/snippets.png',
     description: 'Using SnippetsLab to save code snippets or prior work to quickly find function examples.',
-    originalHeight: '450px',
-    }, {
-    original: 'images/frontend-paper-prototype.jpg',
-    thumbnail: 'images/frontend-paper-prototype.jpg',
-    description: 'Frontend paper prototype for a microservice project.',
-    originalHeight: '450px',
-    }, {
-    original: 'images/split-programmable-keyboard.jpg',
-    thumbnail: 'images/split-programmable-keyboard.jpg',
-    description: 'Learning to use a programmable split keyboard for ergonomics and typing efficiency.',
-    originalHeight: '450px',
     }
 ]
-
 
 function GalleryPage() {
     return (<>
@@ -42,7 +35,7 @@ function GalleryPage() {
     <h2> Gallery of Projects </h2>
 
 <h3>Introduction:</h3>
-    <p>This page is a sample gallery of some of my work.  I will be updating these photos with higher quality images, examples of more advanced projects from this quarter, and certifications in the near future. I have removed any photographs that are not SWE related.</p>
+    <p>This page is a sample gallery of some of my work and tools.</p>
 
       <article className="image-gallery-wrapper">
         

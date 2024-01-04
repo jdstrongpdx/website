@@ -32,12 +32,6 @@ function Certifications() {
                                     </a><p><strong>Introduction to Java</strong></p>
                 </div>
 
-                <div className='skillsChild'>
-                <a href="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf" target="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf">
-                                    <img width="220" alt="Java Backend Certification" border="0" align="center"  src="./certifications/JavaBackend.png"/> 
-                                    </a><p><strong>Java Developer - NEED TO UPDATE</strong></p>
-                </div>
-
 
                 <div className='skillsChild'>
                 <a href="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf" target="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf">
