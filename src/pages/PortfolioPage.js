@@ -19,7 +19,7 @@ function PortfolioPage() {
         
         <div className="project">
             <h4>Personal Website</h4>
-            <div className="centered"><img width="600px" alt="website screenshot" src="./images/website.png"/></div>
+            <div className="centered"><img width="900px" alt="website screenshot" src="./images/website.png"/></div>
             <p><strong>Completion Date:</strong> Continuous Development</p>
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the React/JS/CSS code to develop the site.</p>
@@ -32,7 +32,7 @@ function PortfolioPage() {
         
         <div className="project">
             <h4>Ideal Conditions</h4>
-            <div className="centered"><img width="600px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/></div>
+            <div className="centered"><img width="900px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/></div>
             
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> A Full Stack web application that takes in a Location string, uses an API microservice I developed to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>
@@ -52,7 +52,14 @@ function PortfolioPage() {
                     <li>Displays error or parses returned information by outdoor activity.</li>
                     <li>Condenses consecutive hour blocks into time windows.</li>
                     <li>Displays the results to the user.</li>
+                    <li><em>Note: </em>At the time of creation, I only had several weeks of experience with JS and React. The formatting and coding of the results can be greatly improved and will be revisited at a later time. </li>
                 </ol>
+                <div className="centered">
+                        <figure>
+                        <img width="600px" alt="JSON data example" src="./images/idealConditionsResults.png"/>
+                            <figcaption>Results example after Time Window Parsing in JavaScript</figcaption>
+                        </figure>
+                    </div>
                 <li><em>Backend: </em></li>
                 <ol>
                     <li>Parses provided GET parameters with Try/Except error handling.</li>
@@ -65,11 +72,16 @@ function PortfolioPage() {
                     <li>Adds the Activity objects to a list for iteration.</li>
                     <li>Iterates through each Activity using a method to compare the forecast to the Activity ideal conditions, generating a nested dictionary of activities and ideal time windows.</li>
                     <li>If successful, returns a summary of location and Activity weather data, else returns an error.</li>
-                    <li><a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Example JSON return data for Portland, OR</a></li>
+                    <li><a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Live JSON API data for Portland, OR</a></li>
+                    <div className="centered">
+                        <figure>
+                        <img width="900px" alt="JSON data example" src="./images/idealConditionsJSON.png"/>
+                            <figcaption>Example JSON API return data from AWS Lambda Function running Python</figcaption>
+                        </figure>
+                    </div>
+                    
                 </ol>
             </ul>
-            <p className="warning">Video demonstration.</p>
-            <p className="warning">Update github files.</p>
             <p><em>Project Link:</em> <Link to="/IdealConditionsPage">Ideal Conditions</Link></p>
             <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/IdealConditions">Ideal Conditions GitHub</a> </p>   
         </div>
@@ -79,7 +91,7 @@ function PortfolioPage() {
             
             <div className="centered">
                 <figure>
-                    <img width="600px" alt="website screenshot" src="./images/Multi-thread-code.png"/>
+                    <img width="600px" alt="code to enable multithreading" src="./images/Multi-thread-code.png"/>
                     <figcaption>Multi-threading code snippet.</figcaption>
                 </figure>
             </div>

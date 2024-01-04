@@ -1,17 +1,21 @@
 
 import { useState } from "react";
 
+
 function IdealConditionsV2() {
   const [location, setLocation] = useState("");
   const [startDate, setStartDate] = useState("");
   const [endDate, setEndDate] = useState("");
   const [weekendsOnly, setWeekendsOnly] = useState("");
   const [result, setResult] = useState("");
+  const today = new Date();
+  const minDate = new Date().getDate.toString;
+  const maxDate = today.setDate(today.getDate + 5).toString;
 
   let handleSubmit = async (e) => {
     e.preventDefault();
     let url = new URL("https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2");
-    url.searchParams.set("location", location);
+    url.searchParams.set("location", location.replaceAll(" ", ""));
     url.searchParams.set("startDate", startDate);
     url.searchParams.set("endDate", endDate);
     url.searchParams.set("weekendsOnly", weekendsOnly);
@@ -32,7 +36,6 @@ function IdealConditionsV2() {
             returnString = "Error processing your location.";
         }
         else {
-            returnString += `Results`
             returnString += `The closest weather station was found at ${location.city}, ${location.state}.\n\n`;
             let startDateTime = undefined;
             let endDateTime = undefined;
@@ -44,9 +47,9 @@ function IdealConditionsV2() {
             for (const activity in forecast) {
                 const result = forecast[activity];
                 if (Object.keys(result).length === 0) {
-                    returnString += `\n${activity}: There are no ideal conditions for this activity.\n`
+                    returnString += `\n${activity}: There are no ideal weather windows for this activity.\n`
                 } else {
-                    returnString += `${activity} has the following ideal time windows:\n`;
+                    returnString += `\n${activity} has the following ideal time windows:\n`;
                     for (const window in forecast[activity]) {
                         const time = forecast[activity][window]
                         const timeString = time.date + "T" + time.time + ":00:00"
@@ -60,10 +63,10 @@ function IdealConditionsV2() {
                                     return (max === undefined || weather[key] > weather[max]) ? +key : max;
                                 });
                                 returnString += `\n     Time window: ${hours} hour(s) starting at ${startDateTime.toLocaleString()}
-                  Weather: mostly ${mostCommonWeather} 
-                  Temperature average: ${(temperature / hours).toFixed(0)}F 
-                  Wind Speed average: ${(wind_speed / hours).toFixed(0)} mph 
-                  Humidity average: ${(humidity / hours).toFixed(0)}%\n`;
+               Weather: mostly ${mostCommonWeather}
+               Temperature average: ${(temperature / hours).toFixed(0)}
+               Wind Speed average: ${(wind_speed / hours).toFixed(0)} mph
+               Humidity average: ${(humidity / hours).toFixed(0)}%\n`;
                                 startDateTime = dateTime;
                                 endDateTime = undefined;
                                 weather = {};
@@ -90,10 +93,10 @@ function IdealConditionsV2() {
                         return (max === undefined || weather[key] > weather[max]) ? +key : max;
                     });
                     returnString += `\n     Time window: ${hours} hour(s) starting at ${startDateTime.toLocaleString()}
-                  Weather: mostly ${mostCommonWeather} 
-                  Temperature average: ${(temperature / hours).toFixed(0)}F 
-                  Wind Speed average: ${(wind_speed / hours).toFixed(0)} mph 
-                  Humidity average: ${(humidity / hours).toFixed(0)}%\n\n`;
+               Weather: mostly ${mostCommonWeather}
+               Temperature average: ${(temperature / hours).toFixed(0)}F 
+               Wind Speed average: ${(wind_speed / hours).toFixed(0)} mph
+               Humidity average: ${(humidity / hours).toFixed(0)}%\n\n`;
                 }
         
             }
@@ -101,7 +104,7 @@ function IdealConditionsV2() {
         setResult(returnString);
 
       } else {
-        setResult("Some error occured");
+        setResult(data.status);
       }
     } catch (err) {
       console.log(err);
@@ -110,7 +113,10 @@ function IdealConditionsV2() {
 
   return (
     <div>
+     
       <form onSubmit={handleSubmit}>
+
+        <label for="location">Location</label>
         <input
         id="location"
           type="text"
@@ -119,19 +125,25 @@ function IdealConditionsV2() {
           required
           onChange={(e) => setLocation(e.target.value)}
         />
+        <label for="startDate">Search Start Date</label>
         <input
           type="date"
+          min={minDate}
+          max={maxDate}
           value={startDate}
-          placeholder="Email"
+
           onChange={(e) => setStartDate(e.target.value)}
         />
+        <label for="endDate">Search End Date</label>
         <input
           type="date"
+          min={minDate}
+          max={maxDate}
           value={endDate}
-          placeholder="Mobile Number"
+
           onChange={(e) => setEndDate(e.target.value)}
         />
-        <label for="weekendsOnly">Weekends Only</label>
+        <label for="weekendsOnly">Search for Weekends Only</label>
         <input
           type="checkbox"
           value={weekendsOnly}
@@ -140,7 +152,13 @@ function IdealConditionsV2() {
 
         <button type="submit">Submit</button>
 
-        <div className="results" style={{whiteSpace: "pre-wrap"}}>{result ? <p>{result}</p> : null}</div>
+        
+
+        <div className="results" style={{whiteSpace: "pre-wrap"}}>
+          <h3>Results</h3>
+          {result ? <p>{result}</p> : `None.  Please use the form to search.`}
+          
+          </div>
 
       </form>
     </div>

@@ -171,8 +171,14 @@ div.content {
   }
 
   .results {
-    width: 80%;
+    text-align: left;
+    width: 100%;
   }
+
+  .tab {
+    display: inline-block;
+    margin-left: 30px;
+}
 
   /*  -----  Typography  ----- */
   p {

@@ -6,6 +6,14 @@ const images = [
     original: 'images/AWS-lambda.png',
     thumbnail: 'images/AWS-lambda.png',
     description: 'Programming an API Endpoint using AWS Lambda API Gateway in Python.',
+  }, {
+    original: 'images/idealConditionsJSON.png',
+    thumbnail: 'images/idealConditionsJSON.png',
+    description: 'AWS Lambda API JSON return for Ideal Conditions App.',
+    }, {
+      original: 'images/idealConditionsPage.png',
+    thumbnail: 'images/idealConditionsPage.png',
+    description: 'Ideal Conditions Web App Page',
     }, {
     original: 'images/Multi-thread-code.png',
     thumbnail: 'images/Multi-thread-code.png',
@@ -26,6 +34,10 @@ const images = [
     original: 'images/snippets.png',
     thumbnail: 'images/snippets.png',
     description: 'Using SnippetsLab to save code snippets or prior work to quickly find function examples.',
+  }, {
+    original: 'images/splitKeyboard.jpeg',
+    thumbnail: 'images/splitKeyboard.jpeg',
+    description: 'Using an ergonomic programmable split keyboard to increase productivity and ergonomics.',
     }
 ]
 
