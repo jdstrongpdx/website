@@ -24,7 +24,7 @@ function Certifications() {
                 </div>
 
             </div>
-            <h4>Java/Spring Boot</h4>
+            <h4>Java</h4>
             <div className='skillsParent'>
                 <div className='skillsChild'>
                 <a href="https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf" target="https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf">
@@ -37,8 +37,9 @@ function Certifications() {
                                     <img width="220" alt="Java Developer Certification" border="0" align="center"  src="./certifications/JavaDeveloper.png"/> 
                                     </a><p><strong>Java Developer</strong></p>
                 </div>
-
-
+                </div>
+                <h4>Java with Spring Boot</h4>
+                <div className='skillsParent'>
                 <div className='skillsChild'>
                 <a href="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf" target="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf">
                                     <img width="220" alt="Java Backend Certification" border="0" align="center"  src="./certifications/IntroSpringBoot.png"/> 
@@ -50,8 +51,8 @@ function Certifications() {
                                     <img width="220" alt="Java Backend Certification" border="0" align="center"  src="./certifications/JavaBackend.png"/> 
                                     </a><p><strong>Java Backend Developer <br></br> (using Spring Boot)</strong></p>
                 </div>
-                
-            </div>
+                </div>
+
             <h4>JavaScript & Typescript</h4>
             <div className='skillsParent'>
 
