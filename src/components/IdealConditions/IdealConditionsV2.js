@@ -125,6 +125,7 @@ function IdealConditionsV2() {
           required
           onChange={(e) => setLocation(e.target.value)}
         />
+        
         <label for="startDate">Search Start Date</label>
         <input
           type="date"

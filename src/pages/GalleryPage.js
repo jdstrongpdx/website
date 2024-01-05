@@ -46,9 +46,6 @@ function GalleryPage() {
 
     <h2> Gallery of Projects </h2>
 
-<h3>Introduction:</h3>
-    <p>This page is a sample gallery of some of my work and tools.</p>
-
       <article className="image-gallery-wrapper">
         
         <ImageGallery items={images} />      

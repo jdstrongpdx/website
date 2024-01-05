@@ -9,7 +9,7 @@ function PortfolioPage() {
     
     <article>
         <h3>Introduction:</h3>
-        <p>Welcome to my website!  This website is a collection of my development work including both school and personal projects. The projects listed here will be expanded with pages for different projects and short summaries for the tech stacks, languages and github links will be posted here.</p>
+        <p>Welcome to my website!  This website is a collection of my development work including both school and personal projects. The projects listed here will be expanded with pages for different projects and short summaries for the tech stacks, languages and github links will be posted here. Expected graduation in Fall 2024.</p>
         
     </article>
     
@@ -20,12 +20,10 @@ function PortfolioPage() {
         <div className="project">
             <h4>Personal Website</h4>
             <div className="centered"><img width="900px" alt="website screenshot" src="./images/website.png"/></div>
-            <p><strong>Completion Date:</strong> Continuous Development</p>
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the React/JS/CSS code to develop the site.</p>
             <ul>
                 <li><em>Frontend: </em> Uses a HTML, CSS, JavaScript and React with several React modules, Axios, Express.</li>
-                <li><em>Backend: </em> Uses Express and NodeMailer to submit web form information into contact e-mail. </li>
                 <li><em>Hosting: </em> AWS Amplify with automatic deployment upon pushes to Main on GitHub.</li>
             </ul>
         </div>
@@ -83,7 +81,7 @@ function PortfolioPage() {
                 </ol>
             </ul>
             <p><em>Project Link:</em> <Link to="/IdealConditionsPage">Ideal Conditions</Link></p>
-            <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/IdealConditions">Ideal Conditions GitHub</a> </p>   
+            <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/IdealConditionsWebApp">Ideal Conditions GitHub</a> </p>   
         </div>
         
         <div className="project">
@@ -149,9 +147,9 @@ function PortfolioPage() {
         <ul>
             <li><a href="https://github.com/jdstrongpdx/Docker-Composer"> Docker Containerized REST API running Python and Flask</a></li>
             <li><a href="https://github.com/jdstrongpdx/Smallsh">C Implementation of a Linux Shell</a></li>
-            <li><a href="https://github.com/jdstrongpdx/Java-Data-Access-Object-Implementation">Java Car Sharing REST Backend using PostgreSQL (without Spring Boot)</a></li>
+            <li><a href="https://github.com/jdstrongpdx/Java-Data-Access-Object-Implementation">Java DAO Car Sharing REST Backend using PostgreSQL (without Spring Boot)</a></li>
             <li><a href="https://github.com/jdstrongpdx/Low-Level-OA-SA-Hash-Table-Implementation">Python SA & OA Hash Table Implementation</a></li>
-            <li><a href="https://github.com/jdstrongpdx/Java-OOP-SQL-Meal-Planner">Java OOP & SQL Meal Planner</a></li>
+            <li><a href="https://github.com/jdstrongpdx/Java-OOP-SQL-Meal-Planner">Java OOP & SQL Meal Planner Desktop App</a></li>
             <li><a href="https://github.com/jdstrongpdx/Java-OOP-Two-Player-Battleship">Java OOP Two Player Battleship Game</a></li>
             <li><a href="https://github.com/jdstrongpdx/Assembly---String-to-Binary-Array-I-O">Assembly String to Binary I/O</a></li>
             <li><a href="https://github.com/jdstrongpdx/JetBrains---Password-Hacker">Java Password Hacker</a></li>
