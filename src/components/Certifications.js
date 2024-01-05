@@ -5,7 +5,7 @@ function Certifications() {
 
         <article >
             <h3>Certifications:</h3>
-                <p>JetBrains Academy partners with Hyperskill.org to teach and cerfify different programming skills.  In an effort to gain experience and learn projects beyond the scope of my school courses, I have spent hundreds of hours learning new content and coding over 29 projects in different languages.  The cerficiations I have earned as a result are: </p>
+                <p>JetBrains Academy partners with Hyperskill.org to teach and certify different programming skills.  In an effort to gain experience and learn projects beyond the scope of my school courses, I have spent hundreds of hours learning new content and coding over 30 projects in different languages.  These lessons and projects have been a great learning tool to build upon for larger projects and other certifications in the future. </p>
 
 
                 <h4>Python</h4>
@@ -30,6 +30,12 @@ function Certifications() {
                 <a href="https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf" target="https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf">
                                     <img width="220" alt="Intro to Java Certification" border="0" align="center"  src="./certifications/IntroJava.png"/> 
                                     </a><p><strong>Introduction to Java</strong></p>
+                </div>
+
+                <div className='skillsChild'>
+                <a href="https://hyperskill.org/certificates/df6a1e14-ac88-40f7-96bf-2a5e31fa7e14.pdf" target="https://hyperskill.org/certificates/df6a1e14-ac88-40f7-96bf-2a5e31fa7e14.pdf">
+                                    <img width="220" alt="Java Developer Certification" border="0" align="center"  src="./certifications/JavaDeveloper.png"/> 
+                                    </a><p><strong>Java Developer</strong></p>
                 </div>
 
 

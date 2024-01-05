@@ -38,13 +38,17 @@ const images = [
     original: 'images/splitKeyboard.jpeg',
     thumbnail: 'images/splitKeyboard.jpeg',
     description: 'Using an ergonomic programmable split keyboard to increase productivity and ergonomics.',
+  }, {
+    original: 'images/Books.jpeg',
+    thumbnail: 'images/Books.jpeg',
+    description: 'Supplemental reading on how to be a better developer.',
     }
 ]
 
 function GalleryPage() {
     return (<>
 
-    <h2> Gallery of Projects </h2>
+    <h2> Gallery </h2>
 
       <article className="image-gallery-wrapper">
         
