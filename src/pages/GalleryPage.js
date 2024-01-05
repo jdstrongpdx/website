@@ -35,12 +35,12 @@ const images = [
     thumbnail: 'images/snippets.png',
     description: 'Using SnippetsLab to save code snippets or prior work to quickly find function examples.',
   }, {
-    original: 'images/SplitKeyboard.jpeg',
-    thumbnail: 'images/SplitKeyboard.jpeg',
+    original: 'images/SplitKeyboard.jpg',
+    thumbnail: 'images/SplitKeyboard.jpg',
     description: 'Using an ergonomic programmable split keyboard to increase productivity and ergonomics.',
   }, {
-    original: 'images/Books.jpeg',
-    thumbnail: 'images/Books.jpeg',
+    original: 'images/Books.jpg',
+    thumbnail: 'images/Books.jpg',
     description: 'Supplemental reading on how to be a better developer.',
     }
 ]
