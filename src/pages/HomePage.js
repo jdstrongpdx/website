@@ -22,7 +22,7 @@ function HomePage() {
     <article>
         <h3>Languages & Frameworks</h3>
         <p>This is a list of languages & frameworks that I have learned with the expressed interest in building applications with them.  I am completely open to learning new languages and frameworks that help me achieve the goals of the project I am working on.</p>
-        <p>My level of understanding on each topic is reflective of 1/1/2024, and I am actively working on building my improving of JavaScript, React and Architecture as well as taking classes in Algorithms, Databases, and Networking.</p>
+        <p>My level of understanding on each topic is reflective of 1/1/2024, and I am actively working on building my knowledge of JavaScript, React, and Architecture as well as taking classes in Algorithms, Databases, and Networking.</p>
         <div className='skillsParent'>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Python logo" src="./logos/python.png"/> &ensp; Python</h4>
