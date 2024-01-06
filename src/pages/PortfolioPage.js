@@ -19,7 +19,11 @@ function PortfolioPage() {
         
         <div className="project">
             <h4>Personal Website</h4>
-            <div className="centered"><img width="900px" alt="website screenshot" src="./images/website.png"/></div>
+            <div className="centered">
+                    <figure>
+                    <img width="900px" alt="website screenshot" src="./images/website.png"/>
+                    </figure>
+            </div>
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the React/JS/CSS code to develop the site.</p>
             <ul>
@@ -30,7 +34,11 @@ function PortfolioPage() {
         
         <div className="project">
             <h4>Ideal Conditions</h4>
-            <div className="centered"><img width="900px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/></div>
+            <div className="centered">
+                    <figure>
+                        <img width="900px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/>
+                    </figure>
+            </div>
             
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> A Full Stack web application that takes in a Location string, uses an API microservice I developed to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>

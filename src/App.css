@@ -427,7 +427,7 @@ div.content {
   }
 
   figure img {
-    border: 3px solid var(--color-dark-brown);
+    border:1px solid var(--navy);
     object-fit: cover;
     max-width: 100%;
     height: auto;
