@@ -39,9 +39,25 @@ const images = [
     thumbnail: 'images/SplitKeyboard.jpg',
     description: 'Using an ergonomic programmable split keyboard to increase productivity and ergonomics.',
   }, {
+    original: 'images/inductiveProof.jpg',
+    thumbnail: 'images/inductiveProof.jpg',
+    description: 'Detailed and organized work - Proof by induction example.',
+  }, {
     original: 'images/Books.jpg',
     thumbnail: 'images/Books.jpg',
     description: 'Supplemental reading on how to be a better developer.',
+  }, {
+    original: 'images/Database1.png',
+    thumbnail: 'images/Database1.png',
+    description: 'Database Project using Node.js and MySQL to perform CRUD operations without an ORM.',
+  }, {
+    original: 'images/Database2.png',
+    thumbnail: 'images/Database2.png',
+    description: 'Example page of database project using Node.js and MySQL to perform CRUD operations without an ORM.',
+  }, {
+    original: 'images/RentalHomes.png',
+    thumbnail: 'images/RentalHomes.png',
+    description: 'Full Stack MongoDB, Express, React, and Node (MERN) webpage for performing CRUD operations on a Rental Home database.',
     }
 ]
 

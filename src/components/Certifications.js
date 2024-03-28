@@ -3,7 +3,7 @@ function Certifications() {
     return (
         <>
 
-        <article >
+            <div className="project">
             <h3>Certifications:</h3>
                 <p>JetBrains Academy partners with Hyperskill.org to teach and certify different programming skills.  In an effort to gain experience and learn projects beyond the scope of my school courses, I have spent hundreds of hours learning new content and coding over 30 projects in different languages.  These lessons and projects have been a great learning tool to build upon for larger projects and other certifications in the future. </p>
 
@@ -76,10 +76,9 @@ function Certifications() {
                                     <img width="220" alt="Introduction to Git Certification" border="0" align="center"  src="./certifications/IntroGit.png"/> 
                                     </a><p><strong>Introduction to Git</strong></p>
                 </div>
-
+                </div>
         </div>
 
-        </article>
         </>
     )
 }
