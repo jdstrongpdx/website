@@ -2,7 +2,27 @@ import ImageGallery from 'react-image-gallery';
 
 
 const images = [
-    {
+  {
+    original: 'images/DockerNewman.png',
+    thumbnail: 'images/DockerNewman.png',
+    description: 'Using Newman CLI to test Dockerized Python/Flask API app before deploying to GCP.',
+  }, {
+    original: 'images/FFRendpoints.png',
+    thumbnail: 'images/FFRendpoints.png',
+    description: 'Spring Boot endpoints for the FragranceFreeResources web application backend.',
+  }, {
+    original: 'images/FFRschema.png',
+    thumbnail: 'images/FFRschema.png',
+    description: 'MySql schema created by Spring Boot JPA ODM',
+  }, {
+    original: 'images/NetworkMonitor.png',
+    thumbnail: 'images/NetworkMonitor.png',
+    description: 'Python Server (left) Client (right) networking monitor application using TCP/IP to relay data.',
+  }, {
+    original: 'images/JWTauth.png',
+    thumbnail: 'images/JWTauth.png',
+    description: 'Using Newman CLI to test user authentication and privileges using JWT and a Spring Security API.',
+  }, {
     original: 'images/AWS-lambda.png',
     thumbnail: 'images/AWS-lambda.png',
     description: 'Programming an API Endpoint using AWS Lambda API Gateway in Python.',
@@ -23,10 +43,6 @@ const images = [
     thumbnail: 'images/MultiThreadJava.png',
     description: 'Ten core processor mining 9 threads for Java Blockchain app.',
   }, {
-    original: 'images/blockchain-example.png',
-    thumbnail: 'images/blockchain-example.png',
-    description: 'Blockchain mining output example.',
-    }, {
     original: 'images/matplot.png',
     thumbnail: 'images/matplot.png',
     description: 'Using wrappers in Python and Matplotlib to compare sorting algorithms.',
@@ -46,19 +62,7 @@ const images = [
     original: 'images/Books.jpg',
     thumbnail: 'images/Books.jpg',
     description: 'Supplemental reading on how to be a better developer.',
-  }, {
-    original: 'images/Database1.png',
-    thumbnail: 'images/Database1.png',
-    description: 'Database Project using Node.js and MySQL to perform CRUD operations without an ORM.',
-  }, {
-    original: 'images/Database2.png',
-    thumbnail: 'images/Database2.png',
-    description: 'Example page of database project using Node.js and MySQL to perform CRUD operations without an ORM.',
-  }, {
-    original: 'images/RentalHomes.png',
-    thumbnail: 'images/RentalHomes.png',
-    description: 'Full Stack MongoDB, Express, React, and Node (MERN) webpage for performing CRUD operations on a Rental Home database.',
-    }
+  }
 ]
 
 function GalleryPage() {

@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
-import { FaLaptopCode, FaCameraRetro } from "react-icons/fa";
+import { FaLaptopCode, FaCameraRetro, FaSprayCan } from "react-icons/fa";
 import { TiWeatherPartlySunny } from "react-icons/ti";
 
 function NavBar() {
@@ -12,14 +12,15 @@ function NavBar() {
     <img src="./images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
     <h1>Joel Strong </h1>
 
-    <p>Hi, my name is Joel Strong and I am aspiring Full Stack Software Engineer.  Welcome to my personal website!</p>
+    <p>Hi, my name is Joel Strong and I am Junior Full Stack Software Engineer.  Welcome to my personal website!</p>
 
 
 
-        <Link to="/"> <MdPerson /> &ensp; About Me</Link>
+        <Link to="/"> <MdPerson /> &ensp; Home</Link>
         <Link to="/ResumePage"><IoDocument /> &ensp; Resume</Link>
         <Link to="/PortfolioPage"><FaLaptopCode /> &ensp; Portfolio</Link>
         <Link to="/IdealConditionsPage"> <TiWeatherPartlySunny /> &ensp; Ideal Conditions App</Link>
+        <a href="https://fragrancefreeresources.com" target="https://fragrancefreeresources.com" rel="noopener noreferrer"><FaSprayCan />&ensp; FragranceFreeResources.com</a>
         <Link to="/ContactPage"> <MdEmail /> &ensp; Contact</Link>
         <Link to="/GalleryPage"> <FaCameraRetro /> &ensp; Gallery</Link>
 

@@ -17,7 +17,7 @@ function ResumePage() {
     </div>
     </p>
 
-    <p><Classes id="classes"/></p>
+    {/* <p><Classes id="classes"/></p> */}
     <p><Certifications id="certifications"/></p>
     </>
     );

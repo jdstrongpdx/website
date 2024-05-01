@@ -44,7 +44,6 @@ function IdealConditionsPage() {
 
         <article id="form" >
           <h3>Search</h3>
-          <p className="warning">Note: Dates feature under development - location feature works.</p>
           <IdealConditionsV2/>
         </article>
 
