@@ -229,7 +229,7 @@ function PortfolioPage() {
             </div>
             
             <p><strong>App Type:</strong> Multi-Threaded Python Application that uses a TCP/IP Server/Client connection to communicate statuses.</p>
-            <p><strong>Description:</strong> Creation of a Blockchain message/transaction service including Block generation, messaging/transactions, mining, and validation.</p>
+            <p><strong>Description:</strong> TODO</p>
             <p><strong>Details:</strong> The program does uses the following custom classes:</p>
             <ol>
                     <li>Service - the base class for all services providing common functionality for sub-class services.</li>

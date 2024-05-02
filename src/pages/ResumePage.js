@@ -9,7 +9,11 @@ function ResumePage() {
     <p>
     <div className='project'>
     <h3>Resume</h3>
-    <p className='warning'>OLD RESUME - NEED TO UPDATE & POST</p>
+    <div className="centered">
+                <figure>
+                    <img width="1200"  alt="Joel Strong Resume" src="./images/Resume.png"/>
+                </figure>
+            </div>
     <p>For more detailed information, visit my LinkedIn profile:  <a href="https://www.linkedin.com/in/joel-strong/">https://www.linkedin.com/in/joel-strong/</a></p>
 
 
