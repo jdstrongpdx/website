@@ -35,7 +35,7 @@ function PortfolioPage() {
 
 
         <div className="project">
-            <h3>FragranceFreeResources Web Application (Under Development)</h3>
+            <h3>FragranceFreeResources.com Full Stack Web Application</h3>
             <h4>April 2024 - Current</h4>
             <div className="centered">
                     <figure>
@@ -45,26 +45,97 @@ function PortfolioPage() {
             
             <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
             <p><strong>Description:</strong> A Full Stack web application that allows people that are sensitive to fragrances to share resources on Businesses, Products, and Rental Homes that are safe environments.</p>
-            
             <ul>
-                <li><em>Frontend: </em> React/Typescript using axios, formik, react-bootstrap, and yup.</li>
+                <li><em>Frontend: </em> React/Typescript using axios, react-bootstrap, and react-touch.</li>
                 <li><em>Database: </em> MySql running on AWS Lightsail RDS </li>
-                <li><em>Backend: </em>  Dockerized Java/Spring Boot container using Spring Web, Data JPA, Security, WebMVC, Test, Actuator as well as JUnit, lambok, jackson, jakarta validation, and jsonwebtoken modules.</li>
+                <li><em>Backend: </em>  Dockerized Java/Spring Boot container using Spring Web, Data JPA, Security, WebMVC, Test, and Actuator.</li>
                 <li><em>Hosting: </em> The backend is deployed to a AWS Lightsail container instance and the frontend is served by an AWS Amplify.</li>
             </ul>
-            <p><strong>Details:</strong> This web application performs the following: </p>
-            
-            <ul>
-                <li><em>Frontend: </em></li>
-                <ol>
-                    <li>In Development</li>
-                </ol>
-                <li><em>Backend: </em></li>
-                <ol>
-                    <li>Developed with Spring Security for user authentication and authorization using Json Web Tokens.</li>
-                    <li>Security profile access is controlled by access settings to each endpoint expecting a valid JWT authorization header before access. </li>
-                    <li>Uses a layered approach of DTO objects, Controllers, Entities, Mappers, Services, and Repositories to access, transform, store, and return information. </li>
-                    <li>Connected to remotely hosted AWS Lightsail RDS MySql instance for reliable data storage, security, and backup. </li>
+
+            <div>
+                <p><strong>Dedication</strong></p>
+                <p>This website is dedicated to a family member affected by a sensitivity to fragrances and the
+                    tens of thousands of people who share similar struggles.</p>
+
+                <p><strong>Overview</strong></p>
+                <p>This full stack web applciation was developed over 11 weeks as part of a Personal Projects
+                    elective class as part of my Computer Science bachelors degree at Oregon State University. In
+                    addition to my classwork, I dedicated myself to learning additional languages and frameworks with
+                    the goal of independently developing a web application. This website is a realization of those
+                    efforts.</p>
+
+                <p><strong>Web Application Features</strong></p>
+                <ul>
+                    <li>Security - Implemented Spring Security using JWT with backend access privileges for each
+                        endpoint and frontend dynamic page rendering based on roles and record creator. Uses roles for
+                        Visitor, User, Moderator, and Administrator.
+                    </li>
+                    <li>User Interface - Developed a dynamic SPA using React, Typescript, and React-Bootstrap.</li>
+                    <li>Cloud Development - Created using an MVC model,</li>
+                    <li>Database Design -</li>
+                    <li>Compatibility</li>
+                    <li>Error Handling</li>
+                    <li>Performance - cached variables, simple entites that do not require mapping/dto, db connection
+                        pools
+                    </li>
+                    <li>Entities - Performing CRUD operations on a range of entities: Businesses, Products, Rental
+                        Homes, Entity Reviews, Support Tickets, and Users.
+                    </li>
+                </ul>
+
+                <p><strong>Challenges</strong></p>
+                <p>Broken down into the following areas: </p>
+                <ul>
+                    <li>Project Scale - This was a sizable project that required learning many new skills.</li>
+                    <li>Backend Design - There were a number of backend design iterations attempting to find the balance
+                        between code simplicity and functionality.
+                    </li>
+                    <li>Deployment Options - Chosing which services to use and how to configure them.</li>
+                    <li>Frontend Design - How to layer Props and Components</li>
+                    <li>Scope Creep - The balance between the features that are needed and the ones that would be nice
+                        to have.
+                    </li>
+                    <li>Best Practices Balance - In smaller projects, it has been possible to do it all: detailed
+                        documentation, lenting, layered testing approaches, etc.
+                    </li>
+                </ul>
+
+                <p><strong>Lessons Learned</strong></p>
+                <p>This full stack web applciation was developed over 11 weeks as part of a Personal Projects
+                    elective class as part of my Computer Science bachelors degree at Oregon State University. In
+                    addition to my classwork, I dedicated myself to learning additional languages and frameworks with
+                    the goal of independently developing a web application. This website is a realization of those
+                    efforts.</p>
+
+                <p><strong>Stack</strong></p>
+                <ul>
+                    <li>Backend: Dockerized SpringBoot/Java program deployed with AWS Lightsail Container</li>
+                    <ul>
+                        <li>Spring Web: Module for implementing RESTful API's</li>
+                        <li>Spring Security: Module for implementing user Auth.</li>
+                        <li>Spring JPA: Module for database ODM</li>
+                        <li>Spring Validation:</li>
+                        <li>Spring Test:</li>
+                        <li>Spring Actuator:</li>
+                        <li>Model Mapper:</li>
+                        <li>HikariCP:</li>
+                        <li>Jackson:</li>
+                        <li>JsonWebToken:</li>
+                        <li>ProjectLombok:</li>
+                    </ul>
+                    <li>Database: MySQL instance deployed with AWS Lightsail Databases</li>
+                    <li>Frontend: React, Typescript deployed with AWS Amplify</li>
+                    <ul>
+                        <li>Axios</li>
+                        <li>React-Bootstrap</li>
+                        <li>React-Icons</li>
+                        <li>React-Router-Dom</li>
+                    </ul>
+                </ul>
+            </div>
+
+
+
                     <div className="centered">
                         <figure>
                         <img width="900px" alt="FFR backend endpoints" src="./images/FFRendpoints.png"/>
@@ -73,19 +144,11 @@ function PortfolioPage() {
                     </div>
                     <div className="centered">
                         <figure>
-                        <img width="700px" alt="FFR backend security" src="./images/FFRsecurity.png"/>
+                        <img width="600px" alt="FFR backend security" src="./images/FFRsecurity.png"/>
                             <figcaption>Endpoint Security Configuration</figcaption>
                         </figure>
                     </div>
 
-                </ol>
-                <li><em>Database: </em></li>
-                <ol>
-                    <li>MySql Database hosted on AWS Lightsail RDS</li>
-                    <li>Schema automatically generated by Spring Boot JPA as and ODM</li>
-                    <li>Connected to MySql Workbench for performing populating initial data, performing queries and data manipulation.</li>
-                </ol>
-            </ul>
             <p><em>Project Link: </em> <a href="https://fragrancefreeresources.com">FragranceFreeResources.com</a> </p>   
         </div>
 
@@ -95,14 +158,14 @@ function PortfolioPage() {
             
             <div className="centered">
                 <figure>
-                    <img width="500px" alt="python flask api code" src="./images/GCPflask.png"/>
+                    <img width="550px" alt="python flask api code" src="./images/GCPflask.png"/>
                     <figcaption>Python/Flask API Endpoint code.</figcaption>
                 </figure>
             </div>
             
             <div className="centered">
                 <figure>
-                    <img width="600px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
+                    <img width="75ç0px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
                     <figcaption>Postman/Newman API Testing</figcaption>
                 </figure>
             </div>

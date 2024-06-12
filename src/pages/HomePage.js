@@ -12,7 +12,7 @@ function HomePage() {
     
     <article>
         <h4>Junior Full Stack Software Engineer</h4>
-        <p>I am a full time student and Junior Full Stack developer in Portland, Oregon. I am attending Oregon State University pursuing a post-baccalaureate bachelors degree in Computer Science with an expected graduation in Fall 2024. In addition to maintaining a 3.97 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to become build beautiful, functional, and purposeful full stack web applications. Please take a look at my Portfolio page for examples of my Projects and work!</p>
+        <p>I am a full time student and Junior Full Stack developer in Portland, Oregon. I am attending Oregon State University pursuing a post-baccalaureate bachelors degree in Computer Science with an expected graduation in Fall 2024. In addition to maintaining a 3.97 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to build beautiful, functional, and purposeful full stack web applications. Please take a look at my Portfolio page for examples of my Projects and work!</p>
         
     </article>
     
@@ -21,7 +21,7 @@ function HomePage() {
     
     <article>
         <h3>Languages & Frameworks</h3>
-        <p>This is a list of languages & frameworks that I have learned with the expressed interest in building applications with them.  I am always open to learning new languages and frameworks that help me achieve the goals of the project I am working on.</p>
+        <p>This is a list of languages & frameworks that I have learned with the expressed interest in building applications with them.  I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
 
         <div className='skillsParent'>
             <div className='skillsChild'>

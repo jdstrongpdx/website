@@ -16,12 +16,16 @@ function ResumePage() {
             </div>
     <p>For more detailed information, visit my LinkedIn profile:  <a href="https://www.linkedin.com/in/joel-strong/">https://www.linkedin.com/in/joel-strong/</a></p>
 
+    </div>
 
-    {/* <img className='address' alt="Joel Strong Resume" border="0" align="center"  src="./images/Resume.png"/> */}
+    <div className='project'>
+    <h3>LinkedIn Profile:  <a href="https://www.linkedin.com/in/joel-strong/"> https://www.linkedin.com/in/joel-strong/</a></h3>
+
+
+
     </div>
     </p>
 
-    {/* <p><Classes id="classes"/></p> */}
     <p><Certifications id="certifications"/></p>
     </>
     );
