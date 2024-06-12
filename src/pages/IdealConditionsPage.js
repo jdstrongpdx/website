@@ -42,6 +42,8 @@ function IdealConditionsPage() {
           </ol>
         </article>
 
+        <p className="warning">This app is currently not working due to vendor API changes.</p>
+
         <article id="form" >
           <h3>Search</h3>
           <IdealConditionsV2/>

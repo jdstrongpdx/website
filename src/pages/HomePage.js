@@ -65,7 +65,7 @@ function HomePage() {
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="AWS CDK logo" src="./logos/gcp.png"/> &ensp; Google Cloud Platform</h4>
-                    <p>Basic proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Artifact Registry.</p>
+                    <p>Basic proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.</p>
                 </div>
             </div>
             

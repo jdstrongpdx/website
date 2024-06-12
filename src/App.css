@@ -62,7 +62,7 @@
   width: 325px;
   background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 120%);
   color: var(--color-cream);
-  font-size: 1.2em;
+  font-size: 1.1em;
   text-align: center;
   position: fixed;
   height: 100%;
@@ -86,7 +86,7 @@
 /* Active/current link */
 .sidebar a.active {
   color: var(--color-cream);
-}
+}F
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
@@ -97,7 +97,7 @@
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin: 0px 0px 0px 365px;
-  font-size: 1.2em;
+  font-size: 1em;
   padding: 5px 20px 40px 20px;
 }
 
@@ -126,8 +126,9 @@ div.content {
 }
   
 .project {
-  border: 2px solid black;
-  border-radius: 20px;
+  padding: 1%;
+  background-color: rgb(206, 212, 221);
+  border-radius: 10px;
   padding-left: 2%;
   padding-right: 2%;
   margin-bottom: 20px;
@@ -160,7 +161,7 @@ div.content {
   .local a {
     background: var(--less-light-orange);
     color:var(--color-dark-brown);
-    font-size: 1.2em;
+    font-size:1em;
     font-weight: 300;
     padding: 4px 15px 4px 15px;
   }
@@ -209,7 +210,7 @@ div.content {
   } 
 
   h4 { 
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
   } 
 
@@ -249,7 +250,7 @@ div.content {
   del {} 
   ins {}
   .warning {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 700;
     text-align: center;
     color: red;
