@@ -17,15 +17,15 @@ function IdealConditionsPage() {
             </p>
             
 
-        <div class="search_results">
+        <div className="search_results">
           <p>Example output from this website:</p>
 
           <p>Running has the following ideal time windows:<br></br>
-          <span class="tab"></span>Time window: 2 hour(s) starting at 1/4/2024, 2:00:00 PM<br></br>
-          <span class="tab"></span>Weather: mostly Rainy<br></br>
-          <span class="tab"></span>Temperature average: 50F <br></br>
-          <span class="tab"></span>Wind Speed average: 8 mph<br></br>
-          <span class="tab"></span>Humidity average: 94%</p>
+          <span className="tab"></span>Time window: 2 hour(s) starting at 1/4/2024, 2:00:00 PM<br></br>
+          <span className="tab"></span>Weather: mostly Rainy<br></br>
+          <span className="tab"></span>Temperature average: 50F <br></br>
+          <span className="tab"></span>Wind Speed average: 8 mph<br></br>
+          <span className="tab"></span>Humidity average: 94%</p>
         </div>
         </article>
 
@@ -33,16 +33,12 @@ function IdealConditionsPage() {
           <h3>How to use this website.</h3>
           <p>Using this website is really easy, just follow the following steps:</p>
           <ol>
-            <li>Enter the city, state of the location you want to do an outdoor activity in.</li>
+            <li>Enter the City and State in the United States of the location you want to do an outdoor activity in.</li>
             <li>Click the search button.</li>
-            <li>Optional: Enter start and end dates to limit your search to specific days.</li>
-            <li>Optional: Check the weekends only box to only show weekend days.</li>
             <li>Scroll through the search results to see the different outdoor activities available and their
             ideal condition time windows.</li>
           </ol>
         </article>
-
-        <p className="warning">This app is currently not working due to vendor API changes.</p>
 
         <article id="form" >
           <h3>Search</h3>

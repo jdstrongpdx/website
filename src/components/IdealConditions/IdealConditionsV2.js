@@ -15,11 +15,7 @@ function IdealConditionsV2() {
   let handleSubmit = async (e) => {
     e.preventDefault();
     let url = new URL("https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2");
-    url.searchParams.set("location", location.replaceAll(" ", ""));
-    url.searchParams.set("startDate", startDate);
-    url.searchParams.set("endDate", endDate);
-    url.searchParams.set("weekendsOnly", weekendsOnly);
-    console.log(url);
+    url.searchParams.set("location", location.replaceAll(" ", "+").replaceAll(",", ""));
     try {
       let res = await fetch(url, {
         method: "GET"
@@ -116,7 +112,7 @@ function IdealConditionsV2() {
      
       <form onSubmit={handleSubmit}>
 
-        <label for="location">Location</label>
+        <label htmlFor="location">Location (USA Only)</label>
         <input
         id="location"
           type="text"
@@ -125,31 +121,27 @@ function IdealConditionsV2() {
           required
           onChange={(e) => setLocation(e.target.value)}
         />
-        
-        <label for="startDate">Search Start Date</label>
+       
+{/*         <label htmlFor="startDate">Search Start Date</label>
         <input
           type="date"
-          min={minDate}
-          max={maxDate}
           value={startDate}
 
           onChange={(e) => setStartDate(e.target.value)}
         />
-        <label for="endDate">Search End Date</label>
+        <label htmlFor="endDate">Search End Date</label>
         <input
           type="date"
-          min={minDate}
-          max={maxDate}
           value={endDate}
 
           onChange={(e) => setEndDate(e.target.value)}
         />
-        <label for="weekendsOnly">Search for Weekends Only</label>
+        <label htmlFor="weekendsOnly">Search for Weekends Only</label>
         <input
           type="checkbox"
           value={weekendsOnly}
           onChange={(e) => setWeekendsOnly(e.target.value)}
-        />
+        /> */}
 
         <button type="submit">Submit</button>
 
