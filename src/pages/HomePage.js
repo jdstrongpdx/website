@@ -57,15 +57,19 @@ function HomePage() {
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="SpringBoot logo" src="./logos/springboot.png"/> &ensp; SpringBoot</h4>
-                    <p>Intermediate proficiency with experience using Spring Web, Data JPA, Security, MVC, Jackson, Validation, JUnit, Actuator modules with Gradle/Maven to build and deploy web applications.</p>
+                    <p>Intermediate proficiency with experience using Spring Web, JPA, Security, MVC, Jackson, Validation, JUnit, Actuator, Model-Mapper modules with Gradle/Maven to build and deploy web applications.</p>
                 </div>
                 <div className='skillsChild'>
-                    <h4><img height="50" alt="AWS CDK logo" src="./logos/aws.png"/> &ensp; Amazon Web Services</h4>
+                    <h4><img height="50" alt="AWS logo" src="./logos/aws.png"/> &ensp; Amazon Web Services</h4>
                     <p>Basic proficiency with experience configuring and deploying web applications using the following AWS offerings: Amplify, Lambda, S3, RDS, Lightsail RDS and Lightsail container.</p>
                 </div>
                 <div className='skillsChild'>
-                    <h4><img height="50" alt="AWS CDK logo" src="./logos/gcp.png"/> &ensp; Google Cloud Platform</h4>
+                    <h4><img height="50" alt="GCP logo" src="./logos/gcp.png"/> &ensp; Google Cloud Platform</h4>
                     <p>Basic proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.</p>
+                </div>
+                <div className='skillsChild'>
+                    <h4><img height="50" alt="AI logo" src="./logos/ai.png"/> &ensp; Artificial Intelligence</h4>
+                    <p>Intermediate proficiency using AI as a learning and development streamlining tool using ChatGPT and JetBrains AI Assistant. Experience using prompt engineering, to automate and refine data, function, documentation, and test creation.</p>
                 </div>
             </div>
             

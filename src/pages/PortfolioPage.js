@@ -9,31 +9,13 @@ function PortfolioPage() {
     
     <article>
         <h3>Introduction:</h3>
-        <p>Welcome to my website!  This website is a collection of my development work including both school and personal projects. The projects listed here will be expanded with pages for different projects and short summaries for the tech stacks, languages and github links will be posted here. Expected graduation in Fall 2024.</p>
+        <p>Welcome to my website!  This website is a collection of my development work including both school and personal projects. The projects listed here will be expanded with pages for different projects and short summaries for the tech stacks, languages and github links will be posted here.</p>
         
     </article>
     
     <article >
         <h3>Notable Projects:</h3>
         
-        
-        <div className="project">
-            <h3>Personal Website</h3>
-            <h4>December 2023 - Current</h4>
-            <div className="centered">
-                    <figure>
-                    <img width="900px" alt="website screenshot" src="./images/website.png"/>
-                    </figure>
-            </div>
-            <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
-            <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the React/JS/CSS code to develop the site.</p>
-            <ul>
-                <li><em>Frontend: </em> Uses a HTML, CSS, JavaScript and React with several React modules, Axios, Express.</li>
-                <li><em>Hosting: </em> AWS Amplify with automatic deployment upon pushes to Main on GitHub.</li>
-            </ul>
-        </div>
-
-
         <div className="project">
             <h3>FragranceFreeResources.com Full Stack Web Application</h3>
             <h4>April 2024 - Current</h4>
@@ -165,7 +147,7 @@ function PortfolioPage() {
             
             <div className="centered">
                 <figure>
-                    <img width="75ç0px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
+                    <img width="750px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
                     <figcaption>Postman/Newman API Testing</figcaption>
                 </figure>
             </div>
@@ -335,6 +317,22 @@ function PortfolioPage() {
                     <figcaption>CPU load from mining on a 10 core processor.</figcaption>
                 </figure>
             </div>
+
+            <div className="project">
+            <h3>Personal Website</h3>
+            <h4>December 2023 - Current</h4>
+            <div className="centered">
+                    <figure>
+                    <img width="900px" alt="website screenshot" src="./images/website.png"/>
+                    </figure>
+            </div>
+            <p><strong>App Type:</strong> Dynamic Web Site</p>
+            <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started from scratch deploying an empty React project to AWS Amplify and built up the code using React, JavaScript, and Vanilla CSS to develop the site.</p>
+            <ul>
+                <li><em>Frontend: </em> React, Node.js, Vanilla CSS.</li>
+                <li><em>Hosting: </em> AWS Amplify with automatic deployment upon pushes to Main on GitHub.</li>
+            </ul>
+        </div>
             
         </div>
 
