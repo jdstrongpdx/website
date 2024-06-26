@@ -34,150 +34,76 @@ function PortfolioPage() {
                 <li><em>Hosting: </em> The backend is deployed to a AWS Lightsail container instance and the frontend is served by an AWS Amplify.</li>
             </ul>
 
-            <div>
                 <p><strong>Dedication</strong></p>
                 <p>This website is dedicated to a family member affected by a sensitivity to fragrances and the
                     tens of thousands of people who share similar struggles.</p>
 
                 <p><strong>Overview</strong></p>
-                <p>This full stack web applciation was developed over 11 weeks as part of a Personal Projects
-                    elective class as part of my Computer Science bachelors degree at Oregon State University. In
-                    addition to my classwork, I dedicated myself to learning additional languages and frameworks with
-                    the goal of independently developing a web application. This website is a realization of those
-                    efforts.</p>
-
-                <p><strong>Web Application Features</strong></p>
-                <ul>
-                    <li>Security - Implemented Spring Security using JWT with backend access privileges for each
-                        endpoint and frontend dynamic page rendering based on roles and record creator. Uses roles for
-                        Visitor, User, Moderator, and Administrator.
-                    </li>
-                    <li>User Interface - Developed a dynamic SPA using React, Typescript, and React-Bootstrap.</li>
-                    <li>Cloud Development - Created using an MVC model,</li>
-                    <li>Database Design -</li>
-                    <li>Compatibility</li>
-                    <li>Error Handling</li>
-                    <li>Performance - cached variables, simple entites that do not require mapping/dto, db connection
-                        pools
-                    </li>
-                    <li>Entities - Performing CRUD operations on a range of entities: Businesses, Products, Rental
-                        Homes, Entity Reviews, Support Tickets, and Users.
-                    </li>
-                </ul>
-
-                <p><strong>Challenges</strong></p>
-                <p>Broken down into the following areas: </p>
-                <ul>
-                    <li>Project Scale - This was a sizable project that required learning many new skills.</li>
-                    <li>Backend Design - There were a number of backend design iterations attempting to find the balance
-                        between code simplicity and functionality.
-                    </li>
-                    <li>Deployment Options - Chosing which services to use and how to configure them.</li>
-                    <li>Frontend Design - How to layer Props and Components</li>
-                    <li>Scope Creep - The balance between the features that are needed and the ones that would be nice
-                        to have.
-                    </li>
-                    <li>Best Practices Balance - In smaller projects, it has been possible to do it all: detailed
-                        documentation, lenting, layered testing approaches, etc.
-                    </li>
-                </ul>
-
-                <p><strong>Lessons Learned</strong></p>
-                <p>This full stack web applciation was developed over 11 weeks as part of a Personal Projects
-                    elective class as part of my Computer Science bachelors degree at Oregon State University. In
-                    addition to my classwork, I dedicated myself to learning additional languages and frameworks with
-                    the goal of independently developing a web application. This website is a realization of those
-                    efforts.</p>
-
-                <p><strong>Stack</strong></p>
-                <ul>
-                    <li>Backend: Dockerized SpringBoot/Java program deployed with AWS Lightsail Container</li>
-                    <ul>
-                        <li>Spring Web: Module for implementing RESTful API's</li>
-                        <li>Spring Security: Module for implementing user Auth.</li>
-                        <li>Spring JPA: Module for database ODM</li>
-                        <li>Spring Validation:</li>
-                        <li>Spring Test:</li>
-                        <li>Spring Actuator:</li>
-                        <li>Model Mapper:</li>
-                        <li>HikariCP:</li>
-                        <li>Jackson:</li>
-                        <li>JsonWebToken:</li>
-                        <li>ProjectLombok:</li>
-                    </ul>
-                    <li>Database: MySQL instance deployed with AWS Lightsail Databases</li>
-                    <li>Frontend: React, Typescript deployed with AWS Amplify</li>
-                    <ul>
-                        <li>Axios</li>
-                        <li>React-Bootstrap</li>
-                        <li>React-Icons</li>
-                        <li>React-Router-Dom</li>
-                    </ul>
-                </ul>
-            </div>
-
-
-
-                    <div className="centered">
-                        <figure>
-                        <img width="900px" alt="FFR backend endpoints" src="./images/FFRendpoints.png"/>
-                            <figcaption>Basic API mapping</figcaption>
-                        </figure>
-                    </div>
-                    <div className="centered">
-                        <figure>
-                        <img width="600px" alt="FFR backend security" src="./images/FFRsecurity.png"/>
-                            <figcaption>Endpoint Security Configuration</figcaption>
-                        </figure>
-                    </div>
 
             <p><em>Project Link: </em> <a href="https://fragrancefreeresources.com">FragranceFreeResources.com</a> </p>   
         </div>
 
         <div className="project">
-            <h3>Google Cloud Platform REST API using Python/Flask, Firebase NoSQL, Storage </h3>
+            <h3>Google Cloud Platform RESTful API backend using Python/Flask, Datastore, Storage</h3>
             <h4>May 2024</h4>
+
+            <p><strong>App Type:</strong> RESTful API Backend</p>
+            <p><strong>Description:</strong> Portfolio project for my Cloud Application Development course with the following features:</p>
+            <ul>
+                <li>User authentication and authorization using Auth0 and JWTs.</li>
+                <li>Development of RESTful API endpoints following a provided API specification including:</li>
+                <ul>
+                    <li>Returning the correct HTTP Response Codes based on a series of possible errors and their respective priorities.</li>
+                    <li>Generation of dynamic "self" url links to access linked information.</li>
+                    <li>Use of Pagination and dynamic "next" url links.</li>
+                </ul>
+                <li>Creating and configuring Google Cloud Platform to host a Python/Flask app utilizing AppEngine, Datastore, Storage.</li>
+                <li>Using GCP Datastore to perform CRUD operations on User, Course, and Enrollment entities.</li>
+                <li>Using GCP Storage to upload, retrieve and delete user avatar image files.</li>
+                <li>Testing API endpoints using Postman/Newman including the creation of tests to meet the API specification.</li>
+            </ul>
             
             <div className="centered">
                 <figure>
-                    <img width="550px" alt="python flask api code" src="./images/GCPflask.png"/>
+                    <img width="600px" alt="python flask api code" src="./images/GCPflask.png"/>
                     <figcaption>Python/Flask API Endpoint code.</figcaption>
                 </figure>
             </div>
             
             <div className="centered">
                 <figure>
-                    <img width="750px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
+                    <img width="850px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
                     <figcaption>Postman/Newman API Testing</figcaption>
                 </figure>
             </div>
 
             <div className="centered">
                 <figure>
-                    <img width="800px" alt="google cloud platform datastore" src="./images/GCPdatastore.png"/>
-                    <figcaption>GCP NoSQL Datastore.</figcaption>
+                    <img width="1000px" alt="google cloud platform datastore" src="./images/GCPdatastore.png"/>
+                    <figcaption>GCP Datastore</figcaption>
                 </figure>
             </div>
-
-            <p><strong>App Type:</strong> Multi-Threaded Python Application that uses a TCP/IP Server/Client connection to communicate statuses.</p>
-            <p><strong>Description:</strong> TODO</p>
-            <p><strong>Details:</strong> TODO</p>
-            
         </div>
 
 
         <div className="project">
             <h3>Python Server/Client Networking Monitor using TCP/IP </h3>
             <h4>March 2024</h4>
-            <div className="centered">
-                <figure>
-                    <img width="1000px" alt="network monitor program" src="./images/NetworkMonitor.png"/>
-                    <figcaption>Network Monitor Program - Server Left and Client Right.</figcaption>
-                </figure>
-            </div>
             
             <p><strong>App Type:</strong> Multi-Threaded Python Application that uses a TCP/IP Server/Client connection to communicate statuses.</p>
-            <p><strong>Description:</strong> TODO</p>
+            <p><strong>Description:</strong> Developed a multi-threaded object-oriented Python application utilizing TCP/IP Server/Client communication. Allows a remote client to configure of a wide range of network tests, transmit the tests to a server to perform, and ensures the reliable delivery and reconnection of results back to the client.</p>
+
+            <div className="centered">
+                <figure>
+                    <img width="100%" alt="network monitor server" src="./images/NetworkMonitorServer.png"/>
+                    <figcaption>Network Monitor Program - Server Window.</figcaption>
+                </figure>
+                <figure>
+                    <img width="100%" alt="network monitor client" src="./images/NetworkMonitorClient.png"/>
+                    <figcaption>Network Monitor Program - Client Window.</figcaption>
+                </figure>
+            </div>
+
             <p><strong>Details:</strong> The program does uses the following custom classes:</p>
             <ol>
                     <li>Service - the base class for all services providing common functionality for sub-class services.</li>
@@ -200,16 +126,16 @@ function PortfolioPage() {
         </div>
 
         <div className="project">
-            <h3>Ideal Conditions Web Application using React/JS fronend and Python AWS Lambda backend</h3>
+            <h3>Ideal Conditions Microservice using React/JS fronend and Python AWS Lambda backend</h3>
             <h4>September 2023</h4>
             <div className="centered">
                     <figure>
-                        <img width="900px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/>
+                        <img width="1000px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/>
                     </figure>
             </div>
             
-            <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
-            <p><strong>Description:</strong> A Full Stack web application that takes in a Location string, uses an API microservice I developed to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>
+            <p><strong>App Type:</strong> SPA/Serverless Microservice Application</p>
+            <p><strong>Description:</strong> A application that takes in a Location string, uses an serverless microservice to return time windows when the weather conditions are ideal for ten popular outdoor activities.</p>
             
             <ul>
                 <li><em>Frontend: </em> Uses a HTML, CSS, JavaScript and React with several React modules, Axios, Express.</li>
@@ -222,15 +148,15 @@ function PortfolioPage() {
                 <li><em>Frontend: </em></li>
                 <ol>
                     <li>Takes in web form data and submits to my AWS Lambda API.</li>
-                    <li>Recieves return data: <a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Example JSON return data for Portland, OR</a></li>
+                    <li>Receives return data: <a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Example JSON return data for Portland, OR</a></li>
                     <li>Displays error or parses returned information by outdoor activity.</li>
                     <li>Condenses consecutive hour blocks into time windows.</li>
                     <li>Displays the results to the user.</li>
-                    <li><em>Note: </em>At the time of creation, I only had several weeks of experience with JS and React. The formatting and coding of the results can be greatly improved and will be revisited at a later time. </li>
+                    <li>Note: At the time of development, I only had several weeks of experience using React. The code and formatting are not ideal, but retained as an example of that moment in time.</li>
                 </ol>
                 <div className="centered">
                         <figure>
-                        <img width="600px" alt="JSON data example" src="./images/idealConditionsResults.png"/>
+                        <img width="500" alt="JSON data example" src="./images/idealConditionsResults.png"/>
                             <figcaption>Results example after Time Window Parsing in JavaScript</figcaption>
                         </figure>
                     </div>
@@ -246,7 +172,6 @@ function PortfolioPage() {
                     <li>Adds the Activity objects to a list for iteration.</li>
                     <li>Iterates through each Activity using a method to compare the forecast to the Activity ideal conditions, generating a nested dictionary of activities and ideal time windows.</li>
                     <li>If successful, returns a summary of location and Activity weather data, else returns an error.</li>
-                    <li><a href="https://9w160flmwj.execute-api.us-east-2.amazonaws.com/V2?location=Portland,OR">Live JSON API data for Portland, OR</a></li>
                     <div className="centered">
                         <figure>
                         <img width="900px" alt="JSON data example" src="./images/idealConditionsJSON.png"/>
@@ -266,7 +191,7 @@ function PortfolioPage() {
             
             <div className="centered">
                 <figure>
-                    <img width="600px" alt="code to enable multithreading" src="./images/Multi-thread-code.png"/>
+                    <img width="700px" alt="code to enable multithreading" src="./images/Multi-thread-code.png"/>
                     <figcaption>Multi-threading code snippet.</figcaption>
                 </figure>
             </div>
@@ -313,7 +238,7 @@ function PortfolioPage() {
             
             <div className="centered">
                 <figure>
-                    <img width="600px"  alt="website screenshot" src="./images/MultiThreadJava.png"/>
+                    <img width="650px"  alt="website screenshot" src="./images/MultiThreadJava.png"/>
                     <figcaption>CPU load from mining on a 10 core processor.</figcaption>
                 </figure>
             </div>
