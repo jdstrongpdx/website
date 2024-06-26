@@ -103,19 +103,6 @@ function Ffr() {
             </figure>
     </div>
 
-    <div className="centered">
-            <figure>
-                <img width="700px" alt="database schema" src="./images/FFRschema.png"/>
-                <figcaption>MySQL Database ERD</figcaption>
-            </figure>
-    </div>
-
-    <div className="centered">
-            <figure>
-                <img width="700px" alt="Spring Boot Web Security Configuration" src="./images/FFRsecurity.png"/>
-                <figcaption>Spring Boot Web Security Configuration</figcaption>
-            </figure>
-    </div>
 
 
 </div>

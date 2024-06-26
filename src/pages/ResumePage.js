@@ -14,12 +14,11 @@ function ResumePage() {
                     <img width="1200"  alt="Joel Strong Resume" src="./images/Resume.png"/>
                 </figure>
             </div>
-    <p>For more detailed information, visit my LinkedIn profile:  <a href="https://www.linkedin.com/in/joel-strong/">https://www.linkedin.com/in/joel-strong/</a></p>
-
     </div>
 
     <div className='project'>
-    <h3>LinkedIn Profile:  <a href="https://www.linkedin.com/in/joel-strong/"> https://www.linkedin.com/in/joel-strong/</a></h3>
+    <h3>LinkedIn Profile: </h3> 
+    <h4><a href="https://www.linkedin.com/in/joel-strong/"> https://www.linkedin.com/in/joel-strong/</a></h4>
 
 
 
