@@ -7,7 +7,7 @@ function IdealConditionsPage() {
 <section>
 
         <article id="about">
-          <h2 className="centered"><img src="../images/sun-behind-rain-cloud.png" className="icon" alt="Website Logo"></img> Ideal Conditions</h2>
+          <h2 className="centered"><img src="../../public/images/sun-behind-rain-cloud.png" className="icon" alt="Website Logo"></img> Ideal Conditions</h2>
 
 
             <p>Welcome to Ideal Conditions, the best resource for planning your next outdoor activity! Simply enter the

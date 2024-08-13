@@ -8,7 +8,7 @@ function IdealConditions() {
             <h4>September 2023</h4>
             <div className="centered">
                     <figure>
-                        <img width="1000px" alt="ideal conditions app screenshot" src="./images/idealConditions.png"/>
+                        <img width="1000px" alt="ideal conditions app screenshot" src="images/idealConditions.png"/>
                     </figure>
             </div>
             
@@ -34,7 +34,7 @@ function IdealConditions() {
                 </ol>
                 <div className="centered">
                         <figure>
-                        <img width="500" alt="JSON data example" src="./images/idealConditionsResults.png"/>
+                        <img width="500" alt="JSON data example" src="images/idealConditionsResults.png"/>
                             <figcaption>Results example after Time Window Parsing in JavaScript</figcaption>
                         </figure>
                     </div>
@@ -52,7 +52,7 @@ function IdealConditions() {
                     <li>If successful, returns a summary of location and Activity weather data, else returns an error.</li>
                     <div className="centered">
                         <figure>
-                        <img width="900px" alt="JSON data example" src="./images/idealConditionsJSON.png"/>
+                        <img width="900px" alt="JSON data example" src="images/idealConditionsJSON.png"/>
                             <figcaption>Example JSON API return data from AWS Lambda Function running Python</figcaption>
                         </figure>
                     </div>

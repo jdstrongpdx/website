@@ -6,6 +6,7 @@ import NetworkMonitor from "../components/Projects/NetworkMonitor";
 import IdealConditions from "../components/Projects/IdealConditions";
 import PersonalWebsite from "../components/Projects/PersonalWebsite";
 import Blockchain from "../components/Projects/Blockchain";
+import Mlb from "../components/Projects/Mlb";
 
 function PortfolioPage() {
     return (<>
@@ -20,6 +21,7 @@ function PortfolioPage() {
     <article >
         <h3>Notable Projects:</h3>
         <Ffr/>
+        <Mlb/>
         <GcpApi/>
         <NetworkMonitor/>
         <IdealConditions/>

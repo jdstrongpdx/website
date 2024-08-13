@@ -24,21 +24,21 @@ function GcpApi() {
             
             <div className="centered">
                 <figure>
-                    <img width="600px" alt="python flask api code" src="./images/GCPflask.png"/>
+                    <img width="600px" alt="python flask api code" src="images/GCPflask.png"/>
                     <figcaption>Python/Flask API Endpoint code.</figcaption>
                 </figure>
             </div>
             
             <div className="centered">
                 <figure>
-                    <img width="850px" alt="postman newman api testing" src="./images/GCPpostman.png"/>
+                    <img width="850px" alt="postman newman api testing" src="images/GCPpostman.png"/>
                     <figcaption>Postman/Newman API Testing</figcaption>
                 </figure>
             </div>
 
             <div className="centered">
                 <figure>
-                    <img width="1000px" alt="google cloud platform datastore" src="./images/GCPdatastore.png"/>
+                    <img width="1000px" alt="google cloud platform datastore" src="images/GCPdatastore.png"/>
                     <figcaption>GCP Datastore</figcaption>
                 </figure>
             </div>

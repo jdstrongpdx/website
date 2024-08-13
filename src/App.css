@@ -86,7 +86,7 @@
 /* Active/current link */
 .sidebar a.active {
   color: var(--color-cream);
-}F
+}
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
@@ -96,7 +96,7 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-  margin: 0px 0px 0px 365px;
+  margin: 0 0 0 365px;
   font-size: 1.1em;
   padding: 5px 20px 40px 20px;
 }
@@ -179,6 +179,27 @@ div.content {
   .tab {
     display: inline-block;
     margin-left: 30px;
+}
+
+.video iframe {
+  max-width: 90%;
+  width: 70vw;
+  height: 39.375vw;
+  text-align: center;
+  align-items: center;
+}
+
+.game iframe {
+  max-width: 90%;
+  width: 70vw;
+  height: 70vw;
+  text-align: center;
+  align-items: center;
+}
+
+.centered img {
+  max-width: 90%;
+  height: auto;
 }
 
   /*  -----  Typography  ----- */
@@ -316,7 +337,7 @@ div.content {
   datalist {}
   
   
-  /*  ----- Form ----- */j
+  /*  ----- Form ----- */
   form, button, input, select, textarea, legend, label{
     
     font-size: 1.3em;
@@ -362,7 +383,7 @@ div.content {
     cursor: pointer;
     background-color: black;
     box-sizing: border-box;
-    margin: 10px 0px;
+    margin: 10px 0;
     font: 400 11px system-ui;
     font-size: 20px;
     padding: 10px 60px;
@@ -378,7 +399,7 @@ div.content {
     font-size: 20px;
     padding: 10px 60px;
     border-radius: 5px;
-    margin: 10px 0px;
+    margin: 10px 0;
     cursor: pointer;
   }
 
@@ -476,7 +497,7 @@ div.content {
     height: 140px;
   }
 
-.image-gallery-description { bottom:0px!important; } 
+.image-gallery-description { bottom:0!important; }
 
 i {
   font-size: 140%;
@@ -512,7 +533,7 @@ i {
 .right { 
   float: right;
   margin-right: 20px;
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 

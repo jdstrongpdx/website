@@ -10,11 +10,11 @@ function NetworkMonitor() {
 
             <div className="centered">
                 <figure>
-                    <img width="100%" alt="network monitor server" src="./images/NetworkMonitorServer.png"/>
+                    <img width="100%" alt="network monitor server" src="images/NetworkMonitorServer.png"/>
                     <figcaption>Network Monitor Program - Server Window.</figcaption>
                 </figure>
                 <figure>
-                    <img width="100%" alt="network monitor client" src="./images/NetworkMonitorClient.png"/>
+                    <img width="100%" alt="network monitor client" src="images/NetworkMonitorClient.png"/>
                     <figcaption>Network Monitor Program - Client Window.</figcaption>
                 </figure>
             </div>

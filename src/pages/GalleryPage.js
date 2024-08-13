@@ -3,9 +3,25 @@ import ImageGallery from 'react-image-gallery';
 
 const images = [
   {
-    original: 'images/DockerNewman.png',
-    thumbnail: 'images/DockerNewman.png',
-    description: 'Using Newman CLI to test Dockerized Python/Flask API app before deploying to GCP.',
+    original: 'images/MLB-WebGL.png',
+        thumbnail: 'images/MLB-WebGL.png',
+        description: 'WebGL deployment of a Unity Atari Breakout clone and Machine Learned model development to play the game.',
+  }, {
+    original: 'images/MLB-Poster.png',
+        thumbnail: 'images/MLB-Poster.png',
+        description: 'Oregon State University Showcase Poster for ML-Breakout Project.',
+  }, {
+    original: 'images/MLB-GitHub.png',
+        thumbnail: 'images/MLB-GitHub.png',
+        description: 'ML-Breakout CI/CD shared Repository.',
+  }, {
+    original: 'images/FFR-Visitor.png',
+        thumbnail: 'images/FFR-Visitor.png',
+        description: 'Visitor view of a Product from FragranceFreeResources.com',
+  }, {
+    original: 'images/FFR-User.png',
+        thumbnail: 'images/FFR-User.png',
+        description: 'User view of a Product and a Review modal displayed from FragranceFreeResources.com.',
   }, {
     original: 'images/FFRendpoints.png',
     thumbnail: 'images/FFRendpoints.png',
@@ -17,7 +33,10 @@ const images = [
   }, {
     original: 'images/NetworkMonitor.png',
     thumbnail: 'images/NetworkMonitor.png',
-    description: 'Python Server (left) Client (right) networking monitor application using TCP/IP to relay data.',
+  }, {
+    original: 'images/DockerNewman.png',
+    thumbnail: 'images/DockerNewman.png',
+    description: 'Using Newman CLI to test Dockerized Python/Flask API app before deploying to GCP.',
   }, {
     original: 'images/JWTauth.png',
     thumbnail: 'images/JWTauth.png',
