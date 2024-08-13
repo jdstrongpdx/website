@@ -6,7 +6,7 @@ function Ffr() {
                 <h4>April 2024 - Current</h4>
                 <div className="centered">
                     <figure>
-                        <img width="900px" alt="fragrancefreeresources app screenshot" src="./images/FFR.png"/>
+                        <img width="900px" alt="fragrancefreeresources app screenshot" src="/images/FFR.png"/>
                         <figcaption>Fragrance Free Resources Home Page (Admin View)</figcaption>
                     </figure>
                 </div>
@@ -72,21 +72,21 @@ function Ffr() {
                 </ul>
                 <div className="centered">
                     <figure>
-                        <img width="900px" alt="product visitor view" src="./images/FFR-Visitor.png"/>
+                        <img width="900px" alt="product visitor view" src="/images/FFR-Visitor.png"/>
                         <figcaption>Visitor View of a Product</figcaption>
                     </figure>
                 </div>
 
                 <div className="centered">
                     <figure>
-                        <img width="900px" alt="product user review modal" src="./images/FFR-User.png"/>
+                        <img width="900px" alt="product user review modal" src="/images/FFR-User.png"/>
                         <figcaption>User View of a Product with an active Review modal</figcaption>
                     </figure>
                 </div>
 
                 <div className="centered">
                     <figure>
-                        <img width="700px" alt="google lighthouse review" src="./images/lighthouse.png"/>
+                        <img width="700px" alt="google lighthouse review" src="/images/lighthouse.png"/>
                         <figcaption>Google Chrome Lighthouse Performance Rating for a PWA</figcaption>
                     </figure>
                 </div>
@@ -132,7 +132,7 @@ function Ffr() {
 
                 <div className="centered">
                     <figure>
-                        <img width="900px" alt="api endpoint spreadsheet" src="./images/FFRendpoints.png"/>
+                        <img width="900px" alt="api endpoint spreadsheet" src="/images/FFRendpoints.png"/>
                         <figcaption>Spring Boot Backend API Endpoints</figcaption>
                     </figure>
                 </div>

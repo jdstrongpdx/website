@@ -13,11 +13,6 @@ function PortfolioPage() {
     
     <h2>Portfolio</h2>
     
-    <article>
-        <h3>Introduction:</h3>
-        <p>Welcome to my website!  This website is a collection of my development work including both school and personal projects. The projects listed here will be expanded with pages for different projects and short summaries for the tech stacks, languages and github links will be posted here.</p>
-    </article>
-    
     <article >
         <h3>Notable Projects:</h3>
         <Ffr/>

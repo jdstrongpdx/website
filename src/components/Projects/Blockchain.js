@@ -7,7 +7,7 @@ function Blockchain() {
             
             <div className="centered">
                 <figure>
-                    <img width="700px" alt="code to enable multithreading" src="./images/Multi-thread-code.png"/>
+                    <img width="700px" alt="code to enable multithreading" src="/images/Multi-thread-code.png"/>
                     <figcaption>Multi-threading code snippet.</figcaption>
                 </figure>
             </div>
@@ -47,13 +47,13 @@ function Blockchain() {
             
             <div className="centered">
                 <figure>
-                    <img width="500px" alt="website screenshot" src="./images/blockchain-example.png"/>
+                    <img width="500px" alt="website screenshot" src="/images/blockchain-example.png"/>
                     <figcaption>Block transaction and mining output example.</figcaption>
                 </figure>
             </div>
             <div className="centered">
                 <figure>
-                    <img width="650px"  alt="website screenshot" src="./images/MultiThreadJava.png"/>
+                    <img width="650px"  alt="website screenshot" src="/images/MultiThreadJava.png"/>
                     <figcaption>CPU load from mining on a 10 core processor.</figcaption>
                 </figure>
             </div>

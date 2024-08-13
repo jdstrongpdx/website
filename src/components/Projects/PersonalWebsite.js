@@ -6,7 +6,7 @@ function PersonalWebsite() {
         <h4>December 2023 - Current</h4>
         <div className="centered">
                 <figure>
-                <img width="900px" alt="website screenshot" src="./images/website.png"/>
+                <img width="900px" alt="website screenshot" src="/images/website.png"/>
                 </figure>
         </div>
         <p><strong>App Type:</strong> Dynamic Web Site</p>
