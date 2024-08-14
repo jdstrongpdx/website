@@ -35,7 +35,7 @@ function Mlb() {
 
                 <p><strong>Project Development Overview Video (8 minutes):</strong></p>
                 <div className="video">
-                    <iframe src="https://www.youtube.com/embed/rb-hE1FlDYA?si=0J_4DSOEOixOWqA4"
+                    <iframe src="https://www.youtube-nocookie.com/embed/rb-hE1FlDYA?si=tRR2oPOp38vatDt8"
                             title="ML-Breakout Project Overview"
                             width="100%"
                             height="600"
