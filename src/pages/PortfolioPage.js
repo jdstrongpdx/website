@@ -13,7 +13,7 @@ function PortfolioPage() {
     return (<>
     
     <h2>Portfolio</h2>
-         <article id="top">
+            <article id="top">
                 <h3>Notable Projects:</h3>
                 <div className="project">
                     <h4>Jump to a Project:</h4>
@@ -33,6 +33,7 @@ function PortfolioPage() {
                         <li><a href="#PersonalWebsite">Personal Website (This Website) - React/JS, AWS Amplify
                             Hosting</a></li>
                         <li><a href="#Repositories">A List of GitHub Repositories Showcasing My Code</a></li>
+                        <li><a href="#Certifications">A List of Certifications Completed</a></li>
                     </ul>
                 </div>
 
@@ -44,12 +45,9 @@ function PortfolioPage() {
                 <div id="Blockchain"><Blockchain/></div>
                 <div id="PersonalWebsite"><PersonalWebsite/></div>
                 <div id="Repositories"><Repositories/></div>
-
+                <div id="Certifications"><Certifications/></div>
 
             </article>
-
-            <Certifications/>
-
         </>
     );
 }
