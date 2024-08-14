@@ -182,19 +182,12 @@ div.content {
 }
 
 .video iframe {
-  max-width: 90%;
-  width: 70vw;
-  height: 39.375vw;
-  text-align: center;
-  align-items: center;
-}
-
-.game iframe {
-  max-width: 90%;
-  width: 70vw;
-  height: 70vw;
-  text-align: center;
-  align-items: center;
+  display: flex;
+  justifyContent: center;
+  alignItems: center;
+  max-width: 1200px;
+  margin: auto;
+  align-content: center;
 }
 
 .centered img {

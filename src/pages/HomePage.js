@@ -12,44 +12,48 @@ function HomePage() {
     
     <article>
         <h4>Junior Full Stack Software Engineer</h4>
-        <p>I am a full time student and Junior Full Stack developer in Portland, Oregon. I am attending Oregon State University pursuing a post-baccalaureate bachelors degree in Computer Science with an expected graduation in Fall 2024. In addition to maintaining a 3.98 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to build beautiful, functional, and purposeful full stack web applications. Please take a look at my Portfolio page for examples of my Projects and work!</p>
+        <p>I am a full time student and Junior Full Stack developer in Portland, Oregon. I graduated from Oregon State University with a post-baccalaureate bachelors degree in Computer Science in Fall 2024. In addition to maintaining a 3.98 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to build beautiful, functional, and purposeful full stack web applications. Please take a look at my Resume page for a list of my certifications, and my Portfolio page for examples of my Projects and work.</p>
         
     </article>
-    
-    <button><FaLaptopCode/>&ensp;<Link to="/PortfolioPage">Portfolio</Link></button> &emsp;
-    <button className='styledButton'><IoDocument/>&ensp;<Link to="/ResumePage">Resume</Link></button>
-    
-    <article>
-        <h3>Languages & Frameworks</h3>
-        <p>This is a list of languages & frameworks that I have learned with the expressed interest in building applications with them.  I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
+
+            <div className="centered">
+                <button><FaLaptopCode/>&ensp;<Link to="/PortfolioPage">Portfolio</Link></button>
+                &emsp;
+                <button className='styledButton'><IoDocument/>&ensp;<Link to="/ResumePage">Resume</Link></button>
+            </div>
+
+            <article>
+                <h3>Languages & Frameworks</h3>
+                <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
+                    applications with them.  I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
 
         <div className='skillsParent'>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Python logo" src="/logos/python.png"/> &ensp; Python</h4>
-                <p>Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and other concepts and tools.</p>        </div>
+                <p>Intermediate proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.</p>        </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Java logo" src="/logos/java.png"/> &ensp; Java</h4>
-                    <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and other concepts and tools.</p>        
+                    <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.</p>        
                 </div>        
                 <div className='skillsChild'>
                     <h4><img height="50" alt="JavaScript logo" src="/logos/javascript.png"/> &ensp; JavaScript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using API integrations, data transformation, DOM manipulation, asynchronous functions, event and error handling and other concepts and tools. </p>        
+                    <p>Intermediate proficiency with experience building frontend applications using API integrations, data transformation, DOM manipulation, asynchronous functions, event and error handling and more. </p>        
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Typescript logo" src="/logos/typescript.png"/> &ensp; Typescript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using API integrations, interfaces, unions, type guards, data transformation, DOM manipulation, asynchronous functions, event and error handling and other concepts and tools.</p>        
+                    <p>Intermediate proficiency with experience building frontend applications using API integrations, interfaces, unions, type guards, data transformation, DOM manipulation, asynchronous functions, event and error handling and more.</p>        
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="React logo" src="/logos/react.png"/> &ensp; React</h4>
-                    <p>Intermediate proficiency with experience in building dynamic Single Page Applications and React functions using hooks, props, event handling and other concepts and tools.</p>
+                    <p>Intermediate proficiency with experience in building dynamic Single Page Applications and React functions using hooks, props, event handling and more.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="database logo" src="/logos/database.png"/> &ensp; SQL & NoSQL</h4>
-                    <p>Intermediate proficiency with experience designing and building SQL and NoSQL models on local and hosted services, writing queries, performing data manipulation, transaction management and other concepts and tools. </p>
+                    <p>Intermediate proficiency with experience designing and building SQL and NoSQL models on local and hosted services, writing queries, performing data manipulation, transaction management and more. </p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="HTML logo" src="/logos/html.png"/> &ensp; HTML</h4>
-                    <p>Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Flexboxes, Navigation, Form design, DOM manipulation and other concepts and tools. </p>
+                    <p>Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Flexboxes, Navigation, Form design, DOM manipulation and more. </p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="CSS logo" src="/logos/css.png"/> &ensp; CSS</h4>
@@ -101,7 +105,7 @@ function HomePage() {
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Git logo" src="/logos/git.png"/> &ensp; Git</h4>
-                <p>Intermediate proficiency of Git commands, Gitflow, branching, tagging, version control, workflows, and using local and remote repositories.</p>
+                <p>Intermediate proficiency of Git commands, Gitflow, pull requests, code reviews, branching, tagging, version control, workflows, and using local and remote repositories.</p>
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Program testing logo" src="/logos/testing.png"/> &ensp; Testing</h4>

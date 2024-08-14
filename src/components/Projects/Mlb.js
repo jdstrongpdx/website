@@ -27,7 +27,8 @@ function Mlb() {
 
                 <p><strong>Playable Example (click to play):</strong></p>
                 <div className="centered">
-                    <a href="https://play.unity.com/en/games/29073861-10a0-4027-839c-303f0eb8d8ac/ml-breakout" target="_blank" rel="noopener noreferrer">
+                    <a href="https://play.unity.com/en/games/29073861-10a0-4027-839c-303f0eb8d8ac/ml-breakout"
+                       target="_blank" rel="noopener noreferrer">
                         <img width="1200px" alt="Playable Unity Game" src="/images/MLB-WebGL.png"/>
                     </a>
                 </div>
@@ -36,7 +37,11 @@ function Mlb() {
                 <div className="video">
                     <iframe src="https://www.youtube.com/embed/rb-hE1FlDYA?si=0J_4DSOEOixOWqA4"
                             title="ML-Breakout Project Overview"
-                            referrerPolicy="strict-origin-when-cross-origin" allowFullScreen></iframe>
+                            width="100%"
+                            height="600"
+                            referrerPolicy="strict-origin-when-cross-origin"
+                            allowFullScreen
+                    ></iframe>
                 </div>
 
                 <p><strong>Development Environment</strong></p>
@@ -53,7 +58,7 @@ function Mlb() {
                         <img width="1200px" alt="GitHub Repository" src="/images/MLB-GitHub.png"/>
                     </a>
                 </div>
-
+                <a href="#top">Back to top</a>
             </div>
         </>
     )
