@@ -8,24 +8,27 @@ function HomePage() {
     
     <img height="100" alt="Website logo" className='right' src="/logo192.png"/>
     <h1>Joel Strong </h1>
-    
-    
-    <article>
-        <h4>Junior Full Stack Software Engineer</h4>
-        <p>I am a full time student and Junior Full Stack developer in Portland, Oregon. I graduated from Oregon State University with a post-baccalaureate bachelors degree in Computer Science in Fall 2024. In addition to maintaining a 3.98 GPA in my Computer Science program, I have spent hundreds of hours outside of class learning the languages, skills, and certifications needed to build beautiful, functional, and purposeful full stack web applications. Please take a look at my Resume page for a list of my certifications, and my Portfolio page for examples of my Projects and work.</p>
-        
-    </article>
 
-            <div className="centered">
-                <button><FaLaptopCode/>&ensp;<Link to="/PortfolioPage">Portfolio</Link></button>
-                &emsp;
-                <button className='styledButton'><IoDocument/>&ensp;<Link to="/ResumePage">Resume</Link></button>
-            </div>
+
+            <article>
+                <h4><br></br>I am a Junior Full Stack developer based out of Portland, Oregon and a recent Computer
+                    Science graduate from Oregon State University (September 2024). In addition to maintaining a 3.98
+                    GPA in my Computer Science program, I spent hundreds of hours outside of class learning the
+                    languages, skills, and certifications needed to build beautiful, functional, and purposeful full
+                    stack web applications. Please take a look at my Resume page for my resume and a list of my
+                    certifications, and my Portfolio page for examples of my Projects and work.</h4>
+                <div className="centered">
+                    <button><FaLaptopCode/>&ensp;<Link to="/PortfolioPage">Portfolio</Link></button>
+                    &emsp;
+                    <button className='styledButton'><IoDocument/>&ensp;<Link to="/ResumePage">Resume</Link></button>
+                </div>
+            </article>
+
 
             <article>
                 <h3>Languages & Frameworks</h3>
                 <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
-                    applications with them.  I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
+                    applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
 
         <div className='skillsParent'>
             <div className='skillsChild'>

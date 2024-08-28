@@ -226,6 +226,8 @@ div.content {
   h4 { 
     font-size: 1em;
     font-weight: 700;
+    margin-left: 5%;
+    margin-right: 5%;
   } 
 
   h5 {
