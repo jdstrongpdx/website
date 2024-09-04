@@ -18,9 +18,24 @@ function HomePage() {
                     stack web applications. Please take a look at my Resume page for my resume and a list of my
                     certifications, and my Portfolio page for examples of my Projects and work.</h4>
                 <div className="centered">
-                    <button><FaLaptopCode/>&ensp;<Link to="/PortfolioPage">Portfolio</Link></button>
+                    <button><FaLaptopCode/>&ensp;
+                        <Link
+                        to="/PortfolioPage"
+                        style={{ color: 'white', textDecoration: 'none' }}
+                    >
+                        Portfolio
+                    </Link>
+                    </button>
                     &emsp;
-                    <button className='styledButton'><IoDocument/>&ensp;<Link to="/ResumePage">Resume</Link></button>
+                    <button className='styledButton'>
+                        <IoDocument/>&ensp;
+                        <Link
+                            to="/ResumePage"
+                            style={{ color: 'white', textDecoration: 'none' }}
+                        >
+                            Resume
+                        </Link>
+                    </button>
                 </div>
             </article>
 

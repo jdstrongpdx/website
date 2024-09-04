@@ -6,13 +6,16 @@ function Certifications() {
 
             <div className="project">
                 <h3>Certifications:</h3>
-                <p>JetBrains Academy partners with Hyperskill.org to teach and certify different programming skills. In
-                    an effort to gain experience and learn projects beyond the scope of my school courses, I have spent
-                    hundreds of hours learning new content and coding over 30 projects in different languages. These
-                    lessons and projects have been a great learning tool to build upon for larger projects and other
-                    certifications in the future. </p>
 
                 <div className='skillsParent'>
+
+                    <div className='skillsChildWide'>
+                        <a href="https://www.coursera.org/account/accomplishments/certificate/F2HMGSIQPOW6"
+                           target="https://www.coursera.org/account/accomplishments/certificate/F2HMGSIQPOW6">
+                            <img width="410" alt="React Basics by Meta Certification" border="0" align="center"
+                                 src="./certifications/ReactBasic.png"/>
+                        </a><p><strong>Meta React Basics</strong></p>
+                    </div>
 
                     <div className='skillsChild'>
                         <a href="https://hyperskill.org/certificates/142107e4-68cd-4d83-bd0c-1d53b085e767.pdf"

@@ -524,6 +524,12 @@ i {
    padding: 10px 10px 10px 10px;
 }
 
+.skillsChildWide {
+  width: 500px;
+  height: auto;
+  padding: 10px 10px 10px 10px;
+}
+
 
 .right { 
   float: right;
