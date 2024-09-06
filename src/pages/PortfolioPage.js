@@ -32,8 +32,8 @@ function PortfolioPage() {
                         </li>
                         <li><a href="#PersonalWebsite">Personal Website (This Website) - React/JS, AWS Amplify
                             Hosting</a></li>
-                        <li><a href="#Repositories">A List of GitHub Repositories Showcasing My Code</a></li>
-                        <li><a href="#Certifications">A List of Certifications Completed</a></li>
+                        <li><a href="#Repositories">GitHub Repositories Showcasing My Code</a></li>
+                        <li><a href="#Certifications">Certifications Completed</a></li>
                     </ul>
                 </div>
 

@@ -1,3 +1,5 @@
+import React from "react";
+
 function Ffr() {
     return (
         <>
@@ -9,6 +11,13 @@ function Ffr() {
                         <img width="900px" alt="fragrancefreeresources app screenshot" src="/images/FFR.png"/>
                         <figcaption>Fragrance Free Resources Home Page (Admin View)</figcaption>
                     </figure>
+                </div>
+
+                <p><strong>Project Poster and Description (click to open as a PDF):</strong></p>
+                <div className="centered">
+                    <a href="/images/FFR-Poster.pdf" target="_blank" rel="noopener noreferrer">
+                        <img width="1200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
+                    </a>
                 </div>
 
                 <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
