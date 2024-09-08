@@ -63,7 +63,7 @@ function HomePage() {
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="React logo" src="/logos/react.png"/> &ensp; React</h4>
-                    <p>Intermediate proficiency with experience in building dynamic Single Page Applications and React functions using hooks, props, event handling and more.</p>
+                    <p>Intermediate proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="database logo" src="/logos/database.png"/> &ensp; SQL & NoSQL</h4>
@@ -91,7 +91,7 @@ function HomePage() {
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="AI logo" src="/logos/ai.png"/> &ensp; Artificial Intelligence</h4>
-                    <p>Intermediate proficiency using AI as a learning and development streamlining tool using ChatGPT and JetBrains AI Assistant. Experience using prompt engineering, to automate and refine data, function, documentation, and test creation.</p>
+                    <p>Intermediate proficiency using AI as a learning and development tool using ChatGPT and JetBrains AI Assistant. Experience using prompt engineering to generate common functions, data sets, documentation, and tests. Familiar with the capabilities and shortcomings of its use and how to use it effectively.</p>
                 </div>
             </div>
             
