@@ -11,12 +11,11 @@ function HomePage() {
 
 
             <article>
-                <h4><br></br>I am a Junior Full Stack developer based out of Portland, Oregon and a recent Computer
-                    Science graduate from Oregon State University (September 2024). In addition to maintaining a 3.98
+                <p><br></br>I am a full stack software engineer and a September 2024 Computer Science graduate from Oregon State University. In addition to maintaining a 3.98
                     GPA in my Computer Science program, I spent hundreds of hours outside of class learning the
                     languages, skills, and certifications needed to build beautiful, functional, and purposeful full
                     stack web applications. Please take a look at my Resume page for my resume and a list of my
-                    certifications, and my Portfolio page for examples of my Projects and work.</h4>
+                    certifications, and my Portfolio page for examples of my Projects and work.</p>
                 <div className="centered">
                     <button><FaLaptopCode/>&ensp;
                         <Link

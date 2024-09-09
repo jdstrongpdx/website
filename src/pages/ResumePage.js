@@ -9,7 +9,7 @@ function ResumePage() {
         <h3>Resume</h3>
         <div className="centered">
             <figure>
-                <img width="1200"  alt="Joel Strong Resume" src="/images/Resume.png"/>
+                <img width="1200"  alt="Joel Strong Resume" src="/images/Resume-9-2024.png"/>
             </figure>
         </div>
     </div>

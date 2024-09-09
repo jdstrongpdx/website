@@ -10,9 +10,8 @@ function NavBar() {
     <>
         <div className='sidebar'>
             <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
-            <h1>Joel Strong </h1>
 
-            <p>Hi, my name is Joel Strong and I am Junior Full Stack Software Engineer. Welcome to my personal
+            <p><br></br>Hi, my name is Joel Strong and I am full stack software engineer. Welcome to my
                 website!</p>
 
 
