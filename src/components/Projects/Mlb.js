@@ -18,11 +18,9 @@ function Mlb() {
                     <li><em>Hosting: </em> Unity Play using a WebGL Deployment</li>
                 </ul>
 
-                <p><strong>Project Poster and Description (click to open as a PDF):</strong></p>
+                <p><strong>Project Poster:</strong></p>
                 <div className="centered">
-                    <a href="/images/MLB-Poster.pdf" target="_blank" rel="noopener noreferrer">
-                        <img width="1200px" alt="OSU Project Poster" src="/images/MLB-Poster.png"/>
-                    </a>
+                        <img width="2200px" alt="OSU Project Poster" src="/images/MLB-Poster.png"/>
                 </div>
 
                 <p><strong>Playable Example (click to play):</strong></p>

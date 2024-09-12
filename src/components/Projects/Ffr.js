@@ -1,5 +1,6 @@
 import React from "react";
 
+
 function Ffr() {
     return (
         <>
@@ -13,11 +14,9 @@ function Ffr() {
                     </figure>
                 </div>
 
-                <p><strong>Project Poster and Description (click to open as a PDF):</strong></p>
+                <p><strong>Project Poster:</strong></p>
                 <div className="centered">
-                    <a href="/images/FFR-Poster.pdf" target="_blank" rel="noopener noreferrer">
-                        <img width="1200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
-                    </a>
+                        <img width="2200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
                 </div>
 
                 <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
