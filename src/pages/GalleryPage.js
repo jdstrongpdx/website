@@ -15,6 +15,10 @@ const images = [
         thumbnail: 'images/MLB-GitHub.png',
         description: 'ML-Breakout CI/CD shared Repository.',
   }, {
+    original: 'images/FFR-Poster.png',
+    thumbnail: 'images/FFR-Poster.png',
+    description: 'Oregon State University Showcase Poster for FragranceFreeResources Project.',
+  }, {
     original: 'images/FFR-Visitor.png',
         thumbnail: 'images/FFR-Visitor.png',
         description: 'Visitor view of a Product from FragranceFreeResources.com',
