@@ -15,7 +15,7 @@ function PersonalWebsite() {
                     JavaScript, and Vanilla CSS to develop the site.</p>
                 <ul>
                     <li><em>Frontend: </em> React, Node.js, Vanilla CSS.</li>
-                    <li><em>Hosting: </em> AWS Amplify with automatic deployment upon changes to Main.</li>
+                    <li><em>Hosting: </em> AWS Amplify with automatic deployment with commit to Main.</li>
                 </ul>
                 <a href="#top">Back to top</a>
             </div>

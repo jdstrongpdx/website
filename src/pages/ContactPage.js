@@ -32,7 +32,7 @@ class Contact extends Component {
                     <h1>Joel Strong</h1>
                     <h2>Full Stack Software Engineer</h2>
                     <div>
-                        <img src="/images/SpringBusinessCard.png" alt="Programming Business Card"></img>
+                        <img className="responsive-img" src="/images/SpringBusinessCard.png" width='900px' alt="Programming Business Card"></img>
                     </div>
                 </div>
 

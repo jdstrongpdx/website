@@ -11,11 +11,10 @@ function HomePage() {
 
 
             <article>
-                <p><br></br>I am a full stack software engineer and a September 2024 Computer Science graduate from Oregon State University. In addition to maintaining a 3.98
+                <p><br></br>I am a full stack software engineer and September 2024 Computer Science graduate from Oregon State University. In addition to maintaining a 3.98
                     GPA in my Computer Science program, I spent hundreds of hours outside of class learning the
-                    languages, skills, and certifications needed to build beautiful, functional, and purposeful full
-                    stack web applications. Please take a look at my Resume page for my resume and a list of my
-                    certifications, and my Portfolio page for examples of my Projects and work.</p>
+                    languages, skills, and certifications needed to build elegant and functional full
+                    stack web applications. Please take a look at my Skills, Resume, and Portfolio!</p>
                 <div className="centered">
                     <button><FaLaptopCode/>&ensp;
                         <Link

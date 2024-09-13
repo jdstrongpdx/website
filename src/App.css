@@ -67,6 +67,11 @@
   margin-right: 40px;
 }
 
+.responsive-img {
+  max-width: 90%;
+  height: auto;
+  width: auto;
+}
 
    /* The side navigation menu */
 .sidebar {
@@ -141,11 +146,9 @@ div.content {
 }
   
 .project {
-  padding: 1%;
+  padding: 2%;
   background-color: rgb(206, 212, 221);
   border-radius: 10px;
-  padding-left: 2%;
-  padding-right: 2%;
   margin-bottom: 20px;
 }
   /* ----- Anchors ----- Text links */
