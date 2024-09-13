@@ -73,7 +73,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-
   padding: 30px 8px 30px 8px;
   width: 325px;
   background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 120%);

@@ -87,8 +87,8 @@ function Ffr() {
 
                 <div className="centered">
                     <figure>
-                        <img width="900px" alt="product user review modal" src="/images/FFR-User.png"/>
-                        <figcaption>User View of a Product with an active Review modal</figcaption>
+                        <img width="900px" alt="product user review modal" src="/images/FFR-Admin.png"/>
+                        <figcaption>Administrator View of a Product with an active Review modal</figcaption>
                     </figure>
                 </div>
 
