@@ -16,7 +16,7 @@ function Ffr() {
 
                 <p><strong>Project Poster:</strong></p>
                 <div className="centered">
-                        <img width="2200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
+                    <img width="2200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
                 </div>
 
                 <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
@@ -104,7 +104,7 @@ function Ffr() {
                 <ul>
                     <li>Build a functional full-stack web application from the ground up.</li>
                     <li>Learn to implement more complicated features and design patterns of a Spring Boot application
-                        using a MVC model, REST APIs, Spring Security for user Auth using JWTs, JPA ODM, DTOs, Mappers
+                        using a MVC model, REST APIs, Spring Security for user Auth using JWTs, JPA, DTOs, Mappers
                         and OOP.
                     </li>
                     <li>Using Maven to test, build, and package Spring Boot applications.</li>
@@ -142,6 +142,20 @@ function Ffr() {
                     <figure>
                         <img width="900px" alt="api endpoint spreadsheet" src="/images/FFRendpoints.png"/>
                         <figcaption>Spring Boot Backend API Endpoints</figcaption>
+                    </figure>
+                </div>
+
+                <div className="centered">
+                    <figure>
+                        <img width="800px" alt="security confit" src="/images/FFRsecurity.png"/>
+                        <figcaption>Web Security Route Configuration</figcaption>
+                    </figure>
+                </div>
+
+                <div className="centered">
+                    <figure>
+                        <img width="900px" alt="database schema" src="/images/FFRschema.png"/>
+                        <figcaption>JPA Generated Schema</figcaption>
                     </figure>
                 </div>
 
