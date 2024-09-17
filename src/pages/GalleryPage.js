@@ -23,9 +23,9 @@ const images = [
         thumbnail: 'images/FFR-Visitor.png',
         description: 'Visitor view of a Product from FragranceFreeResources.com',
   }, {
-    original: 'images/FFR-User.png',
-        thumbnail: 'images/FFR-User.png',
-        description: 'User view of a Product and a Review modal displayed from FragranceFreeResources.com.',
+    original: 'images/FFR-Admin.png',
+        thumbnail: 'images/FFR-Admin.png',
+        description: 'Administrator view of a Product with an active Review modal.',
   }, {
     original: 'images/FFRendpoints.png',
     thumbnail: 'images/FFRendpoints.png',
