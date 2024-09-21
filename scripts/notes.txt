@@ -1,0 +1,3 @@
+command for generating xml file:
+
+sudo node scripts/generate--sitemap.js

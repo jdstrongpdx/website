@@ -25,11 +25,11 @@ function App() {
             <section>
                 <Routes> 
                     <Route path="/" element={<HomePage/>}/>
-                    <Route path="/GalleryPage" element={<GalleryPage/>}/>
-                    <Route path="/ContactPage" element={<Contact/>}/>
-                    <Route path="/IdealConditionsPage" element={<IdealConditionsPage/>}/>
-                    <Route path="/ResumePage" element={<ResumePage/>}/>
-                    <Route path="/PortfolioPage" element={<PortfolioPage/>}/>
+                    <Route path="/gallery" element={<GalleryPage/>}/>
+                    <Route path="/contact" element={<Contact/>}/>
+                    <Route path="/idealConditions" element={<IdealConditionsPage/>}/>
+                    <Route path="/resume" element={<ResumePage/>}/>
+                    <Route path="/portfolio" element={<PortfolioPage/>}/>
                 </Routes>
               </section>
           </main>

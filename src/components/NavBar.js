@@ -16,10 +16,10 @@ function NavBar() {
 
 
             <Link to="/"> <MdPerson/> &ensp; Home</Link>
-            <Link to="/PortfolioPage"><FaLaptopCode/> &ensp; Portfolio</Link>
-            <Link to="/ResumePage"><IoDocument/> &ensp; Resume</Link>
-            <Link to="/GalleryPage"> <FaCameraRetro/> &ensp; Gallery</Link>
-            <Link to="/ContactPage"> <MdEmail/> &ensp; Contact</Link>
+            <Link to="/portfolio"><FaLaptopCode/> &ensp; Portfolio</Link>
+            <Link to="/resume"><IoDocument/> &ensp; Resume</Link>
+            <Link to="/gallery"> <FaCameraRetro/> &ensp; Gallery</Link>
+            <Link to="/contact"> <MdEmail/> &ensp; Contact</Link>
 
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
 

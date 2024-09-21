@@ -79,7 +79,7 @@ function IdealConditions() {
 
                     </ol>
                 </ul>
-                <p><em>Project Link:</em> <Link to="/IdealConditionsPage">Ideal Conditions</Link></p>
+                <p><em>Project Link:</em> <Link to="/idealConditions">Ideal Conditions</Link></p>
                 <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/IdealConditionsWebApp">Ideal
                     Conditions GitHub</a></p>
                 <a href="#top">Back to top</a>

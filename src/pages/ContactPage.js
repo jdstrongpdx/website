@@ -20,7 +20,7 @@ class Contact extends Component {
                 <div className='card'>
                     <p className='centered'>Welcome to my contact page!</p>
 
-                    <p className='centered'>Send me an email at<a
+                    <p className='centered'>Send me an email at <a
                         href="mailto:jdstrongpdx@gmail.com">jdstrongpdx@gmail.com</a> or view my other contact options below.</p>
 
                     <p className='centered'>I look forward to hearing from you!</p>

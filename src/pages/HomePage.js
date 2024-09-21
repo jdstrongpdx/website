@@ -18,7 +18,7 @@ function HomePage() {
                 <div className="centered">
                     <button><FaLaptopCode/>&ensp;
                         <Link
-                        to="/PortfolioPage"
+                        to="/portfolio"
                         style={{ color: 'white', textDecoration: 'none' }}
                     >
                         Portfolio
@@ -28,7 +28,7 @@ function HomePage() {
                     <button className='styledButton'>
                         <IoDocument/>&ensp;
                         <Link
-                            to="/ResumePage"
+                            to="/resume"
                             style={{ color: 'white', textDecoration: 'none' }}
                         >
                             Resume
