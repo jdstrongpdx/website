@@ -1,9 +1,12 @@
 import IdealConditionsV2 from "../components/IdealConditions/IdealConditionsV2";
 import { Link } from "react-router-dom";
+import HelmetComponent from "../components/HelmetComponent";
+import React from "react";
 
 function IdealConditionsPage() {
     return (
         <>
+            <HelmetComponent title="Ideal Conditions" />
 <section>
 
         <article id="about">

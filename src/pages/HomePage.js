@@ -2,13 +2,14 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { FaLaptopCode } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
+import HelmetComponent from "../components/HelmetComponent";
 
 function HomePage() {
     return (<>
     
     <img height="100" alt="Website logo" className='right' src="/logo192.png"/>
     <h1>Joel Strong </h1>
-
+            <HelmetComponent title="Home" />
 
             <article>
                 <p><br></br>I am a full stack software engineer and September 2024 Computer Science graduate from Oregon State University. In addition to maintaining a 3.98

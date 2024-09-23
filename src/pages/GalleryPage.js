@@ -1,4 +1,6 @@
 import ImageGallery from 'react-image-gallery';
+import HelmetComponent from "../components/HelmetComponent";
+import React from "react";
 
 
 const images = [
@@ -90,7 +92,7 @@ const images = [
 
 function GalleryPage() {
     return (<>
-
+          <HelmetComponent title="Gallery" />
     <h2> Gallery </h2>
 
       <article className="image-gallery-wrapper">

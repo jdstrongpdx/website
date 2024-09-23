@@ -8,10 +8,11 @@ import PersonalWebsite from "../components/Projects/PersonalWebsite";
 import Blockchain from "../components/Projects/Blockchain";
 import Mlb from "../components/Projects/Mlb";
 import Repositories from "../components/Projects/Repositories";
+import HelmetComponent from "../components/HelmetComponent";
 
 function PortfolioPage() {
     return (<>
-    
+            <HelmetComponent title="Portfolio" />
     <h2>Portfolio</h2>
             <article id="top">
 

@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HelmetComponent from "../components/HelmetComponent";
 
 class Contact extends Component {
 
@@ -13,7 +14,7 @@ class Contact extends Component {
     render() {
         return(
             <>
-
+                <HelmetComponent title="Contact" />
                 <h1>Contact Page</h1>
 
 
