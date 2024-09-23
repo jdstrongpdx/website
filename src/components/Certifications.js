@@ -89,6 +89,20 @@ function Certifications() {
                         </a><p><strong>Introduction to JavaScript</strong></p>
                     </div>
                 </div>
+
+                <h3>Artificial Intelligence</h3>
+                <div className='skillsParent'>
+
+                    <div className='skillsChild'>
+                        <a href="https://coursera.org/share/0e340a32d14f1aad0b6fcf23c8da42ca"
+                           target="_blank" rel="noopener noreferrer">
+                            <img height="300" alt="Introduction to Generative AI" border="0" align="center"
+                                 src="./certifications/gcpGenerativeAi.png"/>
+                        </a><p><strong>Introduction to Generative AI</strong></p>
+                    </div>
+
+                </div>
+
                 <h3>Docker & Git</h3>
                 <div className='skillsParent'>
                     <div className='skillsChild'>
