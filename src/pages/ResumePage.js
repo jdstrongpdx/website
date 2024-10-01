@@ -9,7 +9,7 @@ function ResumePage() {
     <div className='project'>
         <h2>Resume</h2>
             <figure>
-                <img alt="Joel Strong Resume" src="/images/JoelStrongResume-9-2024.png"/>
+                <img alt="Joel Strong Resume" src="/images/Resume.png"/>
             </figure>
     </div>
 

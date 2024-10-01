@@ -42,7 +42,7 @@ function HomePage() {
             <article>
                 <h3>Languages & Frameworks</h3>
                 <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
-                    applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
+                    applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on. <br></br><span style={{color: 'red'}}> Certifications for many of the skills below can be found on my Resume page. </span></p>
 
         <div className='skillsParent'>
             <div className='skillsChild'>
@@ -50,11 +50,11 @@ function HomePage() {
                 <p>Intermediate proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.</p>        </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Java logo" src="/logos/java.png"/> &ensp; Java</h4>
-                    <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.</p>        
-                </div>        
+                    <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.</p>
+                </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="JavaScript logo" src="/logos/javascript.png"/> &ensp; JavaScript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using API integrations, data transformation, DOM manipulation, asynchronous functions, event and error handling and more. </p>        
+                    <p>Intermediate proficiency with experience building frontend applications using API integrations, data transformation, DOM manipulation, asynchronous functions, event and error handling and more. </p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Typescript logo" src="/logos/typescript.png"/> &ensp; Typescript</h4>
@@ -93,7 +93,7 @@ function HomePage() {
                     <p>Intermediate proficiency using AI as a learning and development tool using ChatGPT and JetBrains AI Assistant. Experience using prompt engineering to generate common functions, data sets, documentation, and tests. Familiar with the capabilities and shortcomings of its use and how to use it effectively.</p>
                 </div>
             </div>
-            
+
         </article>
         <article>
             <h3>Skills</h3>
@@ -130,15 +130,15 @@ function HomePage() {
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Agile logo" src="/logos/agile.png"/> &ensp; AGILE</h4>
-                <p>Basic proficiency of the AGILE methodology with SCRUM, XP, Kanban subtypes and using task managers such as Jira, Trello, and Asana. </p>
+                <p>Intermediate proficiency of the AGILE methodologies with SCRUM, XP, Kanban and using task managers such as Jira, Trello, and Asana. </p>
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Docker logo" src="/logos/container.png"/> &ensp; Containers</h4>
                 <p>Intermediate proficiency with experience creating and deploying Dockerized Flask/Python applications to Google Cloud Platform and Java/Spring Boot applications to Amazon Web Services.</p>
             </div>
-            
-            
-            
+
+
+
         </div>
         </>
         );

@@ -14,11 +14,6 @@ function Ffr() {
                     </figure>
                 </div>
 
-                <p><strong>Project Poster:</strong></p>
-                <div className="centered">
-                    <img width="2200px" alt="OSU Project Poster" src="/images/FFR-Poster.png"/>
-                </div>
-
                 <p><strong>App Type:</strong> Full Stack Single Page Web Application</p>
                 <p><strong>Description:</strong> A Full Stack web application that allows people that are sensitive to
                     fragrances to share resources on Businesses, Products, and Rental Homes that are safe environments.
@@ -78,6 +73,20 @@ function Ffr() {
                         Progressive Web Application badge.
                     </li>
                 </ul>
+
+
+                <p><strong>CI/CD</strong></p>
+                <p>Since the release of the product, the following continuous development activities have occurred:</p>
+                <ul>
+                    <li>Added backend support for sending simple email messages with integrations to provide emails on
+                    support ticket creation, forgotten usernames, and password resets.</li>
+                    <li>Refactored the back and frontend away from JWT using local storage and to secure HttpOnly cookies.</li>
+                    <li>Implemented refresh tokens to improve the need for constant user login requirements.</li>
+                    <li>Refactored frontend to use Formik and Yup to simplify state and validation management.</li>
+                    <li>Created a single axios service to provide uniform handling for fetch and errors.</li>
+                </ul>
+
+
                 <div className="centered">
                     <figure>
                         <img width="900px" alt="product visitor view" src="/images/FFR-Visitor.png"/>
@@ -102,45 +111,45 @@ function Ffr() {
                 <br></br>
                 <p><strong>Experience Gained and Lessons Learned</strong></p>
                 <ul>
-                        <li>Security - Implemented Spring Security using JWT with backend access privileges for each
-                            endpoint and frontend dynamic page rendering based on roles and record creator.
-                        </li>
-                        <li>User Interface - Developed a dynamic SPA using React, Typescript, and React-Bootstrap. Used
-                            React-Toastify to display non-obtrusive messages to the user and Modals for simple form
-                            interactions.
-                        </li>
-                        <li>Cloud Development - Used Amazon Web Services to deploy MVC elements: AWS Lightsail RDS for
-                            MySQL
-                            hosting, AWS Amplify for hosting the frontend, and AWS Lightsail Container running a
-                            Dockerized
-                            SpringBoot/Java application backend.
-                        </li>
-                        <li>Database Design - Database schema was created/updated using Spring Boot JPA based on
-                            annotated
-                            class variable specifications. Used MySQLWorkbench to populate initial values and make
-                            modifications
-                            during testing.
-                        </li>
-                        <li>Compatibility - Used flexible React and Bootstrap features to build a dynamic website
-                            accessible on cell phones, tablets, and computers of different screen sizes.
-                        </li>
-                        <li>Pagination - Used Spring Boot Pageable and React-Boostrap Pagination to deliver paginated
-                            result
-                            lists to the user.
-                        </li>
-                        <li>Performance - Implemented memoized context caching on the frontend to improve application
-                            performance and efficient use of API routes to decrease page load times..
-                        </li>
-                        <li>Entities - Enabled CRUD operations on a range of entities: Businesses, Products, Rental
-                            Homes, Support Groups,
-                            Entity Reviews, Support Tickets, and Users.
-                        </li>
-                        <li>SEO - Used React-Helmet to create dynamic page meta tags, Sitemap for sitemap.xml
-                            generation, and Google Search Console for optimization.
-                        </li>
-                        <li>Lighthouse - Used Google Lighthouse analysis to improve the web application design including
-                            Progressive Web Application badge.
-                        </li>
+                    <li>Security - Implemented Spring Security using JWT with backend access privileges for each
+                        endpoint and frontend dynamic page rendering based on roles and record creator.
+                    </li>
+                    <li>User Interface - Developed a dynamic SPA using React, Typescript, and React-Bootstrap. Used
+                        React-Toastify to display non-obtrusive messages to the user and Modals for simple form
+                        interactions.
+                    </li>
+                    <li>Cloud Development - Used Amazon Web Services to deploy MVC elements: AWS Lightsail RDS for
+                        MySQL
+                        hosting, AWS Amplify for hosting the frontend, and AWS Lightsail Container running a
+                        Dockerized
+                        SpringBoot/Java application backend.
+                    </li>
+                    <li>Database Design - Database schema was created/updated using Spring Boot JPA based on
+                        annotated
+                        class variable specifications. Used MySQLWorkbench to populate initial values and make
+                        modifications
+                        during testing.
+                    </li>
+                    <li>Compatibility - Used flexible React and Bootstrap features to build a dynamic website
+                        accessible on cell phones, tablets, and computers of different screen sizes.
+                    </li>
+                    <li>Pagination - Used Spring Boot Pageable and React-Boostrap Pagination to deliver paginated
+                        result
+                        lists to the user.
+                    </li>
+                    <li>Performance - Implemented memoized context caching on the frontend to improve application
+                        performance and efficient use of API routes to decrease page load times..
+                    </li>
+                    <li>Entities - Enabled CRUD operations on a range of entities: Businesses, Products, Rental
+                        Homes, Support Groups,
+                        Entity Reviews, Support Tickets, and Users.
+                    </li>
+                    <li>SEO - Used React-Helmet to create dynamic page meta tags, Sitemap for sitemap.xml
+                        generation, and Google Search Console for optimization.
+                    </li>
+                    <li>Lighthouse - Used Google Lighthouse analysis to improve the web application design including
+                        Progressive Web Application badge.
+                    </li>
                 </ul>
 
                 <p><strong>Development Environment</strong></p>

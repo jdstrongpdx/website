@@ -93,7 +93,7 @@ function Certifications() {
                 <h3>Artificial Intelligence</h3>
                 <div className='skillsParent'>
 
-                    <div className='skillsChild'>
+                    <div className='skillsChildWide'>
                         <a href="https://coursera.org/share/0e340a32d14f1aad0b6fcf23c8da42ca"
                            target="_blank" rel="noopener noreferrer">
                             <img height="300" alt="Introduction to Generative AI" border="0" align="center"
@@ -103,7 +103,7 @@ function Certifications() {
 
                 </div>
 
-                <h3>Docker & Git</h3>
+                <h3>DevOps</h3>
                 <div className='skillsParent'>
                     <div className='skillsChild'>
                         <a href="://hyperskill.org/certificates/9451fed6-62ed-4538-8b3c-5e4b418593c2.pdf"
@@ -119,6 +119,14 @@ function Certifications() {
                             <img height="425" alt="Introduction to Git Certification" border="0" align="center"
                                  src="./certifications/IntroGit.png"/>
                         </a><p><strong>Introduction to Git</strong></p>
+                    </div>
+
+                    <div className='skillsChildWide'>
+                        <a href="https://coursera.org/verify/IK02GKZWTS14"
+                           target="_blank" rel="noopener noreferrer">
+                            <img height="425" alt="Google Agile Project Management" border="0" align="center"
+                                 src="./certifications/AgileProjectManagement.png"/>
+                        </a><p><strong>Agile Project Management</strong></p>
                     </div>
                 </div>
                 <a href="#top">Back to top</a>
