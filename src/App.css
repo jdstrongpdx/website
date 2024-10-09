@@ -110,8 +110,8 @@
 
 /* Links on mouse-over */
 .sidebar a:hover:not(.active) {
-  color: var(--less-light-orange);
-  background-color: var(--color-non-trans-grey-blue);
+  font-weight: bold;
+  text-decoration: underline;
 }
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */

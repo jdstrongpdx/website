@@ -26,14 +26,14 @@ class Contact extends Component {
 
                     <p className='centered'>I look forward to hearing from you!</p>
 
-{/*                    <img src="/images/headshot.jpg" style={{borderRadius: '25px', paddingRight: '20 px'}} width='250px'
-                         alt="Website Logo"></img>
-                    <img src="/images/WebsiteQR.png" style={{marginLeft: '25 px'}} width='250px'
-                         alt="Website Logo"></img>*/}
                     <h1>Joel Strong</h1>
                     <h2>Full Stack Software Engineer</h2>
                     <div>
-                        <img className="responsive-img" src="/images/SpringBusinessCard.png" width='900px' alt="Programming Business Card"></img>
+                        <img className="responsive-img"
+                             src="/images/SpringBusinessCard.png"
+                             style={{maxWidth: '800px'}}
+                             alt="Programming Business Card">
+                        </img>
                     </div>
                 </div>
 

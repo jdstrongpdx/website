@@ -42,7 +42,7 @@ function HomePage() {
             <article>
                 <h3>Languages & Frameworks</h3>
                 <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
-                    applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on. <br></br><span style={{color: 'red'}}> Certifications for many of the skills below can be found on my Resume page. </span></p>
+                    applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
 
         <div className='skillsParent'>
             <div className='skillsChild'>

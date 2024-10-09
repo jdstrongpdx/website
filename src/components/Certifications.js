@@ -97,7 +97,7 @@ function Certifications() {
                         <a href="https://coursera.org/share/0e340a32d14f1aad0b6fcf23c8da42ca"
                            target="_blank" rel="noopener noreferrer">
                             <img height="300" alt="Introduction to Generative AI" border="0" align="center"
-                                 src="./certifications/gcpGenerativeAi.png"/>
+                                 src="./certifications/gcpGenerativeAI.png"/>
                         </a><p><strong>Introduction to Generative AI</strong></p>
                     </div>
 
@@ -127,6 +127,17 @@ function Certifications() {
                             <img height="425" alt="Google Agile Project Management" border="0" align="center"
                                  src="./certifications/AgileProjectManagement.png"/>
                         </a><p><strong>Agile Project Management</strong></p>
+                    </div>
+                </div>
+
+                <h3>Diploma - Bachelor of Science in Computer Science</h3>
+                <div className='skillsParent'>
+                    <div className='skillsChild'>
+                        <a href="https://www.michaelsutter.com/ediploma?fn=diplomastatuscheck&key=02000000343d3683d10c064811946bb80683c96d85b6c0b9fa40c5cfe971fa505ced7b2c54a73b35856352081c6fb8833728fa7c1a1f042659c17369b0c64c4cb2f3bfff"
+                           target="_blank" rel="noopener noreferrer">
+                            <img height="425" alt="Bachelor of Science in Computer Science Diploma" border="0" align="center"
+                                 src="./certifications/Diploma.png"/>
+                        </a>
                     </div>
                 </div>
                 <a href="#top">Back to top</a>
