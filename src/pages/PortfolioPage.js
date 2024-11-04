@@ -9,6 +9,7 @@ import Blockchain from "../components/Projects/Blockchain";
 import Mlb from "../components/Projects/Mlb";
 import Repositories from "../components/Projects/Repositories";
 import HelmetComponent from "../components/HelmetComponent";
+import LittleLemon from "../components/Projects/LittleLemon";
 
 function PortfolioPage() {
     return (<>
@@ -21,9 +22,13 @@ function PortfolioPage() {
                     <ul>
                         <li><a href="#Ffr">FragranceFreeResources.com - Full Stack Web Application using
                             React/Typescript, Java/Spring Boot, Docker, MySQL, AWS Amplify/Lightsail</a><br/></li>
+                        <li><a href="#LittleLemon">Little Lemon - Development of a UI/UX using Personas, Journey Map,
+                            Figma Wireframe and Figma Prototype. Highly stylized implementation using React.</a><br/>
+                        </li>
                         <li><a href="#Mlb">ML-Breakout - Unity Game with Machine Learning Agent Deployed to Unity
                             Play</a><br/></li>
-                        <li><a href="#GcpApi">GCP RESTful API Backend - Flask/Python, Auth0, GCP Datastore, and GCP Storage</a><br/>
+                        <li><a href="#GcpApi">GCP RESTful API Backend - Flask/Python, Auth0, GCP Datastore, and GCP
+                            Storage</a><br/>
                         </li>
                         <li><a href="#NetworkMonitor">Network Monitor - Python TCP/IP Multi-Threaded Client/Server
                             Network Monitor Application</a><br/></li>
@@ -39,6 +44,7 @@ function PortfolioPage() {
                 </div>
 
                 <div id="Ffr"><Ffr/></div>
+                <div id="LittleLemon"><LittleLemon/></div>
                 <div id="Mlb"><Mlb/></div>
                 <div id="GcpApi"><GcpApi/></div>
                 <div id="NetworkMonitor"><NetworkMonitor/></div>

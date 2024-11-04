@@ -15,11 +15,11 @@ function NavBar() {
                 website!</p>
 
 
-            <Link to="/"> <MdPerson/> &ensp; Home</Link>
-            <Link to="/portfolio"><FaLaptopCode/> &ensp; Portfolio</Link>
-            <Link to="/resume"><IoDocument/> &ensp; Resume</Link>
-            <Link to="/officeDoor"> <TbDoor /> &ensp; Office Door</Link>
-            <Link to="/contact"> <MdEmail/> &ensp; Contact</Link>
+            <Link to="/"> <MdPerson/>  &ensp;<span className="nav-text">Home</span></Link>
+            <Link to="/portfolio"><FaLaptopCode/> &ensp;<span className="nav-text">Portfolio</span></Link>
+            <Link to="/resume"><IoDocument/> &ensp;<span className="nav-text">Resume</span></Link>
+            <Link to="/officeDoor"> <TbDoor /> &ensp;<span className="nav-text">Office Door</span></Link>
+            <Link to="/contact"> <MdEmail/> &ensp;<span className="nav-text">Contact</span></Link>
 
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
 

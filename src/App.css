@@ -109,7 +109,7 @@
 }
 
 /* Links on mouse-over */
-.sidebar a:hover:not(.active) {
+.sidebar a:hover:not(.active) .nav-text {
   font-weight: bold;
   text-decoration: underline;
 }
@@ -557,8 +557,9 @@ i {
   margin-top: 0;
 }
 
+
 .memes img {
-  max-width: 400px;
+  max-width: 500px;
   padding: 2%;
 }
 
