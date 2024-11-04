@@ -2,8 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
-import { FaLaptopCode, FaCameraRetro, FaSprayCan } from "react-icons/fa";
-import { IoGameController } from "react-icons/io5";
+import { FaLaptopCode } from "react-icons/fa";
 import { TbDoor } from "react-icons/tb";
 
 function NavBar() {
@@ -19,7 +18,6 @@ function NavBar() {
             <Link to="/"> <MdPerson/> &ensp; Home</Link>
             <Link to="/portfolio"><FaLaptopCode/> &ensp; Portfolio</Link>
             <Link to="/resume"><IoDocument/> &ensp; Resume</Link>
-            <Link to="/gallery"> <FaCameraRetro/> &ensp; Gallery</Link>
             <Link to="/officeDoor"> <TbDoor /> &ensp; Office Door</Link>
             <Link to="/contact"> <MdEmail/> &ensp; Contact</Link>
 
@@ -27,11 +25,11 @@ function NavBar() {
 
             <p><strong>Project Links:</strong></p>
             <a href="https://fragrancefreeresources.com" target="https://fragrancefreeresources.com">
-                <FaSprayCan/> &ensp; FragranceFreeResources.com
+                FragranceFreeResources.com
             </a>
             <a href="https://play.unity.com/en/games/29073861-10a0-4027-839c-303f0eb8d8ac/ml-breakout"
                target="https://play.unity.com/en/games/29073861-10a0-4027-839c-303f0eb8d8ac/ml-breakout">
-                <IoGameController/> &ensp; ML-Breakout
+                ML-Breakout
             </a>
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
 
