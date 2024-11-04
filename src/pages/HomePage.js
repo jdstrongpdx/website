@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { FaLaptopCode } from "react-icons/fa";
 import { IoDocument } from "react-icons/io5";
 import HelmetComponent from "../components/HelmetComponent";
+import SkillsCard from "../components/SkillsCard";
 
 function HomePage() {
     return (<>
@@ -45,54 +46,66 @@ function HomePage() {
                     applications with them. I am a life-long learner and interested in adding new languages and frameworks that help me achieve the goals of the projects I am working on.</p>
 
         <div className='skillsParent'>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Python logo" src="/logos/python.png"/> &ensp; Python</h4>
-                <p>Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.</p>        </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="Java logo" src="/logos/java.png"/> &ensp; Java</h4>
-                    <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="JavaScript logo" src="/logos/javascript.png"/> &ensp; JavaScript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using functional programming principles including data transformation, asynchronous functions, DOM manipulation, event and error handling and more. </p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="Typescript logo" src="/logos/typescript.png"/> &ensp; Typescript</h4>
-                    <p>Intermediate proficiency extending my JavaScript knowledge to build statically typed solutions using interfaces, enums, generics, and advanced error handling.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="React logo" src="/logos/react.png"/> &ensp; React</h4>
-                    <p>Advanced proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="database logo" src="/logos/database.png"/> &ensp; SQL & NoSQL</h4>
-                    <p>Intermediate proficiency with experience designing, integrating, and maintaining SQL and NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation,
-                    transactions, stored procedures, and optimization.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="HTML logo" src="/logos/html.png"/> &ensp; HTML</h4>
-                    <p>Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Navigation, Form design, DOM manipulation and more. </p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="CSS logo" src="/logos/css.png"/> &ensp; CSS</h4>
-                    <p>Intermediate proficiency in CSS syntax format and build highly stylized reactive websites. Experience using CSS, inline CSS, Bootstrap and other styling tools.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="SpringBoot logo" src="/logos/springboot.png"/> &ensp; SpringBoot</h4>
-                    <p>Intermediate proficiency with experience using Spring Web, JPA, Security, MVC, Jackson, Validation, JUnit, Actuator, Model-Mapper modules with Gradle/Maven to build and deploy web applications.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="AWS logo" src="/logos/aws.png"/> &ensp; Amazon Web Services</h4>
-                    <p>Intermediate proficiency with experience configuring and deploying web applications using the following AWS offerings: Amplify, Lambda, S3, RDS, Lightsail RDS, Lightsail Container, Route53, API Gateway, IAM .</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="GCP logo" src="/logos/gcp.png"/> &ensp; Google Cloud Platform</h4>
-                    <p>Intermediate proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.</p>
-                </div>
-                <div className='skillsChild'>
-                    <h4><img height="50" alt="AI logo" src="/logos/ai.png"/> &ensp; Artificial Intelligence</h4>
-                    <p>Intermediate proficiency using AI as a learning and development tool using ChatGPT and JetBrains AI Assistant. Experience using prompt engineering to generate common functions, data sets, documentation, and tests. Familiar with the capabilities and shortcomings of its use and how to use it effectively.</p>
-                </div>
+            <SkillsCard
+                title="Python"
+                image="/logos/python.png"
+                description="Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more."
+            />
+            <SkillsCard
+                title="Java"
+                image="/logos/java.png"
+                description="Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more."
+            />
+            <SkillsCard
+                title="JavaScript"
+                image="/logos/javascript.png"
+                description="Intermediate proficiency with experience building frontend applications using functional programming principles including data transformation, asynchronous functions, DOM manipulation, event and error handling and more."
+            />
+            <SkillsCard
+                title="TypeScript"
+                image="/logos/typescript.png"
+                description="Intermediate proficiency extending my JavaScript knowledge to build statically typed solutions using interfaces, enums, generics, and advanced error handling."
+            />
+            <SkillsCard
+                title="React"
+                image="/logos/react.png"
+                description="Advanced proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more."
+            />
+            <SkillsCard
+                title="SQL & NoSQL"
+                image="/logos/database.png"
+                description="Intermediate proficiency with experience designing, integrating, and maintaining SQL and NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation, transactions, stored procedures, and optimization."
+            />
+            <SkillsCard
+                title="HTML"
+                image="/logos/html.png"
+                description="Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Navigation, Form design, DOM manipulation and more."
+            />
+            <SkillsCard
+                title="CSS"
+                image="/logos/css.png"
+                description="Intermediate proficiency in CSS syntax format and building highly stylized reactive websites. Experience using CSS, inline CSS, Bootstrap and other styling tools."
+            />
+            <SkillsCard
+                title="SpringBoot"
+                image="/logos/springboot.png"
+                description="Intermediate proficiency with experience using Spring Web, JPA, Security, MVC, Jackson, Validation, JUnit, Actuator, Model-Mapper modules with Gradle/Maven to build and deploy web applications."
+            />
+            <SkillsCard
+                title="Amazon Web Services"
+                image="/logos/aws.png"
+                description="Intermediate proficiency with experience configuring and deploying web applications using AWS offerings: Amplify, Lambda, S3, RDS, Lightsail RDS, Lightsail Container, Route53, API Gateway, IAM."
+            />
+            <SkillsCard
+                title="Google Cloud Platform"
+                image="/logos/gcp.png"
+                description="Intermediate proficiency with experience configuring and deploying web applications using GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry."
+            />
+            <SkillsCard
+                title="Artificial Intelligence"
+                image="/logos/ai.png"
+                description="Intermediate proficiency using AI as a learning and development tool with ChatGPT and JetBrains AI Assistant. Experienced in prompt engineering for functions, data sets, documentation, and testing."
+            />
             </div>
 
         </article>
@@ -101,45 +114,51 @@ function HomePage() {
         </article>
 
         <div className='skillsParent'>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Algorithm logo" src="/logos/algorithm.png"/> &ensp; Algorithms</h4>
-                <p>Intermediate proficiency with experience using Arrays, Linked Lists, Sorting, Trees, Heaps, Hashing, Recursion. Using Neetcode.io to learn algorithm design. Using Leetcode to practice accurate and efficient implementations.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="OOP logo" src="/logos/oop.png"/> &ensp; OOP</h4>
-                <p>Advanced proficiency of classes, methods, static elements, nesting, inheritance, abstract classes, interfaces, overriding/overloading, and usage.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Architecture logo" src="/logos/architecture.png"/> &ensp; Architecture</h4>
-                <p>Basic proficiency of building programs with a SOLID architecture, using Creational, Behavioral, and Structural design patterns.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="IDE logo" src="/logos/ide.png"/> &ensp; IDE's</h4>
-                <p>Intermediate proficiency using built in features to streamline development, linting to produce error free code, using integrated features for debugging, command line calls and database changes.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Debugging logo" src="/logos/debugging.png"/> &ensp; Debugging</h4>
-                <p>Intermediate proficiency with experience using of a variety of debuggers to see the state of objects/threads at key points to make actionable design decisions.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Git logo" src="/logos/git.png"/> &ensp; Git</h4>
-                <p>Intermediate proficiency of Git commands, Gitflow, Git Actions, pull requests, code reviews, branching, tagging, version control, workflows, and using local and remote repositories.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Program testing logo" src="/logos/testing.png"/> &ensp; Testing</h4>
-                <p>Intermediate proficiency using a layered testing approach integrating Unit Tests, Integration Testing, and End-to-End testing. Experience using a wide range of testing tools including unittest, PyTest, JUnit, Jest, Postman/Newman, Spring Test, MockMVC and other tools.</p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Agile logo" src="/logos/agile.png"/> &ensp; AGILE</h4>
-                <p>Intermediate proficiency utilizing Agile methodologies including Scrum and Kanban for value-driven prioritization and sprint planning. Experience using task managers such as Jira, Trello, and Asana. </p>
-            </div>
-            <div className='skillsChild'>
-                <h4><img height="50" alt="Docker logo" src="/logos/container.png"/> &ensp; Containers</h4>
-                <p>Intermediate proficiency with experience creating and deploying Dockerized Flask/Python applications to Google Cloud Platform and Java/Spring Boot applications to Amazon Web Services.</p>
-            </div>
-
-
-
+            <SkillsCard
+                title="Algorithms"
+                image="/logos/algorithm.png"
+                description="Intermediate proficiency with experience using Arrays, Linked Lists, Sorting, Trees, Heaps, Hashing, Recursion. Using Neetcode.io to learn algorithm design. Using Leetcode to practice accurate and efficient implementations."
+            />
+            <SkillsCard
+                title="OOP"
+                image="/logos/oop.png"
+                description="Advanced proficiency of classes, methods, static elements, nesting, inheritance, abstract classes, interfaces, overriding/overloading, and usage."
+            />
+            <SkillsCard
+                title="Architecture"
+                image="/logos/architecture.png"
+                description="Basic proficiency of building programs with a SOLID architecture, using Creational, Behavioral, and Structural design patterns."
+            />
+            <SkillsCard
+                title="IDE's"
+                image="/logos/ide.png"
+                description="Intermediate proficiency using built-in features to streamline development, linting to produce error-free code, using integrated features for debugging, command line calls, and database changes."
+            />
+            <SkillsCard
+                title="Debugging"
+                image="/logos/debugging.png"
+                description="Intermediate proficiency with experience using a variety of debuggers to see the state of objects/threads at key points to make actionable design decisions."
+            />
+            <SkillsCard
+                title="Git"
+                image="/logos/git.png"
+                description="Intermediate proficiency of Git commands, Gitflow, Git Actions, pull requests, code reviews, branching, tagging, version control, workflows, and using local and remote repositories."
+            />
+            <SkillsCard
+                title="Testing"
+                image="/logos/testing.png"
+                description="Intermediate proficiency using a layered testing approach integrating Unit Tests, Integration Testing, and End-to-End testing. Experience using a wide range of testing tools including unittest, PyTest, JUnit, Jest, Postman/Newman, Spring Test, MockMVC and other tools."
+            />
+            <SkillsCard
+                title="AGILE"
+                image="/logos/agile.png"
+                description="Intermediate proficiency utilizing Agile methodologies including Scrum and Kanban for value-driven prioritization and sprint planning. Experience using task managers such as Jira, Trello, and Asana."
+            />
+            <SkillsCard
+                title="Containers"
+                image="/logos/container.png"
+                description="Intermediate proficiency with experience creating and deploying Dockerized Flask/Python applications to Google Cloud Platform and Java/Spring Boot applications to Amazon Web Services."
+            />
         </div>
         </>
         );

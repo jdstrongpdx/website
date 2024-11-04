@@ -542,6 +542,10 @@ i {
    padding: 10px 10px 10px 10px;
 }
 
+.skillsChild img{
+  height: 50px;
+}
+
 .skillsChildWide {
   width: 500px;
   height: auto;
@@ -558,6 +562,44 @@ i {
 .memes img {
   max-width: 400px;
   padding: 2%;
+}
+
+card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 16px;
+  transition: box-shadow 0.3s ease;
+}
+
+card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+card img {
+  display: block;
+  max-width: 50px;
+  margin: auto;
+  padding-top: 16px;
+}
+
+.card-content {
+  padding: 16px;
+}
+
+card h3 {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #333;
+  text-align: center;
+}
+
+card p {
+  font-size: 1.1rem;
+  margin: 12px 0;
+  color: #666;
 }
 
 

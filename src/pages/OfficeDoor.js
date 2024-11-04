@@ -12,17 +12,19 @@ const OfficeDoor = () => {
                 hope you do as well.</p>
 
             <container className="memes">
-            <img src="/memes/meme1.webp" alt="awesome meme" />
-            <img src="/memes/meme2.webp" alt="awesome meme" />
-            <img src="/memes/meme3.webp" alt="awesome meme" />
-            <img src="/memes/meme4.webp" alt="awesome meme"/>
-            <img src="/memes/meme5.webp" alt="awesome meme"/>
-            <img src="/memes/meme6.webp" alt="awesome meme"/>
-            <img src="/memes/meme7.webp" alt="awesome meme"/>
-            <img src="/memes/meme8.webp" alt="awesome meme"/>
-            <img src="/memes/meme9.webp" alt="awesome meme"/>
-            <img src="/memes/meme10.webp" alt="awesome meme"/>
-            <img src="/memes/meme11.webp" alt="awesome meme"/>
+                <img src="/memes/meme1.png" alt="awesome meme"/>
+                <img src="/memes/meme2.png" alt="awesome meme"/>
+                <img src="/memes/meme3.png" alt="awesome meme"/>
+                <img src="/memes/meme4.png" alt="awesome meme"/>
+                <img src="/memes/meme5.png" alt="awesome meme"/>
+                <img src="/memes/meme6.png" alt="awesome meme"/>
+                <img src="/memes/meme7.png" alt="awesome meme"/>
+                <img src="/memes/meme8.png" alt="awesome meme"/>
+                <img src="/memes/meme9.png" alt="awesome meme"/>
+                <img src="/memes/meme10.png" alt="awesome meme"/>
+                <img src="/memes/meme11.png" alt="awesome meme"/>
+                <img src="/memes/meme12.png" alt="awesome meme"/>
+                <img src="/memes/meme13.png" alt="awesome meme"/>
             </container>
         </>
     )
