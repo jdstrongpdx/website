@@ -16,7 +16,7 @@
     --color-grey-blue: #b4d1dddd;  /* transparency */
     --color-trans-grey-blue: #cbdbdbd0;  /* transparency */
     --color-non-trans-grey-blue: rgb(115, 110, 118);
-    --color-cream: #eaeef2;
+    --color-cream: #fbfbfb;
     --color-light-orange: rgb(236, 208, 170);
     --less-light-orange: rgb(235, 200, 150);
     --color-dark-brown: #483e38;
@@ -26,6 +26,7 @@
     --trans-navy: #1c1f4c88;  /* transparency */
     --rust: #9b5913;
     --blend-blue: rgb(153, 175, 205);
+    --background-grey: rgb(240, 242, 243)
   }
 
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
@@ -34,7 +35,7 @@
   body {
     background-color: var(--color-cream);
     font-weight: 400;
-    font-size: 1em;
+    font-size: 1.1em;
     color: var(--color-dark-brown);
     font-family: 'Lato', sans-serif;
   }
@@ -55,8 +56,6 @@
 
 .card {
   align-items: center;
-
-  font-size: 1.1em;
   text-align: center;
   height: 100%;
   color: black;
@@ -82,7 +81,6 @@
   width: 325px;
   background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 150%);
   color: var(--color-cream);
-  font-size: 1.2em;
   text-align: center;
   position: fixed;
   height: 100%;
@@ -117,7 +115,6 @@
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
   margin: 0 0 0 365px;
-  font-size: 1.1em;
   padding: 5px 20px 40px 20px;
 }
 
@@ -147,7 +144,7 @@ div.content {
 
 .project {
   padding: 2%;
-  background-color: rgb(206, 212, 221);
+  background-color: var(--background-grey);
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -179,7 +176,6 @@ div.content {
   .local a {
     background: var(--less-light-orange);
     color:var(--color-dark-brown);
-    font-size:1em;
     font-weight: 300;
     padding: 4px 15px 4px 15px;
   }
@@ -242,7 +238,7 @@ div.content {
   }
 
   h4 {
-    font-size: 1em;
+    font-size: 1.2em;
     font-weight: 700;
     margin-left: 5%;
     margin-right: 5%;
@@ -284,7 +280,6 @@ div.content {
   del {}
   ins {}
   .warning {
-    font-size: 1em;
     font-weight: 700;
     text-align: center;
     color: red;
@@ -571,6 +566,7 @@ card {
   width: 300px;
   margin: 16px;
   transition: box-shadow 0.3s ease;
+  background-color: var(--background-grey);
 }
 
 card:hover {
