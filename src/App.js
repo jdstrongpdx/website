@@ -10,6 +10,7 @@ import Contact from './pages/ContactPage.js';
 import IdealConditionsPage from './pages/IdealConditionsPage.js';
 import ResumePage from './pages/ResumePage.js';
 import PortfolioPage from './pages/PortfolioPage.js';
+import OfficeDoor from "./pages/OfficeDoor";
 
 
 function App() {
@@ -23,13 +24,14 @@ function App() {
           <div className="content">
           <main>
             <section>
-                <Routes> 
+                <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/gallery" element={<GalleryPage/>}/>
                     <Route path="/contact" element={<Contact/>}/>
                     <Route path="/idealConditions" element={<IdealConditionsPage/>}/>
                     <Route path="/resume" element={<ResumePage/>}/>
                     <Route path="/portfolio" element={<PortfolioPage/>}/>
+                    <Route path="/officeDoor" element={<OfficeDoor/>}/>
                 </Routes>
               </section>
           </main>

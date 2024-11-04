@@ -4,11 +4,12 @@ import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { FaLaptopCode, FaCameraRetro, FaSprayCan } from "react-icons/fa";
 import { IoGameController } from "react-icons/io5";
+import { TbDoor } from "react-icons/tb";
 
 function NavBar() {
   return (
     <>
-        <div className='sidebar'>
+        <nav className='sidebar'>
             <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
 
             <p><br></br>Hi, my name is Joel Strong and I am full stack software engineer. Welcome to my
@@ -19,6 +20,7 @@ function NavBar() {
             <Link to="/portfolio"><FaLaptopCode/> &ensp; Portfolio</Link>
             <Link to="/resume"><IoDocument/> &ensp; Resume</Link>
             <Link to="/gallery"> <FaCameraRetro/> &ensp; Gallery</Link>
+            <Link to="/officeDoor"> <TbDoor /> &ensp; Office Door</Link>
             <Link to="/contact"> <MdEmail/> &ensp; Contact</Link>
 
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
@@ -46,7 +48,7 @@ function NavBar() {
 
             &copy; 2024 Joel Strong
 
-        </div>
+        </nav>
     </>
   );
 }

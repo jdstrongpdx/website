@@ -6,7 +6,7 @@ import HelmetComponent from "../components/HelmetComponent";
 
 function HomePage() {
     return (<>
-    
+
     <img height="100" alt="Website logo" className='right' src="/logo192.png"/>
     <h1>Joel Strong </h1>
             <HelmetComponent title="Home" />
@@ -47,34 +47,35 @@ function HomePage() {
         <div className='skillsParent'>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Python logo" src="/logos/python.png"/> &ensp; Python</h4>
-                <p>Intermediate proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.</p>        </div>
+                <p>Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.</p>        </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Java logo" src="/logos/java.png"/> &ensp; Java</h4>
                     <p>Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="JavaScript logo" src="/logos/javascript.png"/> &ensp; JavaScript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using API integrations, data transformation, DOM manipulation, asynchronous functions, event and error handling and more. </p>
+                    <p>Intermediate proficiency with experience building frontend applications using functional programming principles including data transformation, asynchronous functions, DOM manipulation, event and error handling and more. </p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="Typescript logo" src="/logos/typescript.png"/> &ensp; Typescript</h4>
-                    <p>Intermediate proficiency with experience building frontend applications using API integrations, interfaces, unions, type guards, data transformation, DOM manipulation, asynchronous functions, event and error handling and more.</p>        
+                    <p>Intermediate proficiency extending my JavaScript knowledge to build statically typed solutions using interfaces, enums, generics, and advanced error handling.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="React logo" src="/logos/react.png"/> &ensp; React</h4>
-                    <p>Intermediate proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more.</p>
+                    <p>Advanced proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="database logo" src="/logos/database.png"/> &ensp; SQL & NoSQL</h4>
-                    <p>Intermediate proficiency with experience designing and building SQL and NoSQL models on local and hosted services, writing queries, performing data manipulation, transaction management and more. </p>
+                    <p>Intermediate proficiency with experience designing, integrating, and maintaining SQL and NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation,
+                    transactions, stored procedures, and optimization.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="HTML logo" src="/logos/html.png"/> &ensp; HTML</h4>
-                    <p>Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Flexboxes, Navigation, Form design, DOM manipulation and more. </p>
+                    <p>Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Navigation, Form design, DOM manipulation and more. </p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="CSS logo" src="/logos/css.png"/> &ensp; CSS</h4>
-                    <p>Intermediate proficiency of CSS syntax to style the output of webpages with experience building with vanilla CSS, Bootstrap, React-Bootstrap and other styling tools.</p>
+                    <p>Intermediate proficiency in CSS syntax format and build highly stylized reactive websites. Experience using CSS, inline CSS, Bootstrap and other styling tools.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="SpringBoot logo" src="/logos/springboot.png"/> &ensp; SpringBoot</h4>
@@ -82,11 +83,11 @@ function HomePage() {
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="AWS logo" src="/logos/aws.png"/> &ensp; Amazon Web Services</h4>
-                    <p>Basic proficiency with experience configuring and deploying web applications using the following AWS offerings: Amplify, Lambda, S3, RDS, Lightsail RDS and Lightsail container.</p>
+                    <p>Intermediate proficiency with experience configuring and deploying web applications using the following AWS offerings: Amplify, Lambda, S3, RDS, Lightsail RDS, Lightsail Container, Route53, API Gateway, IAM .</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="GCP logo" src="/logos/gcp.png"/> &ensp; Google Cloud Platform</h4>
-                    <p>Basic proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.</p>
+                    <p>Intermediate proficiency with experience configuring and deploying web applications using the following GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.</p>
                 </div>
                 <div className='skillsChild'>
                     <h4><img height="50" alt="AI logo" src="/logos/ai.png"/> &ensp; Artificial Intelligence</h4>
@@ -98,7 +99,7 @@ function HomePage() {
         <article>
             <h3>Skills</h3>
         </article>
-        
+
         <div className='skillsParent'>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Algorithm logo" src="/logos/algorithm.png"/> &ensp; Algorithms</h4>
@@ -122,15 +123,15 @@ function HomePage() {
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Git logo" src="/logos/git.png"/> &ensp; Git</h4>
-                <p>Intermediate proficiency of Git commands, Gitflow, pull requests, code reviews, branching, tagging, version control, workflows, and using local and remote repositories.</p>
+                <p>Intermediate proficiency of Git commands, Gitflow, Git Actions, pull requests, code reviews, branching, tagging, version control, workflows, and using local and remote repositories.</p>
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Program testing logo" src="/logos/testing.png"/> &ensp; Testing</h4>
-                <p>Intermediate proficiency using a layered testing approach using unittest, PyTest, JUnit, Postman/Newman, Spring Test, MockMVC and other tools.</p>
+                <p>Intermediate proficiency using a layered testing approach integrating Unit Tests, Integration Testing, and End-to-End testing. Experience using a wide range of testing tools including unittest, PyTest, JUnit, Jest, Postman/Newman, Spring Test, MockMVC and other tools.</p>
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Agile logo" src="/logos/agile.png"/> &ensp; AGILE</h4>
-                <p>Intermediate proficiency of the AGILE methodologies with SCRUM, XP, Kanban and using task managers such as Jira, Trello, and Asana. </p>
+                <p>Intermediate proficiency utilizing Agile methodologies including Scrum and Kanban for value-driven prioritization and sprint planning. Experience using task managers such as Jira, Trello, and Asana. </p>
             </div>
             <div className='skillsChild'>
                 <h4><img height="50" alt="Docker logo" src="/logos/container.png"/> &ensp; Containers</h4>

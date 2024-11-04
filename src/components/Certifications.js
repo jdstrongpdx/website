@@ -39,24 +39,48 @@ function Certifications() {
                         </a><p><strong>Java Backend Developer <br></br> (using Spring Boot)</strong></p>
                     </div>
                 </div>
-                <h3>React</h3>
+                <h3>Meta Front-End Professional Certificates</h3>
                 <div className='skillsParent'>
+
                     <div className='skillsChildWide'>
-                        <a href="https://coursera.org/verify/F2HMGSIQPOW6"
+                        <a href="https://coursera.org/verify/SRG8ZTR5AYPP"
                            target="_blank" rel="noopener noreferrer">
-                            <img width="410" alt="React Basics by Meta Certification" border="0" align="center"
-                                 src="./certifications/ReactBasic.png"/>
-                        </a><p><strong>Meta React Basics</strong></p>
+                            <img width="410" alt="Meta Version Control Certification" border="0" align="center"
+                                 src="./certifications/metaVersionControl.png"/>
+                        </a><p><strong>Version Control</strong></p>
+                    </div>
+
+                    <div className='skillsChildWide'>
+                        <a href="https://coursera.org/verify/9HO3N1IXEHL0"
+                           target="_blank" rel="noopener noreferrer">
+                            <img width="410" alt="Meta HTML CSS Certification" border="0" align="center"
+                                 src="./certifications/metaHtmlCss.png"/>
+                        </a><p><strong>HTML and CSS in Depth</strong></p>
+                    </div>
+
+                    <div className='skillsChildWide'>
+                        <a href="https://coursera.org/verify/TLLPJGAZ3B2A"
+                           target="_blank" rel="noopener noreferrer">
+                            <img width="410" alt="Meta JavaScript Certification" border="0" align="center"
+                                 src="./certifications/metaJavaScript.png"/>
+                        </a><p><strong>Programming with JavaScript</strong></p>
                     </div>
 
                     <div className='skillsChildWide'>
                         <a href="https://coursera.org/verify/8U39UCIHFL04"
                            target="_blank" rel="noopener noreferrer">
-                            <img width="410" alt="Advanced React by Meta Certification" border="0" align="center"
-                                 src="./certifications/ReactAdvanced.png"/>
+                            <img width="410" alt="React Advanced Certificate" border="0" align="center"
+                                 src="./certifications/metaReactAdvanced.png"/>
                         </a><p><strong>Meta Advanced React</strong></p>
                     </div>
 
+                    <div className='skillsChildWide'>
+                        <a href="https://coursera.org/verify/43GJ80J0798S"
+                           target="_blank" rel="noopener noreferrer">
+                            <img width="410" alt="Meta UI/UX Certification" border="0" align="center"
+                                 src="./certifications/metaUiUx.png"/>
+                        </a><p><strong>Principles of UX/UI Design</strong></p>
+                    </div>
 
                 </div>
                 <h3>Python</h3>

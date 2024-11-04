@@ -2,15 +2,6 @@ import React, { Component } from 'react';
 import HelmetComponent from "../components/HelmetComponent";
 
 class Contact extends Component {
-
-    state = {
-        name: '',
-        message: '',
-        email: '',
-        sent: false,
-        buttonText: 'Send Message'
-    }
-
     render() {
         return(
             <>
@@ -36,7 +27,6 @@ class Contact extends Component {
                         </img>
                     </div>
                 </div>
-
             </>
         );
     }
