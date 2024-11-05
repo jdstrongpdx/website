@@ -39,10 +39,10 @@ function Certifications() {
             <h3>Meta Front-End Professional Certificates</h3>
             <div className='skillsParent'>
                 <Certification
-                    link="https://coursera.org/verify/SRG8ZTR5AYPP"
+                    link="https://coursera.org/verify/professional-cert/R64MC41UJZ6N"
                     type="wide"
-                    imgLink="./certifications/metaVersionControl.png"
-                    title="Version Control"
+                    imgLink="./certifications/meta_front_end.png"
+                    title="Meta Front-End Developer Certificate"
                 />
                 <Certification
                     link="https://coursera.org/verify/9HO3N1IXEHL0"
