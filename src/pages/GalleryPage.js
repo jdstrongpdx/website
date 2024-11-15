@@ -5,6 +5,44 @@ import React from "react";
 
 const images = [
   {
+    original: 'images/FFR.png',
+    thumbnail: 'images/FFR.png',
+    description: 'Fragrance Free Resources Home Page (Admin View)',
+  }, {
+    original: 'images/FFR-Visitor.png',
+    thumbnail: 'images/FFR-Visitor.png',
+    description: 'Visitor view of a Product from FragranceFreeResources.com',
+  }, {
+    original: 'images/FFR-Admin.png',
+    thumbnail: 'images/FFR-Admin.png',
+    description: 'Administrator view of a Product with an active Review modal.',
+  }, {
+    original: 'images/FFRendpoints.png',
+    thumbnail: 'images/FFRendpoints.png',
+    description: 'Spring Boot endpoints for the FragranceFreeResources web application backend.',
+  }, {
+    original: 'images/FFRschema.png',
+    thumbnail: 'images/FFRschema.png',
+    description: 'MySql schema created by Spring Boot JPA ODM',
+  }, {
+
+    original: 'images/persona.png',
+    thumbnail: 'images/persona.png',
+    description: 'Development of a Persona in Figma',
+  }, {
+    original: 'images/journeyMap.png',
+    thumbnail: 'images/journeyMap.png',
+    description: 'Development of a Journey Map for a problem statement and persona in Figma',
+  }, {
+    original: 'images/LLdesktop.png',
+    thumbnail: 'images/LLdesktop.png',
+    description: 'Development of a highly stylized React website based on a provided styleguide and wireframe.',
+  }, {
+    original: 'images/LLmobile.png',
+    thumbnail: 'images/LLmobile.png',
+    description: 'Development of a multi-part mobile table reservation system using React using a styleguide',
+  }, {
+
     original: 'images/MLB-WebGL.png',
         thumbnail: 'images/MLB-WebGL.png',
         description: 'WebGL deployment of a Unity Atari Breakout clone and Machine Learned model development to play the game.',
@@ -17,26 +55,7 @@ const images = [
         thumbnail: 'images/MLB-GitHub.png',
         description: 'ML-Breakout CI/CD shared Repository.',
   }, {
-    original: 'images/FFR-Poster.png',
-    thumbnail: 'images/FFR-Poster.png',
-    description: 'Oregon State University Showcase Poster for FragranceFreeResources Project.',
-  }, {
-    original: 'images/FFR-Visitor.png',
-        thumbnail: 'images/FFR-Visitor.png',
-        description: 'Visitor view of a Product from FragranceFreeResources.com',
-  }, {
-    original: 'images/FFR-Admin.png',
-        thumbnail: 'images/FFR-Admin.png',
-        description: 'Administrator view of a Product with an active Review modal.',
-  }, {
-    original: 'images/FFRendpoints.png',
-    thumbnail: 'images/FFRendpoints.png',
-    description: 'Spring Boot endpoints for the FragranceFreeResources web application backend.',
-  }, {
-    original: 'images/FFRschema.png',
-    thumbnail: 'images/FFRschema.png',
-    description: 'MySql schema created by Spring Boot JPA ODM',
-  }, {
+
     original: 'images/NetworkMonitor.png',
     thumbnail: 'images/NetworkMonitor.png',
   }, {
@@ -83,10 +102,6 @@ const images = [
     original: 'images/inductiveProof.jpg',
     thumbnail: 'images/inductiveProof.jpg',
     description: 'Detailed and organized work - Proof by induction example.',
-  }, {
-    original: 'images/Books.jpg',
-    thumbnail: 'images/Books.jpg',
-    description: 'Supplemental reading on how to be a better developer.',
   }
 ]
 
@@ -94,14 +109,14 @@ function GalleryPage() {
     return (<>
           <HelmetComponent title="Gallery" />
     <h2> Gallery </h2>
+          <h3>A collection of pictures highlighting my software development projects or other work.</h3>
 
       <article className="image-gallery-wrapper">
-        
-        <ImageGallery items={images} />      
+
+        <ImageGallery items={images} />
     </article>
         <br></br>
     </>
   );
 }
 export default GalleryPage;
-                

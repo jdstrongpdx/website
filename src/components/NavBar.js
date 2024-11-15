@@ -4,6 +4,7 @@ import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { FaLaptopCode } from "react-icons/fa";
 import { TbDoor } from "react-icons/tb";
+import { AiOutlinePicture } from "react-icons/ai";
 
 function NavBar() {
   return (
@@ -18,6 +19,7 @@ function NavBar() {
             <Link to="/"> <MdPerson/>  &ensp;<span className="nav-text">Home</span></Link>
             <Link to="/portfolio"><FaLaptopCode/> &ensp;<span className="nav-text">Portfolio</span></Link>
             <Link to="/resume"><IoDocument/> &ensp;<span className="nav-text">Resume</span></Link>
+            <Link to="/gallery"><AiOutlinePicture /> &ensp;<span className="nav-text">Gallery</span></Link>
             <Link to="/officeDoor"> <TbDoor /> &ensp;<span className="nav-text">Office Door</span></Link>
             <Link to="/contact"> <MdEmail/> &ensp;<span className="nav-text">Contact</span></Link>
 

@@ -487,14 +487,14 @@ div.content {
     margin-top: 2%;
     margin-bottom: 2%;
     max-width: 95%;
-    margin: 0 auto;
+
     border: 1px solid var(--navy);
     box-shadow: #2b15453d 1px 10px 10px 5px;
-    height: 1100px;
+    height: 1300px;
   }
 
   .image-gallery-image {
-    height: 900px;
+    height: 1100px;
   }
 
   .image-gallery-thumbnails {
@@ -554,8 +554,13 @@ i {
 
 
 .memes img {
-  max-width: 500px;
+  max-width: 600px;
+  margin: 2%;
   padding: 2%;
+  justify-content: center;
+  vertical-align: middle;
+  background-color: #4e6b97;
+  border-radius: 10px;
 }
 
 card {

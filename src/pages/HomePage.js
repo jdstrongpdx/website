@@ -59,17 +59,17 @@ function HomePage() {
             <SkillsCard
                 title="JavaScript"
                 image="/logos/javascript.png"
-                description="Intermediate proficiency with experience building frontend applications using functional programming principles including data transformation, asynchronous functions, DOM manipulation, event and error handling and more."
+                description="Intermediate proficiency using functional and OOP paradigms, data transformation, asynchronus programming, events, error handling, ES6+ syntax, and debugging."
             />
             <SkillsCard
                 title="TypeScript"
                 image="/logos/typescript.png"
-                description="Intermediate proficiency extending my JavaScript knowledge to build statically typed solutions using interfaces, enums, generics, and advanced error handling."
+                description="Itermediate proficiency extending my JavaScript knowledge to build React websites using interfaces, enums, generics, assertions, optional/nullish types, and advanced error handling. "
             />
             <SkillsCard
                 title="React"
                 image="/logos/react.png"
-                description="Advanced proficiency with experience in building dynamic SPAs and PWAs using hooks, props, contexts, reducers, ref, render, Formik, Yup, event handling and more."
+                description="Advanced proficiency with experience in building dynamic Progressive Web Applications using hooks, props, contexts, reducers, memo, callback, Formik, Yup, Jest, and React-Testing library."
             />
             <SkillsCard
                 title="SQL & NoSQL"
@@ -79,12 +79,12 @@ function HomePage() {
             <SkillsCard
                 title="HTML"
                 image="/logos/html.png"
-                description="Intermediate proficiency with experience creating accessible web pages using semantic HTML elements, Navigation, Form design, DOM manipulation and more."
+                description="Advanced proficiency with experience creating accessible web pages using semantic HTML elements, building complex forms with validation, implementing responsive elements, and SEO optimization."
             />
             <SkillsCard
                 title="CSS"
                 image="/logos/css.png"
-                description="Intermediate proficiency in CSS syntax format and building highly stylized reactive websites. Experience using CSS, inline CSS, Bootstrap and other styling tools."
+                description="Intermediate proficiency in CSS syntax format and building highly stylized reactive websites. Experience using global CSS, inline CSS, Bootstrap and other styling tools."
             />
             <SkillsCard
                 title="SpringBoot"
