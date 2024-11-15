@@ -69,7 +69,7 @@ function HomePage() {
             <SkillsCard
                 title="React"
                 image="/logos/react.png"
-                description="Advanced proficiency with experience in building dynamic Progressive Web Applications using hooks, props, contexts, reducers, memo, callback, Formik, Yup, Jest, and React-Testing library."
+                description="Advanced proficiency with experience in building dynamic Progressive Web Applications using hooks, props, context, reducer, memo, callback, Lodash, Formik, Yup, Jest, and React-Testing library."
             />
             <SkillsCard
                 title="SQL & NoSQL"

@@ -197,8 +197,8 @@ div.content {
 
 .video iframe {
   display: flex;
-  justifyContent: center;
-  alignItems: center;
+  justify-content: center;
+  align-items: center;
   max-width: 1200px;
   margin: auto;
   align-content: center;
@@ -554,7 +554,7 @@ i {
 
 
 .memes img {
-  max-width: 600px;
+  max-width: 500px;
   margin: 2%;
   padding: 2%;
   justify-content: center;
