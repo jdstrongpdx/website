@@ -32,17 +32,23 @@ function Certifications() {
                     link="https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf"
                     type="normal"
                     imgLink="./certifications/JavaBackend.png"
-                    title="Java Backend Developer (using Spring Boot)"
+                    title="Java Backend Developer (Spring Boot)"
                 />
             </div>
 
-            <h3>Meta Front-End Professional Certificates</h3>
+            <h3>Front-End Certifications</h3>
             <div className='skillsParent'>
                 <Certification
                     link="https://coursera.org/verify/professional-cert/R64MC41UJZ6N"
                     type="wide"
                     imgLink="./certifications/meta_front_end.png"
-                    title="Meta Front-End Developer Certificate"
+                    title="Meta Front-End Developer Professional Certificate"
+                />
+                <Certification
+                    link="https://coursera.org/verify/specialization/CFTYPY5EEDKE"
+                    type="wide"
+                    imgLink="./certifications/AdvancedJavaScript.png"
+                    title="Advanced JavaScript"
                 />
                 <Certification
                     link="https://coursera.org/verify/9HO3N1IXEHL0"
@@ -61,6 +67,12 @@ function Certifications() {
                     type="wide"
                     imgLink="./certifications/metaReactAdvanced.png"
                     title="Meta Advanced React"
+                />
+                <Certification
+                    link="https://coursera.org/verify/KRRVQWPS7HY5"
+                    type="wide"
+                    imgLink="./certifications/ReusableReact.png"
+                    title="Building Reusable React"
                 />
                 <Certification
                     link="https://coursera.org/verify/43GJ80J0798S"
