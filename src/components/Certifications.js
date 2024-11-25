@@ -69,16 +69,22 @@ function Certifications() {
                     title="Meta Advanced React"
                 />
                 <Certification
-                    link="https://coursera.org/verify/KRRVQWPS7HY5"
-                    type="wide"
-                    imgLink="./certifications/ReusableReact.png"
-                    title="Building Reusable React"
-                />
-                <Certification
                     link="https://coursera.org/verify/43GJ80J0798S"
                     type="wide"
                     imgLink="./certifications/metaUiUx.png"
                     title="Principles of UX/UI Design"
+                />
+                <Certification
+                    link="https://coursera.org/verify/AFAOSQ30WF8Y"
+                    type="wide"
+                    imgLink="./certifications/AdvancedReactScrimba.png"
+                    title="Scrimba Advanced React"
+                />
+                <Certification
+                    link="https://coursera.org/verify/KRRVQWPS7HY5"
+                    type="wide"
+                    imgLink="./certifications/ReusableReact.png"
+                    title="Building Reusable React"
                 />
             </div>
 
