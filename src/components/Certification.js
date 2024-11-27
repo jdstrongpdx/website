@@ -1,27 +1,18 @@
 import React from "react";
 
 const Certification = ({ link, type, imgLink, title}) => {
-    if (type === "wide") {
         return (
-            <container className="skillsChildWide">
+            <div className={type === "wide" ? "skillsChildWide" : "skillsChild"}>
                 <a href={link}
                    target="_blank" rel="noopener noreferrer">
-                    <img width="410" alt={title} border="0" align="center"
+                    <img width={type === "wide" ? "410" : "300"}
+                         alt={title}
+                         border="0"
+                         align="center"
                          src={imgLink}/>
                 </a><p><strong>{title}</strong></p>
-            </container>
+            </div>
         )
-    } else {
-        return (
-            <container className="skillsChild">
-                <a href={link}
-                   target="_blank" rel="noopener noreferrer">
-                    <img height="425" alt={title} border="0" align="center"
-                         src={imgLink}/>
-                </a><p><strong>{title}</strong></p>
-            </container>
-        )
-    }
 
 }
 

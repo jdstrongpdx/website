@@ -54,18 +54,6 @@
 
   footer {}
 
-.card {
-  align-items: center;
-  text-align: center;
-  height: 100%;
-  color: black;
-  width: auto;
-}
-
-.card img {
-  margin-right: 40px;
-}
-
 .responsive-img {
   max-width: 90%;
   height: auto;
@@ -537,8 +525,6 @@ i {
    padding: 10px 10px 10px 10px;
 }
 
-
-
 .skillsChildWide {
   width: 500px;
   height: auto;
@@ -563,40 +549,41 @@ i {
   border-radius: 10px;
 }
 
-card {
+.card {
   border: 1px solid #ddd;
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   overflow: hidden;
   width: 300px;
   margin: 16px;
+  padding: 5px;
   transition: box-shadow 0.3s ease;
   background-color: var(--background-grey);
 }
 
-card:hover {
+.card:hover {
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
 }
 
-card img {
+.card img {
   display: block;
   max-width: 50px;
   margin: auto;
   padding-top: 16px;
 }
 
-.card-content {
+.card .card-content {
   padding: 16px;
 }
 
-card h3 {
+.card h3 {
   font-size: 1.5rem;
   margin: 0;
   color: #333;
   text-align: center;
 }
 
-card p {
+.card p {
   font-size: 1.1rem;
   margin: 12px 0;
   color: #666;
