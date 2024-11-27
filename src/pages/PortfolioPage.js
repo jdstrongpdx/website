@@ -12,6 +12,14 @@ import HelmetComponent from "../components/HelmetComponent";
 import LittleLemon from "../components/Projects/LittleLemon";
 
 function PortfolioPage() {
+    const handleScroll = (id) => {
+        const element = document.getElementById(id);
+        if (element) {
+            element.scrollIntoView({ behavior: 'smooth' });
+        }
+    };
+
+
     return (<>
             <HelmetComponent title="Portfolio" />
     <h2>Portfolio</h2>
@@ -20,26 +28,118 @@ function PortfolioPage() {
                 <div className="project">
                     <h3>Notable Projects:</h3>
                     <ul>
-                        <li><a href="#Ffr">FragranceFreeResources.com - Full Stack Web Application using
-                            React/Typescript, Java/Spring Boot, Docker, MySQL, AWS Amplify/Lightsail</a><br/></li>
-                        <li><a href="#LittleLemon">Little Lemon - Development of a UI/UX using Personas, Journey Map,
-                            Figma Wireframe and Figma Prototype. Highly stylized implementation using React.</a><br/>
+                        <li>
+                            <a
+                                href="#Ffr"
+                                onClick={(e) => {
+                                    e.preventDefault(); // Prevent default jump to ID
+                                    handleScroll('Ffr');
+                                }}
+                            >
+                                FragranceFreeResources.com - Full Stack Web Application using React/Typescript,
+                                Java/Spring Boot, Docker, MySQL, AWS Amplify/Lightsail
+                            </a>
                         </li>
-                        <li><a href="#Mlb">ML-Breakout - Unity Game with Machine Learning Agent Deployed to Unity
-                            Play</a><br/></li>
-                        <li><a href="#GcpApi">GCP RESTful API Backend - Flask/Python, Auth0, GCP Datastore, and GCP
-                            Storage</a><br/>
+                        <li>
+                            <a
+                                href="#LittleLemon"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('LittleLemon');
+                                }}
+                            >
+                                Little Lemon - Development of a UI/UX using Personas, Journey Map, Figma Wireframe and
+                                Figma Prototype. Highly stylized implementation using React.
+                            </a>
                         </li>
-                        <li><a href="#NetworkMonitor">Network Monitor - Python TCP/IP Multi-Threaded Client/Server
-                            Network Monitor Application</a><br/></li>
-                        <li><a href="#IdealConditions">Ideal Conditions - React/JS, Python AWS Lambda Microservice
-                            Application</a><br/></li>
-                        <li><a href="#Blockchain">Java Blockchain - Multi-threaded Java Blockchain Application</a><br/>
+                        <li>
+                            <a
+                                href="#Mlb"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('Mlb');
+                                }}
+                            >
+                                ML-Breakout - Unity Game with Machine Learning Agent Deployed to Unity Play
+                            </a>
                         </li>
-                        <li><a href="#PersonalWebsite">Personal Website - React/JS, AWS Amplify
-                            Hosting</a></li>
-                        <li><a href="#Repositories">GitHub Repositories Showcasing My Code</a></li>
-                        <li><a href="#Certifications">Certifications Completed</a></li>
+                        <li>
+                            <a
+                                href="#GcpApi"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('GcpApi');
+                                }}
+                            >
+                                GCP RESTful API Backend - Flask/Python, Auth0, GCP Datastore, and GCP Storage
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#NetworkMonitor"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('NetworkMonitor');
+                                }}
+                            >
+                                Network Monitor - Python TCP/IP Multi-Threaded Client/Server Network Monitor Application
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#IdealConditions"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('IdealConditions');
+                                }}
+                            >
+                                Ideal Conditions - React/JS, Python AWS Lambda Microservice Application
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#Blockchain"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('Blockchain');
+                                }}
+                            >
+                                Java Blockchain - Multi-threaded Java Blockchain Application
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#PersonalWebsite"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('PersonalWebsite');
+                                }}
+                            >
+                                Personal Website - React/JS, AWS Amplify Hosting
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#Repositories"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('Repositories');
+                                }}
+                            >
+                                GitHub Repositories Showcasing My Code
+                            </a>
+                        </li>
+                        <li>
+                            <a
+                                href="#Certifications"
+                                onClick={(e) => {
+                                    e.preventDefault();
+                                    handleScroll('Certifications');
+                                }}
+                            >
+                                Certifications Completed
+                            </a>
+                        </li>
                     </ul>
                 </div>
 

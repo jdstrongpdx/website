@@ -1,7 +1,6 @@
 import React from 'react';
 import {Helmet} from "react-helmet";
 
-
 const HelmetComponent = ({title}) => {
     const canonicalUrl = window.location.href;
     return (

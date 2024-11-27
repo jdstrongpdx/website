@@ -18,12 +18,10 @@ function App() {
   return (
     <>
       <BrowserRouter>
-
+          {/* Left collapsable nav out of routes for correct layout rendering */}
           <NavBar />
 
           <div className="content">
-          <main>
-            <section>
                 <Routes>
                     <Route path="/" element={<HomePage/>}/>
                     <Route path="/gallery" element={<GalleryPage/>}/>
@@ -33,12 +31,8 @@ function App() {
                     <Route path="/portfolio" element={<PortfolioPage/>}/>
                     <Route path="/officeDoor" element={<OfficeDoor/>}/>
                 </Routes>
-              </section>
-          </main>
           </div>
-
       </BrowserRouter>
-
     </>
   );
 }

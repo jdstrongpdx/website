@@ -19,6 +19,8 @@ function HomePage() {
                     GPA in my Computer Science program, I spent hundreds of hours outside of class learning the
                     languages, skills, and certifications needed to build elegant and functional full
                     stack web applications. Please take a look at my Skills, Resume, and Portfolio!</p>
+
+                {/*  Portfolio and Resume Buttons */}
                 <div className="centered">
                     <button><FaLaptopCode/>&ensp;
                         <Link
@@ -59,18 +61,18 @@ function HomePage() {
         </article>
         <article>
             <h3>Skills</h3>
-        </article>
 
-        <div className='skillsParent'>
-            {skillsData.map((skill, index) => (
-                <SkillsCard
-                    key={index}
-                    title={skill.title}
-                    image={skill.image}
-                    description={skill.description}
-                />
-            ))}
-        </div>
+            <div className='skillsParent'>
+                {skillsData.map((skill, index) => (
+                    <SkillsCard
+                        key={index}
+                        title={skill.title}
+                        image={skill.image}
+                        description={skill.description}
+                    />
+                ))}
+            </div>
+        </article>
         </>
         );
     }

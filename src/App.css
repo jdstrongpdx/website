@@ -135,7 +135,9 @@ div.content {
   background-color: var(--background-grey);
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-right: 20px;
 }
+
   /* ----- Anchors ----- Text links */
   a {}
   a:link {
@@ -463,37 +465,7 @@ div.content {
   object {}
 
   /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
-  .gallery {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    padding: 5px;
-  }
 
-  .image-gallery-wrapper {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    max-width: 95%;
-
-    border: 1px solid var(--navy);
-    box-shadow: #2b15453d 1px 10px 10px 5px;
-    height: 1300px;
-  }
-
-  .image-gallery-image {
-    height: 1100px;
-  }
-
-  .image-gallery-thumbnails {
-    height: 150px;
-  }
-
-  .image-gallery-thumbnails-container {
-    height: 140px;
-  }
-
-.image-gallery-description { bottom:0!important; }
 
 i {
   font-size: 140%;
@@ -531,22 +503,45 @@ i {
   padding: 10px 10px 10px 10px;
 }
 
-
 .right {
   float: right;
   margin-right: 20px;
   margin-top: 0;
 }
 
-
 .memes img {
   max-width: 500px;
-  margin: 2%;
-  padding: 2%;
+  margin: 10px;
+  padding: 10px;
   justify-content: center;
   vertical-align: middle;
   background-color: #4e6b97;
   border-radius: 10px;
+}
+
+.gallery-container {
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.gallery-container img {
+  max-width: 500px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.gallery-container .label {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #333;
 }
 
 .card {
