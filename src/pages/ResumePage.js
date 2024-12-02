@@ -1,6 +1,7 @@
 import React from 'react';
 import Certifications from '../components/Certifications';
 import HelmetComponent from "../components/HelmetComponent";
+import ResumeModal from "../components/ResumeModal";
 
 function ResumePage() {
     return (
@@ -8,14 +9,11 @@ function ResumePage() {
         <HelmetComponent title="Resume" />
     <div className='project'>
         <h2>Resume</h2>
-            <figure>
-                <img alt="Joel Strong Resume" src="/images/Resume.png"/>
-            </figure>
-    </div>
-
-    <div className='project'>
-        <h2>LinkedIn Profile: </h2>
-        <h4><a href="https://www.linkedin.com/in/joel-strong/"> https://www.linkedin.com/in/joel-strong/</a></h4>
+        <ResumeModal
+            imageSrc="/images/Resume.png"
+            altText="Joel Strong Resume"
+            label="Resume"
+        />
     </div>
 
     <Certifications id="certifications"/>

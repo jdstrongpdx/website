@@ -13,7 +13,7 @@
 /*   ----- Variables  -----  */
 :root {
     --color-sky-blue: #96BFD9;
-    --color-grey-blue: #b4d1dddd;  /* transparency */
+    --color-grey-blue: rgb(200, 214, 233);  /* transparency */
     --color-trans-grey-blue: #cbdbdbd0;  /* transparency */
     --color-non-trans-grey-blue: rgb(115, 110, 118);
     --color-cream: #fbfbfb;
@@ -102,8 +102,8 @@
 
 /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
 div.content {
-  margin: 0 0 0 365px;
-  padding: 5px 20px 40px 20px;
+  margin: 0 0 0 345px;
+  padding: 20px;
 }
 
 /* On screens that are less than 700px wide, make the sidebar into a topbar */
@@ -131,11 +131,10 @@ div.content {
 }
 
 .project {
-  padding: 2%;
+  padding: 1% 2% 1% 2%;
   background-color: var(--background-grey);
   border-radius: 10px;
   margin-bottom: 20px;
-  margin-right: 20px;
 }
 
   /* ----- Anchors ----- Text links */
@@ -373,18 +372,18 @@ div.content {
 
   button {
     text-rendering: auto;
-    color: white;
+    background-color: var(--color-grey-blue);
     text-transform: none;
     display: inline-block;
     text-align: center;
     align-items: flex-start;
     cursor: pointer;
-    background-color: black;
+    color: black;
     box-sizing: border-box;
-    margin: 10px 0;
-    font: 400 11px system-ui;
-    font-size: 20px;
-    padding: 10px 60px;
+    margin: 5px;
+    font-size: 18px;
+    font-weight: 400;
+    padding: 10px 20px;
     border-width: 1px;
     border-style: solid;
     border-color: rgb(216, 216, 216) rgb(209, 209, 209) rgb(186, 186, 186);
@@ -395,7 +394,7 @@ div.content {
     background-color: var(--blueberry);
     color: white;
     font-size: 20px;
-    padding: 10px 60px;
+    padding: 10px 20px;
     border-radius: 5px;
     margin: 10px 0;
     cursor: pointer;
