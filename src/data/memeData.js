@@ -17,6 +17,10 @@ const memeImages = [
     "/memes/meme16.png",
     "/memes/meme17.png",
     "/memes/meme18.png",
+    "/memes/meme18.png",
+    "/memes/meme18.png",
+    "/memes/meme18.png",
+    "/memes/meme18.png",
 ];
 
 export default memeImages;

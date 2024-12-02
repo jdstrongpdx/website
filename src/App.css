@@ -464,7 +464,45 @@ div.content {
   object {}
 
   /*  ----- Classes for alignment, positioning, widths, grids, embellishments, and animation -----  */
+.hero-section {
+  /* Full viewport height */
+  height: 100vh;
 
+  /* Create a column flexbox for centering content vertically */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  /* Full width */
+  width: 100%;
+
+  /* Center text */
+  text-align: center;
+
+  /* Background styles */
+  background-color: var(--background-grey);
+  border-radius: 10px;
+}
+
+.hero-section h1 {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 2.5em;
+}
+
+.hero-section p {
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2em;
+}
+
+.hero-section button {
+  padding: 10px 20px;
+  font-size: 1em;
+}
 
 i {
   font-size: 140%;
@@ -486,7 +524,7 @@ i {
 
 .skillsParent {
   display: flex;
-  justify-content: left;
+  justify-content: center;
   flex-wrap: wrap;
 }
 
@@ -506,6 +544,11 @@ i {
   float: right;
   margin-right: 20px;
   margin-top: 0;
+}
+
+.memes {
+  text-align: center;
+  align-items: center;
 }
 
 .memes img {

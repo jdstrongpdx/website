@@ -5,30 +5,22 @@ const PortfolioLayout = () => {
     return (
         <>
             <h1>Portfolio</h1>
-
-            <p>Selected Project Links: </p>
             <nav>
-                <span>
-                    <button><Link
-                        to="/portfolio/">Overview</Link></button>
-                    <button><Link
-                        to="/portfolio/fragrancefreeresources">FragranceFreeResources.com</Link></button>
-                    <button><Link
-                        to="/portfolio/littlelemon">Little Lemon</Link></button>
-                    <button><Link
-                        to="/portfolio/jdstrongpdx">jdstrongpdx.com</Link></button>
-                    <button><Link
-                        to="/portfolio/mlbreakout">ML-Breakout</Link></button>
-                    <button><Link
-                        to="/portfolio/gcpapi">GCP API</Link></button>
-                    <button><Link
-                        to="/portfolio/idealconditions">Ideal Conditions</Link></button>
-                    <button><Link
-                        to="/portfolio/networkmonitor">Network Monitor</Link></button>
-                    <button><Link
-                        to="/portfolio/blockchain">Blockchain</Link></button>
-                </span>
+                <Link to="/portfolio/" style={{display: 'inline-block', margin: '5px'}}>Overview</Link>
+                <Link to="/portfolio/fragrancefreeresources"
+                      style={{display: 'inline-block', margin: '5px'}}>FragranceFreeResources.com</Link>
+                <Link to="/portfolio/littlelemon" style={{display: 'inline-block', margin: '5px'}}>Little Lemon</Link>
+                <Link to="/portfolio/jdstrongpdx"
+                      style={{display: 'inline-block', margin: '5px'}}>jdstrongpdx.com</Link>
+                <Link to="/portfolio/mlbreakout" style={{display: 'inline-block', margin: '5px'}}>ML-Breakout</Link>
+                <Link to="/portfolio/gcpapi" style={{display: 'inline-block', margin: '5px'}}>GCP API</Link>
+                <Link to="/portfolio/idealconditions" style={{display: 'inline-block', margin: '5px'}}>Ideal
+                    Conditions</Link>
+                <Link to="/portfolio/networkmonitor" style={{display: 'inline-block', margin: '5px'}}>Network
+                    Monitor</Link>
+                <Link to="/portfolio/blockchain" style={{display: 'inline-block', margin: '5px'}}>Blockchain</Link>
             </nav>
+
             <Outlet/>
         </>
     )

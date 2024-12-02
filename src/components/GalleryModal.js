@@ -13,7 +13,7 @@ const GalleryModal = ({ imageSrc, altText, label }) => {
             <img src={imageSrc}
                  alt={altText}
             />
-            <p className="label" style={{ fontWeight: "700", padding: '1%'}}>{label}</p>
+            {label && <p className="label" style={{ fontWeight: "700", padding: '1%'}}>{label}</p>}
         </div>
 
         {isOpen && (

@@ -24,7 +24,6 @@ const Certifications = () => {
                         </div>
                     </div>
                 ))}
-        <a href="#top">Back to top</a>
         </div>
 
 </>

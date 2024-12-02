@@ -9,7 +9,7 @@ function GalleryPage() {
           <HelmetComponent title="Gallery"/>
           <h2> Gallery </h2>
           <h3>A collection of pictures highlighting my software development projects or other work.</h3>
-
+            <div className="centered">
             {galleryData.map((image, index) => (
                 <GalleryModal
                     imageSrc={image.original}
@@ -17,7 +17,7 @@ function GalleryPage() {
                     label={image.description}
                 />
             ))}
-
+            </div>
         </>
     );
 }

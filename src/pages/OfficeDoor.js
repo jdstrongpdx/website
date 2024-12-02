@@ -1,7 +1,6 @@
 import HelmetComponent from "../components/HelmetComponent";
 import React from "react";
 import ImageModal from "../components/ImageModal";
-import memeImages from "../data/memeData";
 
 const OfficeDoor = () => {
     return (
@@ -14,9 +13,9 @@ const OfficeDoor = () => {
                 hope you do as well.</p>
 
             <div className="memes">
-                {memeImages.map((imgSrc, index) => (
-                    <ImageModal key={index} imgSrc={imgSrc}/>
-                ))}
+                {Array.from({ length: 20 }, (_, i) =>
+                    <ImageModal key={i + 1} imgSrc={`/memes/meme${i + 1}.png`} />
+                )}
             </div>
         </>
     )
