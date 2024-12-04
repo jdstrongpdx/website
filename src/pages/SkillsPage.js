@@ -9,7 +9,7 @@ const SkillsPage = () => {
         <>
             <HelmetComponent title="Skills and Languages Page" />
             <article>
-                <h3>Languages & Frameworks</h3>
+                <h2>Languages & Frameworks</h2>
                 <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
                     applications with them. I am a life-long learner and interested in adding new languages and
                     frameworks that help me achieve the goals of the projects I am working on.</p>
@@ -25,7 +25,7 @@ const SkillsPage = () => {
 
             </article>
             <article>
-                <h3>Skills</h3>
+                <h2>Skills</h2>
 
                 <div className='skillsParent'>
                     {skillsData.map((skill, index) => (

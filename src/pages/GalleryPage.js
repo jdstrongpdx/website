@@ -5,7 +5,8 @@ import GalleryModal from "../components/GalleryModal";
 
 
 function GalleryPage() {
-    return (<>
+    return (
+        <div className="project">
           <HelmetComponent title="Gallery"/>
           <h2> Gallery </h2>
           <h3>A collection of pictures highlighting my software development projects or other work.</h3>
@@ -18,7 +19,7 @@ function GalleryPage() {
                 />
             ))}
             </div>
-        </>
+        </div>
     );
 }
 

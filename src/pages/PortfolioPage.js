@@ -1,5 +1,4 @@
 import React from "react";
-import HelmetComponent from "../components/HelmetComponent";
 import projectData from "../data/projectData";
 import SkillsCard from "../components/SkillsCard";
 
@@ -7,8 +6,6 @@ function PortfolioPage() {
 
     return (
         <>
-            <HelmetComponent title="Portfolio"/>
-            <h2>Notable Projects:</h2>
             <div className='skillsParent'>
                 {projectData.map((project, index) => (
                     <SkillsCard

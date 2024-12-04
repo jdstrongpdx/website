@@ -14,11 +14,11 @@ function NetworkMonitor() {
 
                 <div className="centered">
                     <figure>
-                        <img width="100%" alt="network monitor server" src="images/NetworkMonitorServer.png"/>
+                        <img width="100%" alt="network monitor server" src="/images/NetworkMonitorServer.png"/>
                         <figcaption>Network Monitor Program - Server Window.</figcaption>
                     </figure>
                     <figure>
-                        <img width="100%" alt="network monitor client" src="images/NetworkMonitorClient.png"/>
+                        <img width="100%" alt="network monitor client" src="/images/NetworkMonitorClient.png"/>
                         <figcaption>Network Monitor Program - Client Window.</figcaption>
                     </figure>
                 </div>
@@ -65,7 +65,6 @@ function NetworkMonitor() {
                     State University.</p>
                 <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/NetworkMonitor ">Network Monitor
                     App</a></p>
-                <a href="#top">Back to top</a>
             </div>
         </>
     )

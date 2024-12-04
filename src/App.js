@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
@@ -22,39 +22,39 @@ import Mlb from "./components/Projects/Mlb";
 import PersonalWebsite from "./components/Projects/PersonalWebsite";
 import LittleLemon from "./components/Projects/LittleLemon";
 import IdealConditions from "./components/Projects/IdealConditions";
-
+import {ThemeProvider} from "./ThemeProvider";
 
 function App() {
 
   return (
     <>
-      <BrowserRouter>
-
-          <Routes>
-            <Route element={<Format />} >
-                    <Route path="/" element={<HomePage/>}/>
-                    <Route path="/skills" element={<SkillsPage/>}/>
-                    <Route path="/gallery" element={<GalleryPage/>}/>
-                    <Route path="/contact" element={<Contact/>}/>
-                    <Route path="/idealConditions" element={<IdealConditionsPage/>}/>
-                    <Route path="/resume" element={<ResumePage/>}/>
-                    <Route path="portfolio" element={<PortfolioLayout />}>
-                        <Route index element={<PortfolioPage />} />
-                        <Route path="fragrancefreeresources" element={<Ffr />} />
-                        <Route path="littlelemon" element={<LittleLemon />} />
-                        <Route path="jdstrongpdx" element={<PersonalWebsite />} />
-                        <Route path="mlbreakout" element={<Mlb />} />
-                        <Route path="gcpapi" element={<GcpApi />} />
-                        <Route path="idealconditions" element={<IdealConditions />} />
-                        <Route path="networkmonitor" element={<NetworkMonitor />} />
-                        <Route path="blockchain" element={<Blockchain />} />
-                    </Route>
-                    <Route path="/officeDoor" element={<OfficeDoor/>}/>
-                    <Route path="*" element={<NotFoundPage/>}/>
-            </Route>
-          </Routes>
-
-      </BrowserRouter>
+        <ThemeProvider>
+          <BrowserRouter>
+              <Routes>
+                <Route element={<Format />} >
+                        <Route path="/" element={<HomePage/>}/>
+                        <Route path="/skills" element={<SkillsPage/>}/>
+                        <Route path="/gallery" element={<GalleryPage/>}/>
+                        <Route path="/contact" element={<Contact/>}/>
+                        <Route path="/idealConditions" element={<IdealConditionsPage/>}/>
+                        <Route path="/resume" element={<ResumePage/>}/>
+                        <Route path="portfolio" element={<PortfolioLayout />}>
+                            <Route index element={<PortfolioPage />} />
+                            <Route path="fragrancefreeresources" element={<Ffr />} />
+                            <Route path="littlelemon" element={<LittleLemon />} />
+                            <Route path="jdstrongpdx" element={<PersonalWebsite />} />
+                            <Route path="mlbreakout" element={<Mlb />} />
+                            <Route path="gcpapi" element={<GcpApi />} />
+                            <Route path="idealconditions" element={<IdealConditions />} />
+                            <Route path="networkmonitor" element={<NetworkMonitor />} />
+                            <Route path="blockchain" element={<Blockchain />} />
+                        </Route>
+                        <Route path="/officeDoor" element={<OfficeDoor/>}/>
+                        <Route path="*" element={<NotFoundPage/>}/>
+                </Route>
+              </Routes>
+          </BrowserRouter>
+        </ThemeProvider>
     </>
   );
 }

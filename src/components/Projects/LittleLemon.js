@@ -40,7 +40,7 @@ function IdealConditions() {
 
                 <div className="centered">
                     <figure>
-                        <img width="1000px" alt="little lemon persona" src="images/persona.png"/>
+                        <img width="1000px" alt="little lemon persona" src="/images/persona.png" />
                     </figure>
                 </div>
 
@@ -48,7 +48,7 @@ function IdealConditions() {
 
                 <div className="centered">
                     <figure>
-                        <img width="1000px" alt="little lemon journey map" src="images/journeyMap.png"/>
+                        <img width="1000px" alt="little lemon journey map" src="/images/journeyMap.png"/>
                     </figure>
                 </div>
 
@@ -56,7 +56,7 @@ function IdealConditions() {
 
                 <div className="centered">
                     <figure>
-                        <img width="1000px" alt="little lemon wireframe" src="images/wireframe.png"/>
+                        <img width="1000px" alt="little lemon wireframe" src="/images/wireframe.png"/>
                     </figure>
                 </div>
 
@@ -64,27 +64,26 @@ function IdealConditions() {
 
                 <div className="centered">
                     <figure>
-                        <img alt="little lemon style guide" src="images/styleGuide1.png"/>
+                        <img alt="little lemon style guide" src="/images/styleGuide1.png"/>
                     </figure>
                 </div>
 
                 <p><strong>Stylized Website Implementation using React and Bootstrap (Desktop)</strong></p>
                 <div className="centered">
                     <figure>
-                        <img alt="little lemon desktop" src="images/LLdesktop.png"/>
+                        <img alt="little lemon desktop" src="/images/LLdesktop.png"/>
                     </figure>
                 </div>
 
                 <p><strong>Table Reservation Multi-Part Form - First Page (Mobile)</strong></p>
                 <div className="centered">
                     <figure>
-                        <img width="500px" alt="little lemon desktop" src="images/LLmobile.png"/>
+                        <img width="500px" alt="little lemon desktop" src="/images/LLmobile.png"/>
                     </figure>
                 </div>
 
                 <p><em>GitHub Link: </em> <a href="https://github.com/jdstrongpdx/Meta-Front-End-Developer-Capstone">Meta
                     Front-End Developer Capstone GitHub</a></p>
-                <a href="#top">Back to top</a>
             </div>
         </>
     )

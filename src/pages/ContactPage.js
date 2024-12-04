@@ -4,12 +4,10 @@ import HelmetComponent from "../components/HelmetComponent";
 class Contact extends Component {
     render() {
         return(
-            <>
-                <HelmetComponent title="Contact" />
-                <h1>Contact Page</h1>
+            <div className='project'>
+                <HelmetComponent title="Contact"/>
+                <h2>Contact Page</h2>
 
-
-                <div className='project'>
                     <div className='centered'>
                         <p>Welcome to my contact page!</p>
 
@@ -19,8 +17,8 @@ class Contact extends Component {
 
                         <>I look forward to hearing from you!</>
 
-                        <h1>Joel Strong</h1>
-                        <h2>Full Stack Software Engineer</h2>
+                        <h2>Joel Strong</h2>
+                        <h3>Full Stack Software Engineer</h3>
                         <div>
                             <img className="responsive-img"
                                  src="/images/SpringBusinessCard.png"
@@ -30,7 +28,6 @@ class Contact extends Component {
                         </div>
                     </div>
                 </div>
-            </>
         );
     }
 }

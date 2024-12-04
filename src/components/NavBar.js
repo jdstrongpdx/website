@@ -1,21 +1,26 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
 import { MdPerson, MdEmail } from "react-icons/md";
 import { IoDocument } from "react-icons/io5";
 import { FaLaptopCode, FaRegFileCode } from "react-icons/fa";
 import { TbDoor } from "react-icons/tb";
 import { AiOutlinePicture } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 
-function NavBar() {
-  return (
-    <>
-        <nav className='sidebar'>
-            <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
+const HamburgerMenu = ({ toggleMenu }) => {
+    return (
+        <>
+            <button onClick={() => toggleMenu()}>
+                <GiHamburgerMenu />
+            </button>
+        </>
+    )
+}
 
-            <p><br></br>Hi, my name is Joel Strong and I am full stack software engineer. Welcome to my
-                website!</p>
+const Links = () => {
 
-
+    return (
+        <>
             <Link to="/"> <MdPerson/>  &ensp;<span className="nav-text">About Me</span></Link>
             <Link to="/skills"><FaRegFileCode/> &ensp;<span className="nav-text">Skills</span></Link>
             <Link to="/portfolio"><FaLaptopCode/> &ensp;<span className="nav-text">Portfolio</span></Link>
@@ -36,8 +41,51 @@ function NavBar() {
                 </a>
 
             </div>
+        </>
+    )
+}
 
-            &copy; 2024 Joel Strong
+function NavBar() {
+    const [open, setOpen] = useState(true);
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+    const currentYear = new Date().getFullYear();
+
+    const handleResize = () => {
+        setWindowWidth(window.innerWidth);
+        if (window.innerWidth <= 700) {
+            setOpen(false)
+        } else {
+            setOpen(true)
+        }
+    }
+
+    useEffect(() => {
+        window.addEventListener('resize', handleResize);
+
+        // Clean up on component unmount
+        return () => {
+            window.removeEventListener('resize', handleResize);
+        }
+    }, []);
+
+
+    const toggleMenu = () => {
+        setOpen(!open);
+    };
+
+  return (
+    <>
+        <nav className='sidebar'>
+
+            <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
+
+            <p><br></br>Hi, my name is Joel Strong and I am full stack software engineer. Welcome to my
+                website!</p>
+
+            {windowWidth <= 700 && <HamburgerMenu toggleMenu={toggleMenu}/>}
+            { open ? <Links/> : null}
+
+            &copy; {currentYear} Joel Strong
 
         </nav>
     </>

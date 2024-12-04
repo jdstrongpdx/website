@@ -1,10 +1,12 @@
 import React from "react"
 import {Link, Outlet} from "react-router-dom";
+import HelmetComponent from "./HelmetComponent";
 
 const PortfolioLayout = () => {
     return (
         <>
-            <h1>Portfolio</h1>
+            <HelmetComponent title="Portfolio"/>
+            <h2>Notable Projects</h2>
             <nav>
                 <Link to="/portfolio/" style={{display: 'inline-block', margin: '5px'}}>Overview</Link>
                 <Link to="/portfolio/fragrancefreeresources"
