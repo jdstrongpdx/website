@@ -1,31 +1,57 @@
-import React from "react"
-import {Link, Outlet} from "react-router-dom";
+import React from "react";
+import { NavLink, Outlet } from "react-router-dom";
 import HelmetComponent from "./HelmetComponent";
 
 const PortfolioLayout = () => {
+    const linkStyle = {
+        display: 'inline-block',
+        margin: '5px',
+    };
+
+    const activeLinkStyle = {
+        ...linkStyle,
+        fontWeight: 'bold',
+        color: 'darkBlue',
+    };
+
     return (
         <>
             <HelmetComponent title="Portfolio"/>
             <h2>Notable Projects</h2>
             <nav className='centered'>
-                <Link to="/portfolio/" style={{display: 'inline-block', margin: '5px'}}>Projects List</Link>
-                <Link to="/portfolio/fragrancefreeresources"
-                      style={{display: 'inline-block', margin: '5px'}}>FragranceFreeResources.com</Link>
-                <Link to="/portfolio/littlelemon" style={{display: 'inline-block', margin: '5px'}}>Little Lemon</Link>
-                <Link to="/portfolio/jdstrongpdx"
-                      style={{display: 'inline-block', margin: '5px'}}>jdstrongpdx.com</Link>
-                <Link to="/portfolio/mlbreakout" style={{display: 'inline-block', margin: '5px'}}>ML-Breakout</Link>
-                <Link to="/portfolio/gcpapi" style={{display: 'inline-block', margin: '5px'}}>GCP API</Link>
-                <Link to="/portfolio/idealconditions" style={{display: 'inline-block', margin: '5px'}}>Ideal
-                    Conditions</Link>
-                <Link to="/portfolio/networkmonitor" style={{display: 'inline-block', margin: '5px'}}>Network
-                    Monitor</Link>
-                <Link to="/portfolio/blockchain" style={{display: 'inline-block', margin: '5px'}}>Blockchain</Link>
+                <NavLink to="/portfolio/" end style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Projects List
+                </NavLink>
+                <NavLink to="/portfolio/fragrancefreeresources" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    FragranceFreeResources.com
+                </NavLink>
+                <NavLink to="/portfolio/littlelemon" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Little Lemon
+                </NavLink>
+                <NavLink to="/portfolio/jdstrongpdx" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    jdstrongpdx.com
+                </NavLink>
+                <NavLink to="/portfolio/mlbreakout" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    ML-Breakout
+                </NavLink>
+                <NavLink to="/portfolio/gcpapi" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    GCP API
+                </NavLink>
+                <NavLink to="/portfolio/idealconditions" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Ideal Conditions
+                </NavLink>
+                <NavLink to="/portfolio/networkmonitor" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Network Monitor
+                </NavLink>
+                <NavLink to="/portfolio/blockchain" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Blockchain
+                </NavLink>
             </nav>
+            <br></br>
 
             <Outlet/>
         </>
-    )
-}
+    );
+};
 
 export default PortfolioLayout;

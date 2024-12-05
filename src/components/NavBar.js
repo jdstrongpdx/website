@@ -1,5 +1,5 @@
 import React, {useEffect, useState} from 'react';
-import { Link } from 'react-router-dom';
+import {NavLink} from 'react-router-dom';
 import { MdEmail } from "react-icons/md";
 import { IoDocument, IoHome } from "react-icons/io5";
 import { FaLaptopCode, FaRegFileCode } from "react-icons/fa";
@@ -18,16 +18,41 @@ const HamburgerMenu = ({ toggleMenu }) => {
 }
 
 const Links = () => {
+    const linkStyle = {
+        display: 'inline-block',
+        margin: '5px',
+        textDecoration: 'none',
+    };
+
+    const activeLinkStyle = {
+        ...linkStyle,
+        fontWeight: 'bold',
+        color: '#ffe298',
+    };
 
     return (
         <>
-            <Link to="/"> <IoHome/>  &ensp;<span className="nav-text">Home</span></Link>
-            <Link to="/skills"><FaRegFileCode/> &ensp;<span className="nav-text">Skills</span></Link>
-            <Link to="/portfolio"><FaLaptopCode/> &ensp;<span className="nav-text">Portfolio</span></Link>
-            <Link to="/resume"><IoDocument/> &ensp;<span className="nav-text">Resume & Certifications</span></Link>
-            <Link to="/gallery"><AiOutlinePicture/> &ensp;<span className="nav-text">Gallery</span></Link>
-            <Link to="/officeDoor"> <TbDoor /> &ensp;<span className="nav-text">Office Door</span></Link>
-            <Link to="/contact"> <MdEmail/> &ensp;<span className="nav-text">Contact</span></Link>
+            <NavLink to="/" end style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <IoHome /> &ensp;<span className="nav-text">Home</span>
+            </NavLink>
+            <NavLink to="/skills" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <FaRegFileCode /> &ensp;<span className="nav-text">Skills</span>
+            </NavLink>
+            <NavLink to="/portfolio" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <FaLaptopCode /> &ensp;<span className="nav-text">Portfolio</span>
+            </NavLink>
+            <NavLink to="/resume" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <IoDocument /> &ensp;<span className="nav-text">Resume & Certifications</span>
+            </NavLink>
+            <NavLink to="/gallery" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <AiOutlinePicture /> &ensp;<span className="nav-text">Gallery</span>
+            </NavLink>
+            <NavLink to="/officeDoor" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <TbDoor /> &ensp;<span className="nav-text">Office Door</span>
+            </NavLink>
+            <NavLink to="/contact" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                <MdEmail /> &ensp;<span className="nav-text">Contact</span>
+            </NavLink>
 
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
 

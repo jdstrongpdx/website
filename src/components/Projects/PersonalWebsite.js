@@ -1,24 +1,34 @@
+import React from "react";
+import Project from "../Project";
+
+const project = {
+    name: "Personal Website",
+    abbreviation: "Website",
+    date: "December 2023 - Current",
+    type: "React Website",
+    description: "Development of a personal website to showcase my SWE skills.",
+    stack: {
+        frontend: "React, JavaScript, CSS, HTML.",
+        hosting: "AWS Amplify with automatic deployment with commit to Main.",
+    },
+    website: null,
+    websiteText: null,
+    repo: "https://github.com/jdstrongpdx/website",
+}
+
+const Description = () => {
+    return (
+        <>
+            <p>Description</p>
+        </>
+    )
+}
+
+
 function PersonalWebsite() {
     return (
         <>
-            <div  id="PersonalWebsite" className="project">
-                <h3>Personal Website</h3>
-                <h4>December 2023 - Current</h4>
-                <div className="centered">
-                    <figure>
-                        <img width="900px" alt="website screenshot" src="/images/website.png"/>
-                    </figure>
-                </div>
-                <p><strong>App Type:</strong> Dynamic Web Site</p>
-                <p><strong>Description:</strong> Development of a personal website to showcase my SWE skills. I started
-                    from scratch deploying an empty React project to AWS Amplify and built up the code using React,
-                    JavaScript, and Vanilla CSS to develop the site.</p>
-                <ul>
-                    <li><em>Frontend: </em> React, Node.js, Vanilla CSS.</li>
-                    <li><em>Hosting: </em> AWS Amplify with automatic deployment with commit to Main.</li>
-                </ul>
-                <a href="#top">Back to top</a>
-            </div>
+            <Project project={project} description={<Description />} />
         </>
     )
 }
