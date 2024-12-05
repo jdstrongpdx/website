@@ -7,8 +7,10 @@ import HelmetComponent from "../components/HelmetComponent";
 const SkillsPage = () => {
     return (
         <>
+
             <HelmetComponent title="Skills and Languages Page" />
             <article>
+
                 <h2>Languages & Frameworks</h2>
                 <p>This is a list of languages & frameworks that I have learned with the expressed interest in building
                     applications with them. I am a life-long learner and interested in adding new languages and
@@ -25,7 +27,7 @@ const SkillsPage = () => {
 
             </article>
             <article>
-                <h2>Skills</h2>
+            <h2>Skills</h2>
 
                 <div className='skillsParent'>
                     {skillsData.map((skill, index) => (

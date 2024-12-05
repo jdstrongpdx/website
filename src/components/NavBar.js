@@ -1,7 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import { Link } from 'react-router-dom';
-import { MdPerson, MdEmail } from "react-icons/md";
-import { IoDocument } from "react-icons/io5";
+import { MdEmail } from "react-icons/md";
+import { IoDocument, IoHome } from "react-icons/io5";
 import { FaLaptopCode, FaRegFileCode } from "react-icons/fa";
 import { TbDoor } from "react-icons/tb";
 import { AiOutlinePicture } from "react-icons/ai";
@@ -21,7 +21,7 @@ const Links = () => {
 
     return (
         <>
-            <Link to="/"> <MdPerson/>  &ensp;<span className="nav-text">About Me</span></Link>
+            <Link to="/"> <IoHome/>  &ensp;<span className="nav-text">Home</span></Link>
             <Link to="/skills"><FaRegFileCode/> &ensp;<span className="nav-text">Skills</span></Link>
             <Link to="/portfolio"><FaLaptopCode/> &ensp;<span className="nav-text">Portfolio</span></Link>
             <Link to="/resume"><IoDocument/> &ensp;<span className="nav-text">Resume & Certifications</span></Link>

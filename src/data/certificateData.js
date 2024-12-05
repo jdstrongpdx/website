@@ -1,59 +1,68 @@
 const certificateData = [
     {
-        title: "JetBrains Java Certifications",
+        title: "Java",
         certifications: [
             {
                 link: "https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf",
                 type: "normal",
                 imgLink: "./certifications/IntroJava.png",
                 title: "Introduction to Java",
+                languages: ["Java"]
             },
             {
                 link: "https://hyperskill.org/certificates/df6a1e14-ac88-40f7-96bf-2a5e31fa7e14.pdf",
                 type: "normal",
                 imgLink: "./certifications/JavaDeveloper.png",
                 title: "Java Developer",
+                languages: ["Java"]
             },
             {
                 link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
                 type: "normal",
                 imgLink: "./certifications/IntroSpringBoot.png",
                 title: "Introduction to Spring Boot",
+                languages: ["Java", "SpringBoot"]
             },
             {
                 link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
                 type: "normal",
                 imgLink: "./certifications/JavaBackend.png",
                 title: "Java Backend Developer (Spring Boot)",
+                languages: ["Java", "SpringBoot"]
             },
         ]}, {
-        title: "Front-End Certifications",
+        title: "Front-End",
         certifications: [
             {
                 link: "https://coursera.org/verify/professional-cert/R64MC41UJZ6N",
                 type: "wide",
                 imgLink: "./certifications/meta_front_end.png",
                 title: "Meta Front-End Developer Professional Certificate",
+                languages: ["HTML", "CSS", "JavaScript", "React", "Git"]
             }, {
                 link: "https://coursera.org/verify/specialization/CFTYPY5EEDKE",
                 type: "wide",
                 imgLink: "./certifications/AdvancedJavaScript.png",
                 title: "Advanced JavaScript",
+                languages: ["JavaScript"]
             }, {
                 link: "https://coursera.org/verify/9HO3N1IXEHL0",
                 type: "wide",
                 imgLink: "./certifications/metaHtmlCss.png",
                 title: "HTML and CSS in Depth",
+                languages: ["HTML", "CSS"]
             }, {
                 link: "https://coursera.org/verify/TLLPJGAZ3B2A",
                 type: "wide",
                 imgLink: "./certifications/metaJavaScript.png",
                 title: "Programming with JavaScript",
+                languages: ["JavaScript"]
             }, {
                 link: "https://coursera.org/verify/8U39UCIHFL04",
                 type: "wide",
                 imgLink: "./certifications/metaReactAdvanced.png",
                 title: "Meta Advanced React",
+                languages: ["React"]
             }, {
                 link: "https://coursera.org/verify/43GJ80J0798S",
                 type: "wide",
@@ -64,25 +73,29 @@ const certificateData = [
                 type: "wide",
                 imgLink: "./certifications/AdvancedReactScrimba.png",
                 title: "Scrimba Advanced React",
+                languages: ["React"]
             }, {
                 link: "https://coursera.org/verify/KRRVQWPS7HY5",
                 type: "wide",
                 imgLink: "./certifications/ReusableReact.png",
-                title: "Building Reusable React"
+                title: "Building Reusable React",
+                languages: ["React"]
             }
         ]}, {
-        title: "JetBrains Python ",
+        title: "Python ",
         certifications: [
             {
                 link: "https://hyperskill.org/certificates/142107e4-68cd-4d83-bd0c-1d53b085e767.pdf",
                 type: "normal",
                 imgLink: "./certifications/IntroPython.png",
                 title: "Introduction to Python",
+                languages: ["Python"]
             } , {
                 link: "https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf",
                 type: "normal",
                 imgLink: "./certifications/PythonCore.png",
                 title: "Python Core",
+                languages: ["Python"]
             }
         ]}, {
         title: "DevOps",
@@ -92,6 +105,7 @@ const certificateData = [
                 type: "normal",
                 imgLink: "./certifications/IntroDocker.png",
                 title: "Introduction to Docker",
+                languages: ["Docker"]
             } , {
                 link: "https://coursera.org/verify/IK02GKZWTS14",
                 type: "wide",
@@ -103,6 +117,7 @@ const certificateData = [
                 type: "wide",
                 imgLink: "./certifications/metaVersionControl.png",
                 title: "Version Control",
+                languages: ["Git"]
             }
         ]}, {
         title: "Diploma - Bachelor of Science in Computer Science",

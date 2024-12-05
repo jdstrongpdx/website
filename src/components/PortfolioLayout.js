@@ -7,8 +7,8 @@ const PortfolioLayout = () => {
         <>
             <HelmetComponent title="Portfolio"/>
             <h2>Notable Projects</h2>
-            <nav>
-                <Link to="/portfolio/" style={{display: 'inline-block', margin: '5px'}}>Overview</Link>
+            <nav className='centered'>
+                <Link to="/portfolio/" style={{display: 'inline-block', margin: '5px'}}>Projects List</Link>
                 <Link to="/portfolio/fragrancefreeresources"
                       style={{display: 'inline-block', margin: '5px'}}>FragranceFreeResources.com</Link>
                 <Link to="/portfolio/littlelemon" style={{display: 'inline-block', margin: '5px'}}>Little Lemon</Link>

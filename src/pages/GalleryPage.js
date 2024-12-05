@@ -1,6 +1,6 @@
 import HelmetComponent from "../components/HelmetComponent";
 import React from "react";
-import galleryData from "../data/galleryData";
+import imageData from "../data/imageData";
 import GalleryModal from "../components/GalleryModal";
 
 
@@ -11,9 +11,10 @@ function GalleryPage() {
           <h2> Gallery </h2>
           <h3>A collection of pictures highlighting my software development projects or other work.</h3>
             <div className="centered">
-            {galleryData.map((image, index) => (
+            {imageData.map((image, index) => (
                 <GalleryModal
-                    imageSrc={image.original}
+                    key={index}
+                    imageSrc={image.src}
                     altText={image.description}
                     label={image.description}
                 />

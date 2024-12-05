@@ -1,7 +1,7 @@
 const projectData = [
     {
         title: "FragranceFreeResources.com",
-        image: "/images/FFR.png",
+        image: "/images/FFR/home.png",
         data: [["Type:", "Full Stack Web Application"],
             ["Frontend:", "React, React-Router-Dom, Bootstrap, Axios, Formik, Yup"],
             ["Backend:", "SpringBoot, Java, Lambok"],
@@ -11,17 +11,16 @@ const projectData = [
     },
     {
         title: "Little Lemon",
-        image: "/images/LLdesktopThumb.png",
+        image: "/images/LL/desktopThumb.png",
         data: [["Type:", "Frontend Development Project"],
             ["Figma:", "Development of a Persona, Journey Map, Wireframe, and Prototype"],
             ["Frontend:", "React, JavaScript, CSS implementation using Figma Prototype and Style Guide"],
-
         ],
         route: "/portfolio/littlelemon",
     },
     {
         title: "jdstrongpdx.com",
-        image: "/images/website.png",
+        image: "/images/Website/website.png",
         data: [["Type:", "Personal Website"],
             ["Frontend:", "React, React-Router-Dom, JavaScript, CSS"],
             ["Hosting:", "AWS Amplify"],
@@ -31,7 +30,7 @@ const projectData = [
     },
     {
         title: "ML-Breakout",
-        image: "/images/MLB-WebGL.png",
+        image: "/images/MLB/webGl.png",
         data: [["Type:", "Machine Learning and Unity Game"],
             ["Game Development:", "Created an Atari Breakout game clone in Unity, C++"],
             ["Model Development:", "Used ML-Agents Toolkit to reward, penalize, and train a Machine Learning Model to play the game."],
@@ -41,9 +40,9 @@ const projectData = [
     },
     {
         title: "GCP RESTful API",
-        image: "/images/GCPdatastore.png",
+        image: "/images/GCP/datastore.png",
         data: [["Type:", "RESTful API Backend"],
-            ["Backend:", "Python, Flask"],
+            ["Backend:", "Python, Flask, Auth0"],
             ["Hosting:", "GCP AppEngine, Datastore  & Storage, Auth0 "],
             ["Description:", "Created a Role Based Auth secured backend using Auth0 and Flask, NoSQL persistence using GCP Datastore, and Avatar image handling using GCP Storage"]
         ],
@@ -51,18 +50,18 @@ const projectData = [
     },
     {
         title: "Ideal Conditions",
-        image: "/images/IdealConditions.png",
+        image: "/images/IC/home.png",
         data: [["Type:", "Full Stack Web Application"],
             ["Frontend:", "React, JavaScript, CSS"],
             ["Backend:", "Python RESTful API using AWS Lambda Function"],
             ["Hosting:", "AWS Amplify, AWS Lambda"],
-            ["Description", "Test"]
+            ["Description", "Uses a Pyon"]
         ],
         route: "/portfolio/idealconditions",
     },
     {
         title: "Network Monitor",
-        image: "/images/NetworkMonitorThumb.png",
+        image: "/images/NetworkMonitor/monitor.png",
         data: [["Type:", "Full Stack Web Application"],
             ["Frontend:", "React, Axios, Formik, Yup"],
             ["Backend:", "SpringBoot, Java, Lambok "],
@@ -72,7 +71,7 @@ const projectData = [
     },
     {
         title: "Blockchain",
-        image: "/images/MultiThreadJava.png",
+        image: "/images/Blockchain/load.png",
         data: [["Type:", "Full Stack Web Application"],
             ["Frontend:", "React, Axios, Formik, Yup"],
             ["Backend:", "SpringBoot, Java, Lambok "],

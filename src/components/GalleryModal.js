@@ -3,7 +3,6 @@ import React, {useState} from 'react';
 const GalleryModal = ({ imageSrc, altText, label }) => {
     const [isOpen, setIsOpen] = useState(false);
 
-
     return (
         <>
         <div className="gallery-container"
@@ -13,7 +12,7 @@ const GalleryModal = ({ imageSrc, altText, label }) => {
             <img src={imageSrc}
                  alt={altText}
             />
-            {label && <p className="label" style={{ fontWeight: "700", padding: '1%'}}>{label}</p>}
+            {label && <p className="label" style={{ fontSize: "12pt", fontWeight: "600", padding: '1%'}}>{label}</p>}
         </div>
 
         {isOpen && (
