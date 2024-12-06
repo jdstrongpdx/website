@@ -27,30 +27,54 @@ const Links = () => {
     const activeLinkStyle = {
         ...linkStyle,
         fontWeight: 'bold',
-        color: '#ffe298',
+        color: 'yellow',
+        textDecoration: 'underline',
+        textUnderlineOffset: '4px'
     };
 
     return (
         <>
-            <NavLink to="/" end style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/"
+                end
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <IoHome /> &ensp;<span className="nav-text">Home</span>
             </NavLink>
-            <NavLink to="/skills" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/skills"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <FaRegFileCode /> &ensp;<span className="nav-text">Skills</span>
             </NavLink>
-            <NavLink to="/portfolio" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/portfolio"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <FaLaptopCode /> &ensp;<span className="nav-text">Portfolio</span>
             </NavLink>
-            <NavLink to="/resume" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/resume"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <IoDocument /> &ensp;<span className="nav-text">Resume & Certifications</span>
             </NavLink>
-            <NavLink to="/gallery" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/gallery"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <AiOutlinePicture /> &ensp;<span className="nav-text">Gallery</span>
             </NavLink>
-            <NavLink to="/officeDoor" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/officeDoor"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <TbDoor /> &ensp;<span className="nav-text">Office Door</span>
             </NavLink>
-            <NavLink to="/contact" style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+            <NavLink
+                to="/contact"
+                className="nav-link"
+                style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <MdEmail /> &ensp;<span className="nav-text">Contact</span>
             </NavLink>
 

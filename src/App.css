@@ -16,7 +16,7 @@
     --color-grey-blue: rgb(200, 214, 233);  /* transparency */
     --color-trans-grey-blue: #cbdbdbd0;  /* transparency */
     --color-non-trans-grey-blue: rgb(115, 110, 118);
-    --color-cream: #fbfbfb;
+    --color-cream: #fdfdfd;
     --color-light-orange: rgb(236, 208, 170);
     --less-light-orange: rgb(235, 200, 150);
     --color-dark-brown: #483e38;
@@ -26,17 +26,17 @@
     --trans-navy: #1c1f4c88;  /* transparency */
     --rust: #9b5913;
     --blend-blue: rgb(153, 175, 205);
-    --background-grey: rgb(240, 242, 243)
+    --background-grey: rgb(243, 243, 243);
   }
 
   /*  ----- Viewport ----- elements inherited by all remaining elements ----- */
   html {}
 
   body {
-    background-color: var(--color-cream);
+    background-color: #DBE9EA;
     font-weight: 400;
     font-size: 1.1em;
-    color: var(--color-dark-brown);
+    color: #223030;
     font-family: 'Lato', sans-serif;
   }
 
@@ -67,7 +67,7 @@
   align-items: center;
   padding: 30px 8px 30px 8px;
   width: 325px;
-  background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 150%);
+  background: linear-gradient(180deg, var(--blueberry) 0%, var(--color-cream) 125%);
   color: var(--color-cream);
   text-align: center;
   position: fixed;
@@ -132,7 +132,7 @@ div.content {
 
 .project {
   padding: 1% 2% 1% 2%;
-  background-color: var(--background-grey);
+
   border-radius: 10px;
   margin-bottom: 20px;
 }
@@ -566,10 +566,11 @@ i {
   margin: 10px;
   border: 1px solid #ddd;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.05);
   width: 500px;
   justify-content: center;
   vertical-align: middle;
+  background-color: var(--background-grey);
 }
 
 .gallery-container img {
@@ -585,15 +586,20 @@ i {
   color: #333;
 }
 
-.card {
-  border: 1px solid #ddd;
+.shadow {
+  overflow: hidden;
   border-radius: 8px;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.05);
+}
+
+.card {
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1), 0 0 20px rgba(0, 0, 0, 0.1), 0 0 40px rgba(0, 0, 0, 0.05);
   overflow: hidden;
   width: 300px;
   margin: 16px;
   padding: 5px;
-  transition: box-shadow 0.3s ease;
+  transition: box-shadow 0.5s ease;
   background-color: var(--background-grey);
 }
 
@@ -623,6 +629,18 @@ i {
   font-size: 1.1rem;
   margin: 12px 0;
   color: #666;
+}
+
+.nav-link {
+  display: inline-block;
+  margin: 5px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 4px;
 }
 
 

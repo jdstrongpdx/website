@@ -7,6 +7,7 @@ enum ProjectEnum {
     IC,
     NetworkMonitor,
     Blockchain,
+    Gallery
 }
 
 export default ProjectEnum;

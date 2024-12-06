@@ -12,8 +12,8 @@ interface ProjectProps {
 
 
 const Project: React.FC<ProjectProps> = ({ project, childrenBefore, childrenAfter, description }) => {
-    const images = !project.abbreviation ? null :
-        imageData.filter(image => image.project === project.abbreviation);
+    const images = !project.imageDisplay ? null :
+        imageData.filter(image => image.project === project.project);
     return (
         <>
             <div className="project">
@@ -41,6 +41,7 @@ const Project: React.FC<ProjectProps> = ({ project, childrenBefore, childrenAfte
 
                 {childrenBefore}
 
+                {/* Note: images are prevented from being generated if project.imageDisplay is false in func above.*/}
                 {images && (
                     <>
                         <h4>Project Images</h4>

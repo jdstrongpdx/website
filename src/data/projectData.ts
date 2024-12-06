@@ -1,4 +1,5 @@
 import IProjectData from "../interfaces/IProject";
+import ProjectEnum from "../enums/ProjectEnum";
 
 type ProductDataMap = {
     [key: string]: IProjectData;
@@ -8,10 +9,11 @@ const projectData: ProductDataMap = {
     FFR: {
         title: "FragranceFreeResources.com",
         image: "/images/FFR/home.png",
+        imageDisplay: true,
         data: null,
         route: "/portfolio/fragrancefreeresources",
+        project: ProjectEnum.FFR,
         name: "FragranceFreeResources.com Full Stack Web Application",
-        abbreviation: "FFR",
         date: "April 2024 - Current",
         type: "Full Stack Single Page Web Application",
         description: "A Full Stack web application that allows people that are sensitive to fragrances to share resources on Businesses, Products, and Rental Homes that are safe environments.",
@@ -28,14 +30,20 @@ const projectData: ProductDataMap = {
     LL: {
         title: "Little Lemon",
         image: "/images/LL/desktopThumb.png",
+        imageDisplay: true,
         data: [["Figma:", "Development of a Persona, Journey Map, Wireframe, and Prototype"]],
         route: "/portfolio/littlelemon",
+        project: ProjectEnum.LL,
         name: "Little Lemon UX/UI design and React implementation",
-        abbreviation: "LL",
         date: "November 2024",
         type: "Frontend Design & Implementation",
         description: "This project was part of the Meta Front-End Developer Professional Certification and had the following objectives:",
-        stack: null,
+        stack: {
+            frontend: "React, JavaScript, HTML, CSS.",
+            database: null,
+            backend: null,
+            hosting: null,
+        },
         website: null,
         websiteText: null,
         repo: "https://github.com/jdstrongpdx/Meta-Front-End-Developer-Capstone",
@@ -43,18 +51,17 @@ const projectData: ProductDataMap = {
     Website:
         {
             title: "jdstrongpdx.com",
-            image:
-                "/images/Website/website.png",
+            image: "/images/Website/website.png",
+            imageDisplay: true,
             data: null,
-            route:
-                "/portfolio/jdstrongpdx",
+            route: "/portfolio/jdstrongpdx",
+            project: ProjectEnum.Website,
             name: "Personal Website",
-            abbreviation: "Website",
             date: "December 2023 - Current",
             type: "React Website",
-            description: "Creation of a Personal Website to showcase my projects and skills. Built with React using reusable components, components generated from data, and routing.",
+            description: "Creation of a Personal Website to showcase my projects and skills. Built with React, TypeScript, HTML and CSS using reusable components, components generated from data, and routing.",
             stack: {
-                frontend: "React, JavaScript, CSS, HTML.",
+                frontend: "React, TypeScript, HTML, CSS.",
                 database: null,
                 backend: null,
                 hosting: "AWS Amplify with automatic deployment with commit to Main.",
@@ -65,16 +72,15 @@ const projectData: ProductDataMap = {
         },
     MLB: {
         title: "ML-Breakout",
-        image:
-            "/images/MLB/webGl.png",
+        image: "/images/MLB/webGl.png",
+        imageDisplay: false,
         data:
             [["Game Development:", "Created an Atari Breakout game clone in Unity, C++"],
                 ["Model Development:", "Used ML-Agents Toolkit to reward, penalize, and train a Machine Learning Model to play the game."],
             ],
-        route:
-            "/portfolio/mlbreakout",
+        route: "/portfolio/mlbreakout",
+        project: ProjectEnum.MLB,
         name: "ML-Breakout",
-        abbreviation: null,
         date: "June 2024 - August 2024",
         type: "Unity Game Development and Machine Learning Model Training",
         description: "Development of an Atari Breakout game clone and train a neural network with reinforcement learning using Unity ML-Agents to play the game. This project was a Capstone group project for the Oregon State Computer Science Bachelors degree and developed over 8 weeks during Summer 2024.",
@@ -91,13 +97,12 @@ const projectData: ProductDataMap = {
     ,
     GCP: {
         title: "GCP RESTful API",
-        image:
-            "/images/GCP/datastore.png",
+        image: "/images/GCP/datastore.png",
+        imageDisplay: true,
         data: null,
-        route:
-            "/portfolio/gcpapi",
+        route: "/portfolio/gcpapi",
+        project: ProjectEnum.GCP,
         name: "Google Cloud Platform RESTful API backend using Python/Flask, Datastore, Storage",
-        abbreviation: "GCP",
         date: "May 2024",
         type: "RESTful API Backend",
         description: "Created a Role Based Auth secured backend using Auth0 and Flask, NoSQL persistence using GCP Datastore, and Avatar image handling using GCP Storage",
@@ -116,18 +121,19 @@ const projectData: ProductDataMap = {
         title: "Ideal Conditions",
         image:
             "/images/IC/home.png",
+        imageDisplay: true,
         data: null,
         route:
             "/portfolio/idealconditions",
+        project: ProjectEnum.IC,
         name: "Ideal Conditions Full Stack Web Application",
-        abbreviation: "IC",
         date: "September 2023",
         type: "Full Stack Serverless Web Application",
         description: "A application that takes in a Location string, uses an serverless microservice to return time windows when the weather conditions are ideal for ten popular outdoor activities.",
         stack: {
             frontend: "Uses React, JavaScript, HTML, CSS, Axios.",
             database: null,
-            backend: "Uses an AWS Lambda Function running Python. Uses an AWS API Gateway with Proxy Integration to inject the request into the Lambda function and return the response. Code was written in PyCharm, tested, deployed to AWS and tested using Postman.",
+            backend: "Uses an AWS Lambda Function running Python. Uses an AWS API Gateway with Proxy Integration to inject the request into the Lambda function and return the response.",
             hosting: "The backend is served AWS Lambda/API Gateway and the frontend is served by an AWS Amplify app."
         },
         website: null,
@@ -138,11 +144,12 @@ const projectData: ProductDataMap = {
         title: "Network Monitor",
         image:
             "/images/NetworkMonitor/monitor.png",
+        imageDisplay: true,
         data: null,
         route:
             "/portfolio/networkmonitor",
+        project: ProjectEnum.NetworkMonitor,
         name: "Python Server/Client Networking Monitor using TCP/IP",
-        abbreviation: "NetworkMonitor",
         date: "March 2024",
         type: "Multi-Threaded Python Desktop Application",
         description: "Developed a multi-threaded object-oriented Python application utilizing TCP/IP Server/Client communication. Allows a remote client to configure of a wide range of network tests, transmit the tests to a server to perform, and ensures the reliable delivery and reconnection of results back to the client.",
@@ -156,11 +163,12 @@ const projectData: ProductDataMap = {
         title: "Blockchain",
         image:
             "/images/Blockchain/load.png",
+        imageDisplay: true,
         data: null,
         route:
             "/portfolio/blockchain",
+        project: ProjectEnum.Blockchain,
         name: "Java Multi-threaded Blockchain App",
-        abbreviation: "Blockchain",
         date: "August 2023",
         type: "Multi-threaded Desktop Java Application",
         description: "Creation of a Blockchain message/transaction service including Block generation, messaging/transactions, mining, and validation.",

@@ -1,10 +1,13 @@
+import ProjectEnum from "../enums/ProjectEnum";
+
 export default interface IProjectData {
     title: string;
     image: string;
     data: [string, string][] | null;
     route: string;
     name: string;
-    abbreviation: string | null; // null prevents image mapping for the project
+    project: ProjectEnum;
+    imageDisplay: boolean;
     date: string;
     type: string;
     description: string;

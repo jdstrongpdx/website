@@ -5,19 +5,19 @@ import ResumeModal from "../components/ResumeModal";
 
 function ResumePage() {
     return (
-    <>
+    <div>
         <HelmetComponent title="Resume" />
-    <div className='project'>
-        <h2>Resume</h2>
-        <ResumeModal
-            imageSrc="/images/Resume.png"
-            altText="Joel Strong Resume"
-            label="Resume"
-        />
-    </div>
+        <div className='project'>
+            <h2>Resume</h2>
+            <ResumeModal
+                imageSrc="/images/Resume.png"
+                altText="Joel Strong Resume"
+                label="Resume"
+            />
+        </div>
 
-    <Certifications/>
-    </>
+        <Certifications/>
+    </div>
     );
 }
 export default ResumePage;

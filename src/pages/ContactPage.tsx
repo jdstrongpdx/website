@@ -19,12 +19,14 @@ const Contact = () => {
                         <h2>Joel Strong</h2>
                         <h3>Full Stack Software Engineer</h3>
                         <div>
-                            <img className="responsive-img"
+                            <img
                                  src="/images/SpringBusinessCard.png"
                                  style={{maxWidth: '800px'}}
-                                 alt="Programming Business Card">
+                                 alt="Programming Business Card"
+                                className="shadow">
                             </img>
                         </div>
+                        <br></br>
                     </div>
                 </div>
         );

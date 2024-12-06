@@ -14,6 +14,7 @@ const Certification: React.FC<CertificationProps> = ({ link, type, imgLink, titl
                    target="_blank" rel="noopener noreferrer">
                     <img width={type === "wide" ? "410" : "300"}
                          alt={title}
+                         className="shadow"
                          style={{ border:"0", alignItems:"center"}}
                          src={imgLink}/>
                 </a><p><strong>{title}</strong></p>

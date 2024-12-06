@@ -18,8 +18,10 @@ const ResumeModal: React.FC<ResumeModalProps> = ({ imageSrc, altText }) => {
             >
                 <img src={imageSrc}
                      alt={altText}
-                     style={{ maxWidth: "1000px"  }}
+                     className="shadow"
+                     style={{ maxWidth: "90%"  }}
                 />
+
             </div>
 
             {isOpen && (
