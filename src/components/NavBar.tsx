@@ -27,20 +27,21 @@ const Links = () => {
     const activeLinkStyle = {
         ...linkStyle,
         fontWeight: 'bold',
-        color: 'yellow',
+        color: '#FFEAAE' +
+            '',
         textDecoration: 'underline',
         textUnderlineOffset: '4px'
     };
 
     return (
         <>
-            <NavLink
+{/*            <NavLink
                 to="/"
                 end
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <IoHome /> &ensp;<span className="nav-text">Home</span>
-            </NavLink>
+            </NavLink>*/}
             <NavLink
                 to="/skills"
                 className="nav-link"
@@ -48,7 +49,7 @@ const Links = () => {
                 <FaRegFileCode /> &ensp;<span className="nav-text">Skills</span>
             </NavLink>
             <NavLink
-                to="/portfolio"
+                to="/portfolio/"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <FaLaptopCode /> &ensp;<span className="nav-text">Portfolio</span>
@@ -128,8 +129,8 @@ function NavBar() {
 
             <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
 
-            <p><br></br>Hi, my name is Joel Strong and I am full stack software engineer. Welcome to my
-                website!</p>
+            <h3 style={{marginTop: '10px', marginBottom: '0px'}}>Joel Strong</h3>
+            <p style={{fontSize: '10pt'}}><i>Full Stack Software Engineer</i></p>
 
             {windowWidth <= 700 && <HamburgerMenu toggleMenu={toggleMenu}/>}
             { open ? <Links/> : null}

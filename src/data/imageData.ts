@@ -32,7 +32,23 @@ const imageData: IImageData[] = [
         project: ProjectEnum.FFR,
     }, {
         src: 'images/LL/persona.png',
-        description: 'Development of a Persona in Figma',
+        description: 'Persona created in Figma',
+        project: ProjectEnum.LL,
+    }, {
+        src: 'images/LL/journeyMap.png',
+        description: 'Journey Map created in Figma',
+        project: ProjectEnum.LL,
+    }, {
+        src: 'images/LL/wireframe.png',
+        description: 'Wireframe prototype created in Figma',
+        project: ProjectEnum.LL,
+    }, {
+        src: 'images/LL/prototype.png',
+        description: 'Functional prototype created in Figma',
+        project: ProjectEnum.LL,
+    }, {
+        src: 'images/LL/styleGuide.png',
+        description: 'Style Guide provided by Meta for the creation of the Little Lemon Project',
         project: ProjectEnum.LL,
     }, {
         src: 'images/LL/desktop.png',
@@ -41,10 +57,6 @@ const imageData: IImageData[] = [
     }, {
         src: 'images/LL/mobile.png',
         description: 'Development of a multi-part mobile table reservation system using React using a styleguide',
-        project: ProjectEnum.LL,
-    }, {
-        src: 'images/LL/journeyMap.png',
-        description: 'Development of a Journey Map for a problem statement and persona in Figma',
         project: ProjectEnum.LL,
     }, {
         src: 'images/Website/website.png',
@@ -137,6 +149,10 @@ const imageData: IImageData[] = [
     }, {
         src: 'images/Blockchain/load.png',
         description: 'Ten core processor mining 9 threads for Java Blockchain app.',
+        project: ProjectEnum.Blockchain,
+    }, {
+        src: 'images/Blockchain/example.png',
+        description: 'Example of a completed Blockchain transactions and mining.',
         project: ProjectEnum.Blockchain,
     }, {
         src: 'images/Gallery/matplot.png',

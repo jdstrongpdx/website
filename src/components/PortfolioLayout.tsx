@@ -5,14 +5,14 @@ import HelmetComponent from "./HelmetComponent";
 const PortfolioLayout = () => {
     const linkStyle = {
         display: 'inline-block',
-        fontSize: '1.1em',
+        color: '#fdfdfd',
         margin: '8px',
     };
 
     const activeLinkStyle = {
         ...linkStyle,
         fontWeight: 'bold',
-        color: '#3f5785',
+        color: '#FFEAAE',
         textDecoration: 'underline',
         textUnderlineOffset: '4px'
     };
@@ -22,7 +22,7 @@ const PortfolioLayout = () => {
             <HelmetComponent title="Portfolio"/>
             <h2>Notable Projects</h2>
             <nav className='centered'
-                style={{background: "white", borderRadius: "5px", padding: "5px", height: "fit-content"}}
+                style={{background: "#64799f", borderRadius: "5px", padding: "5px", height: "fit-content"}}
             >
                 <NavLink to="/portfolio/"
                          end
