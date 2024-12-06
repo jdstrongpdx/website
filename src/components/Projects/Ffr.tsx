@@ -19,18 +19,12 @@ const ChildrenBefore = () => {
     return (
         <>
             <h4>Overview</h4>
-            <p>This full stack web application was developed over 11 weeks as part of a Personal Projects
-                elective class as part of my Computer Science bachelors degree at Oregon State University. In
-                addition to my classwork, I dedicated myself to learning additional languages and frameworks with
+            <p>This full stack web application was initially developed as part of a Personal Projects
+                elective class at Oregon State University. In
+                addition to my classwork, I dedicated myself to learning Java/SpringBoot and React/TypeScript with
                 the goal of independently developing a web application. This website is a realization of those
                 efforts.</p>
-        </>
-    )
-}
 
-const ChildrenAfter = () => {
-    return (
-        <>
             <h4>Web Application Features</h4>
             <ul>
                 <li><strong>Security</strong> - Implemented Spring Security using JWT with backend access privileges
@@ -76,7 +70,13 @@ const ChildrenAfter = () => {
                     Progressive Web Application badge.
                 </li>
             </ul>
+        </>
+    )
+}
 
+const ChildrenAfter = () => {
+    return (
+        <>
             <h4>CI/CD</h4>
             <p>Since the release of the product, the following continuous development activities have occurred:</p>
             <ul>
