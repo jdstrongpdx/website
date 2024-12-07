@@ -1,6 +1,6 @@
 import HelmetComponent from "../components/HelmetComponent";
 import React from "react";
-import ImageModal from "../components/ImageModal";
+import GalleryModal from "../components/GalleryModal";
 
 const OfficeDoor = () => {
     return (
@@ -12,10 +12,15 @@ const OfficeDoor = () => {
                 office door, I give to you this page - a collection of cartoons and memes that I especially enjoy and
                 hope you do as well.</p>
 
-            <div className="memes">
-                {Array.from({ length: 20 }, (_, i) =>
-                    <ImageModal key={i + 1} imgSrc={`/memes/meme${i + 1}.png`} />
+            <div className="gallery-row">
+                {Array.from({length: 20}, (_, i) =>
+                    <GalleryModal
+                        key={i + 1}
+                        imageSrc={`/memes/meme${i + 1}.png`}
+                        altText="meme"
+                    />
                 )}
+
             </div>
         </div>
     )

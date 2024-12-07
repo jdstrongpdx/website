@@ -10,7 +10,7 @@ function GalleryPage() {
           <HelmetComponent title="Gallery"/>
           <h2> Gallery </h2>
           <h3>A collection of pictures highlighting my software development projects or other work.</h3>
-            <div className="centered">
+            <div className="gallery-row">
             {imageData.map((image, index) => (
                 <GalleryModal
                     key={index}

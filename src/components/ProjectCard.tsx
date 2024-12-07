@@ -11,7 +11,7 @@ const ProjectCard: React.FC<{ project: IProjectData }> = ({ project }) => {
 
     return (
         <div className="card"
-             style={{ width: '400px'}}
+             style={{ width: '400px', cursor: 'pointer'}}
              onClick={() => handleClick(project.route)}
         >
             <img src={project.image} alt={project.title} style={{ height: "200px" }} />

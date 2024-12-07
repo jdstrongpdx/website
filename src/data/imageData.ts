@@ -43,20 +43,21 @@ const imageData: IImageData[] = [
         description: 'Wireframe prototype created in Figma',
         project: ProjectEnum.LL,
     }, {
-        src: 'images/LL/prototype.png',
-        description: 'Functional prototype created in Figma',
-        project: ProjectEnum.LL,
-    }, {
+
         src: 'images/LL/styleGuide.png',
         description: 'Style Guide provided by Meta for the creation of the Little Lemon Project',
+        project: ProjectEnum.LL,
+    }, {
+        src: 'images/LL/mobile.png',
+        description: 'Development of a multi-part mobile table reservation system using React using a styleguide',
         project: ProjectEnum.LL,
     }, {
         src: 'images/LL/desktop.png',
         description: 'Development of a highly stylized React website based on a provided styleguide and wireframe.',
         project: ProjectEnum.LL,
     }, {
-        src: 'images/LL/mobile.png',
-        description: 'Development of a multi-part mobile table reservation system using React using a styleguide',
+        src: 'images/LL/prototype.png',
+        description: 'Functional prototype created in Figma',
         project: ProjectEnum.LL,
     }, {
         src: 'images/Website/website.png',

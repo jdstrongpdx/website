@@ -45,7 +45,7 @@ const Project: React.FC<ProjectProps> = ({ project, childrenBefore, childrenAfte
                 {images && (
                     <>
                         <h4>Project Images</h4>
-                        <div className="centered">
+                        <div className="gallery-row">
                             {images.map((image, index) => (
                                 <GalleryModal
                                     key={index}

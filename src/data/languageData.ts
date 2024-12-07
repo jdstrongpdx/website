@@ -14,12 +14,12 @@ const languageData: ISkillLanguage[] = [
     {
         title: "C#",
         image: "/logos/cSharp.png",
-        description: "Basic experience using C# to build console applications, and Unity games. Currently learning via Microsoft Learn.",
+        description: "Basic proficiency with experience using C# to build console applications, and Unity games. Currently learning via courses on Coursera and Microsoft Learn.",
     },
     {
         title: ".NET",
         image: "/logos/net.png",
-        description: "Basic experience using dotnet to build console applications and basic backend APIs. Currently learning via Microsoft Learn.",
+        description: "Basic proficiency with experience using dotnet to build console applications and basic backend APIs. Currently learning via courses on Coursera and Microsoft Learn.",
     },
     {
         title: "JavaScript",
@@ -65,11 +65,6 @@ const languageData: ISkillLanguage[] = [
         title: "Google Cloud Platform",
         image: "/logos/gcp.png",
         description: "Intermediate proficiency with experience configuring and deploying web applications using GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.",
-    },
-    {
-        title: "Azure",
-        image: "/logos/azure.png",
-        description: "Basic proficiency understanding Azure offerings. Currently learning via Microsoft Learn.",
     },
     {
         title: "Artificial Intelligence",
