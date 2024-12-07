@@ -12,6 +12,16 @@ const languageData: ISkillLanguage[] = [
         description: "Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.",
     },
     {
+        title: "C#",
+        image: "/logos/cSharp.png",
+        description: "Basic experience using C# to build console applications, and Unity games. Currently learning via Microsoft Learn.",
+    },
+    {
+        title: ".NET",
+        image: "/logos/net.png",
+        description: "Basic experience using dotnet to build console applications and basic backend APIs. Currently learning via Microsoft Learn.",
+    },
+    {
         title: "JavaScript",
         image: "/logos/javascript.png",
         description: "Intermediate proficiency using functional and OOP paradigms, data transformation, asynchronous programming, events, error handling, ES6+ syntax, and debugging.",
@@ -57,9 +67,14 @@ const languageData: ISkillLanguage[] = [
         description: "Intermediate proficiency with experience configuring and deploying web applications using GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.",
     },
     {
+        title: "Azure",
+        image: "/logos/azure.png",
+        description: "Basic proficiency understanding Azure offerings. Currently learning via Microsoft Learn.",
+    },
+    {
         title: "Artificial Intelligence",
         image: "/logos/ai.png",
-        description: "Intermediate proficiency using AI as a learning and development tool with ChatGPT and JetBrains AI Assistant. Experienced in prompt engineering for functions, data sets, documentation, and testing.",
+        description: "Intermediate proficiency using AI as a development tool and using prompt engineering to create AI-powered applications.",
     },
 ];
 

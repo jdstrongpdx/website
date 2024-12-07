@@ -27,7 +27,7 @@ const Links = () => {
     const activeLinkStyle = {
         ...linkStyle,
         fontWeight: 'bold',
-        color: '#FFEAAE' +
+        color: '#ffdb64' +
             '',
         textDecoration: 'underline',
         textUnderlineOffset: '4px'
@@ -40,43 +40,43 @@ const Links = () => {
                 end
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <IoHome /> &ensp;<span className="nav-text">Home</span>
+                <IoHome /> <span className="nav-text">Home</span>
             </NavLink>*/}
             <NavLink
                 to="/"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <FaRegFileCode /> &ensp;<span className="nav-text">Skills</span>
+                <FaRegFileCode /> <span className="nav-text">Skills</span>
             </NavLink>
             <NavLink
                 to="/portfolio/"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <FaLaptopCode /> &ensp;<span className="nav-text">Portfolio</span>
+                <FaLaptopCode /> <span className="nav-text">Portfolio</span>
             </NavLink>
             <NavLink
                 to="/resume"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <IoDocument /> &ensp;<span className="nav-text">Resume & Certifications</span>
+                <IoDocument /> <span className="nav-text">Resume & Certifications</span>
             </NavLink>
             <NavLink
                 to="/gallery"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <AiOutlinePicture /> &ensp;<span className="nav-text">Gallery</span>
+                <AiOutlinePicture /> <span className="nav-text">Gallery</span>
             </NavLink>
             <NavLink
                 to="/officeDoor"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <TbDoor /> &ensp;<span className="nav-text">Office Door</span>
+                <TbDoor /> <span className="nav-text">Office Door</span>
             </NavLink>
             <NavLink
                 to="/contact"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <MdEmail /> &ensp;<span className="nav-text">Contact</span>
+                <MdEmail /> <span className="nav-text">Contact</span>
             </NavLink>
 
             <div style={{borderTop: "2px solid white", width: "90%", height: "0"}}/>
@@ -129,11 +129,11 @@ function NavBar() {
 
             <img src="/images/headshot.jpg" className='headshot' width='200px' alt="Website Logo"></img>
 
-            <h3 style={{marginTop: '10px', marginBottom: '0px'}}>Joel Strong</h3>
-            <p style={{fontSize: '10pt'}}><i>Full Stack Software Engineer</i></p>
+            <h3 style={{marginTop: '10px', marginBottom: '10px'}}>Joel Strong</h3>
+            <h5 style={{marginTop: '10px'}}>Full Stack Software Engineer</h5>
 
             {windowWidth <= 700 && <HamburgerMenu toggleMenu={toggleMenu}/>}
-            { open ? <Links/> : null}
+            {open ? <Links/> : null}
 
             &copy; {currentYear} Joel Strong
 

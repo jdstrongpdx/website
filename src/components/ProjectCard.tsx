@@ -18,7 +18,8 @@ const ProjectCard: React.FC<{ project: IProjectData }> = ({ project }) => {
             {project.image
                 ? <div className="card-content">
                     {project.title && <h3 className="card-title">{project.title}</h3>}
-                    {project.description && <p className="card-text">{project.description}</p>}
+                    {project.description && <p className="card-text"><strong>Description:</strong> {project.description}
+                    </p>}
                     {project.type && <p className="card-text"><strong>Type:</strong> {project.type}</p>}
                     {project.stack?.frontend &&
                         <p className="card-text"><strong>Front-End:</strong> {project.stack.frontend}</p>}

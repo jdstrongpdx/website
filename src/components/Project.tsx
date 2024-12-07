@@ -19,25 +19,25 @@ const Project: React.FC<ProjectProps> = ({ project, childrenBefore, childrenAfte
             <div className="project">
                 <h3>{project.name}</h3>
                 <h4>{project.date}</h4>
-                <p><strong>App Type:</strong>{project.type}</p>
+                <p><strong>App Type:</strong> {project.type}</p>
 
-                {project.description ? <p><strong>Description:</strong>{project.description}</p> : null}
+                {project.description ? <p><strong>Description:</strong> {project.description}</p> : null}
                 {description}
 
                 { project.stack &&
                     <>
                     <p><strong>Project Stack:</strong></p>
                     <ul>
-                        {project.stack.frontend ? <li><em>Frontend: </em>{project.stack.frontend}</li> : null}
-                        {project.stack.database ? <li><em>Database: </em>{project.stack.database}</li>: null}
-                        {project.stack.backend ? <li><em>Backend: </em>{project.stack.backend}</li>: null}
-                        {project.stack.hosting ? <li><em>Hosting: </em>{project.stack.hosting}</li>: null}
+                        {project.stack.frontend ? <li><strong>Frontend: </strong> {project.stack.frontend}</li> : null}
+                        {project.stack.database ? <li><strong>Database: </strong> {project.stack.database}</li>: null}
+                        {project.stack.backend ? <li><strong>Backend: </strong> {project.stack.backend}</li>: null}
+                        {project.stack.hosting ? <li><strong>Hosting: </strong> {project.stack.hosting}</li>: null}
                     </ul>
                     </>
                 }
 
-                {project.repo ? <p><em>GitHub Repository: </em> <a href={project.repo}>{project.repo}</a></p> : null}
-                {project.website ? <p><em>Website: </em> <a href={project.website}>{project.websiteText}</a></p> : null}
+                {project.repo ? <p><strong>GitHub Repository: </strong> <a href={project.repo}>{project.repo}</a></p> : null}
+                {project.website ? <p><strong>Website: </strong> <a href={project.website}>{project.websiteText}</a></p> : null}
 
                 {childrenBefore}
 

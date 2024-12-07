@@ -12,7 +12,7 @@ const PortfolioLayout = () => {
     const activeLinkStyle = {
         ...linkStyle,
         fontWeight: 'bold',
-        color: '#FFEAAE',
+        color: '#ffdb64',
         textDecoration: 'underline',
         textUnderlineOffset: '4px'
     };
