@@ -22,18 +22,16 @@ import Mlb from "./components/Projects/Mlb";
 import PersonalWebsite from "./components/Projects/PersonalWebsite";
 import LittleLemon from "./components/Projects/LittleLemon";
 import IdealConditions from "./components/Projects/IdealConditions";
-import {ThemeProvider} from "./ThemeProvider";
 
 function App() {
 
   return (
     <>
-        <ThemeProvider>
           <BrowserRouter>
               <Routes>
                 <Route element={<Format />} >
                         <Route path="/" element={<SkillsPage/>}/>
-                        <Route path="/skills" element={<SkillsPage/>}/>
+                        {/*<Route path="/skills" element={<SkillsPage/>}/>*/}
                         <Route path="/gallery" element={<GalleryPage/>}/>
                         <Route path="/contact" element={<Contact/>}/>
                         <Route path="/idealConditions" element={<IdealConditionsPage/>}/>
@@ -54,7 +52,6 @@ function App() {
                 </Route>
               </Routes>
           </BrowserRouter>
-        </ThemeProvider>
     </>
   );
 }

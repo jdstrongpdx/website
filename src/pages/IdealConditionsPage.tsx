@@ -1,3 +1,14 @@
+const IdealConditions = () => {
+    return (
+        <>
+            <h1>Ideal Conditions</h1>
+        </>
+    );
+}
+
+export default IdealConditions;
+
+/*
 import IdealConditionsV2 from "../components/IdealConditions/IdealConditionsV2";
 import { Link } from "react-router-dom";
 import HelmetComponent from "../components/HelmetComponent";
@@ -18,7 +29,7 @@ function IdealConditionsPage() {
               weather conditions are ideal for running, fishing, hiking, cycling, camping, hunting, skiing, kayaking, and
               mountaineering.
             </p>
-            
+
 
         <div className="search_results">
           <p>Example output from this website:</p>
@@ -69,4 +80,4 @@ function IdealConditionsPage() {
     );
 }
 
-export default IdealConditionsPage;
+export default IdealConditionsPage;*/

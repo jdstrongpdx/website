@@ -43,7 +43,7 @@ const Links = () => {
                 <IoHome /> &ensp;<span className="nav-text">Home</span>
             </NavLink>*/}
             <NavLink
-                to="/skills"
+                to="/"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
                 <FaRegFileCode /> &ensp;<span className="nav-text">Skills</span>
