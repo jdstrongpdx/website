@@ -6,7 +6,7 @@ const Certifications = () => {
     return (
         <>
         <div className="project">
-            <h2>Certifications:</h2>
+            <h2>Selected Certifications:</h2>
                 {/* Map over the certification Data array to show categories and certifications */}
                 {certificateData.map((category, index) => (
                     <div key={index}>

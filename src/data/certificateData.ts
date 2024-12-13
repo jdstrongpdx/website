@@ -1,6 +1,7 @@
-import SkillsEnum from "./SkillEnum";
+import SkillsEnum from "../enums/SkillEnum";
+import {ICertificationCategory} from "@/interfaces/ICertificate";
 
-const certificateData = [
+const certificateData: ICertificationCategory[] = [
     {
         title: "Java",
         certifications: [
@@ -33,20 +34,14 @@ const certificateData = [
                 skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
             },
         ]}, {
-        title: "Front-End",
+        title: "Meta Front-End Developer Professional",
         certifications: [
             {
                 link: "https://coursera.org/verify/professional-cert/R64MC41UJZ6N",
                 type: "wide",
                 imgLink: "./certifications/meta_front_end.png",
                 title: "Meta Front-End Developer Professional Certificate",
-                skills: [SkillsEnum.HTML, SkillsEnum.HTML, SkillsEnum.JavaScript, SkillsEnum.React, SkillsEnum.UxUi, SkillsEnum.Git]
-            }, {
-                link: "https://coursera.org/verify/specialization/CFTYPY5EEDKE",
-                type: "wide",
-                imgLink: "./certifications/AdvancedJavaScript.png",
-                title: "Advanced JavaScript",
-                skills: [SkillsEnum.JavaScript]
+                skills: []
             }, {
                 link: "https://coursera.org/verify/9HO3N1IXEHL0",
                 type: "wide",
@@ -60,6 +55,12 @@ const certificateData = [
                 title: "Programming with JavaScript",
                 skills: [SkillsEnum.JavaScript]
             }, {
+                link: "https://coursera.org/verify/F2HMGSIQPOW6",
+                type: "wide",
+                imgLink: "./certifications/metaReactBasics.png",
+                title: "Meta React Basics",
+                skills: [SkillsEnum.React]
+            }, {
                 link: "https://coursera.org/verify/8U39UCIHFL04",
                 type: "wide",
                 imgLink: "./certifications/metaReactAdvanced.png",
@@ -71,6 +72,30 @@ const certificateData = [
                 imgLink: "./certifications/metaUiUx.png",
                 title: "Principles of UX/UI Design",
                 skills: [SkillsEnum.UxUi]
+            } , {
+
+                link: "https://coursera.org/verify/SRG8ZTR5AYPP",
+                type: "wide",
+                imgLink: "./certifications/metaVersionControl.png",
+                title: "Version Control",
+                skills: [SkillsEnum.Git]
+            } , {
+
+                link: "https://coursera.org/verify/Q0H9IOR5ZNCG",
+                type: "wide",
+                imgLink: "./certifications/metaCapstone.png",
+                title: "Front-End Developer Capstone",
+                skills: []
+            }
+        ]}, {
+        title: "Front-End",
+        certifications: [
+            {
+                link: "https://coursera.org/verify/specialization/CFTYPY5EEDKE",
+                type: "wide",
+                imgLink: "./certifications/AdvancedJavaScript.png",
+                title: "Advanced JavaScript",
+                skills: [SkillsEnum.JavaScript]
             }, {
                 link: "https://coursera.org/verify/AFAOSQ30WF8Y",
                 type: "wide",
@@ -83,9 +108,15 @@ const certificateData = [
                 imgLink: "./certifications/ReusableReact.png",
                 title: "Building Reusable React",
                 skills: [SkillsEnum.React]
+            }, {
+                link: "https://hyperskill.org/certificates/a1710545-13b2-45a1-b4fd-144ce0dc0519.pdf",
+                type: "normal",
+                imgLink: "./certifications/JavascriptIntro.png",
+                title: "Introduction to JavaScript",
+                skills: [SkillsEnum.JavaScript]
             }
         ]}, {
-        title: "Microsoft Backend",
+        title: "Microsoft Back-End Developer",
         certifications: [
             {
                 link: "https://coursera.org/verify/CV3XUHHEAVSP",
@@ -115,7 +146,7 @@ const certificateData = [
                 imgLink: "./certifications/PythonCore.png",
                 title: "Python Core",
                 skills: [SkillsEnum.Python]
-            }
+            },
         ]}, {
         title: "Artificial Intelligence",
         certifications: [
@@ -130,6 +161,12 @@ const certificateData = [
         title: "DevOps",
         certifications: [
             {
+                link: "https://hyperskill.org/certificates/e644e4cf-640a-4c89-88bb-a90f09e0b699.pdf",
+                type: "normal",
+                imgLink: "./certifications/IntroGit.png",
+                title: "Introduction to Git",
+                skills: [SkillsEnum.Git]
+            }, {
                 link: "https://hyperskill.org/certificates/9451fed6-62ed-4538-8b3c-5e4b418593c2.pdf",
                 type: "normal",
                 imgLink: "./certifications/IntroDocker.png",
@@ -141,13 +178,6 @@ const certificateData = [
                 imgLink: "./certifications/AgileProjectManagement.png",
                 title: "Agile Project Management",
                 skills: [SkillsEnum.Agile]
-            } , {
-
-                link: "https://coursera.org/verify/SRG8ZTR5AYPP",
-                type: "wide",
-                imgLink: "./certifications/metaVersionControl.png",
-                title: "Version Control",
-                skills: [SkillsEnum.Git]
             }
         ]}, {
         title: "Diploma - Bachelor of Science in Computer Science",

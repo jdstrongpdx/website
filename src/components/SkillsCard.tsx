@@ -1,13 +1,21 @@
 import React from 'react';
+import ProficiencyEnum from "../enums/ProficiencyEnum";
+import SkillsEnum from "../enums/SkillEnum";
 
 interface SkillsCardProps {
     key: number;
     title: string
     image: string;
     description: string;
+    skill: SkillsEnum
+    proficiency: ProficiencyEnum;
+    skillMap: Record<SkillsEnum, { count: number; titles: string[] }>;
 }
 
-const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description }) => {
+const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, skillMap}) => {
+    const certificateCountString: string = !skillMap[skill]?.count ? ""
+                                            : skillMap[skill]?.count === 1 ? "1 Certification"
+                                            : `${skillMap[skill]?.count} Certifications`;
 
     return (
         <div className="card"
@@ -15,10 +23,24 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description }) =>
             <img src={image} alt={title} style={{ height: '50px' }} />
             {image
                 ? <div className="card-content">
-                    <h3 className="card-title">{title}</h3>
-                    {description && <p className="card-text">{description}</p>}
+                    <h3>{title}</h3>
+                    <h5 style={{marginTop: '15px', marginBottom: '0'}}>{ProficiencyEnum[proficiency]}</h5>
+                    <input
+                        style={{ marginTop: '0', marginBottom: '0'}}
+                        type="range"
+                        id="proficiency"
+                        name="proficiency"
+                        min="-1"
+                        max="3"
+                        value={proficiency}
+                        disabled
+                    />
+                    <p className="centered" style={{color: '#4e6b97', fontWeight: '700'}}>{certificateCountString}</p>
+                    {description && <p>{description}</p>}
                 </div>
-                : null }
+                : null}
+
+
         </div>
     );
 };
