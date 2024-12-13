@@ -1,4 +1,4 @@
-import SkillsEnum from "@/data/SkillEnum";
+import SkillsEnum from "../data/SkillEnum";
 
 export default interface ISkillLanguage {
     title: string;

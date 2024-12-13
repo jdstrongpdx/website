@@ -3,6 +3,12 @@ import SkillsEnum from "./SkillEnum";
 
 const skillsData: ISkillLanguage[] = [
     {
+        title: "Artificial Intelligence",
+        image: "/logos/ai.png",
+        description: "Intermediate proficiency using AI as a development tool and using prompt engineering to create AI-powered applications.",
+        skill: SkillsEnum.AI,
+    },
+    {
         title: "Algorithms",
         image: "/logos/algorithm.png",
         description: "Intermediate proficiency with experience using Arrays, Linked Lists, Sorting, Trees, Heaps, Hashing, Recursion. Using Neetcode.io to learn algorithm design. Using Leetcode to practice accurate and efficient implementations.",
@@ -55,6 +61,12 @@ const skillsData: ISkillLanguage[] = [
         image: "/logos/container.png",
         description: "Intermediate proficiency with experience creating and deploying Dockerized Flask/Python applications to Google Cloud Platform and Java/Spring Boot applications to Amazon Web Services.",
         skill: SkillsEnum.Docker,
+    },
+    {
+        title: "UX/UI",
+        image: "/logos/ux_ui.png",
+        description: "Basic proficiency with experience designing UX/UI designs in Figma using Personas, Journey Maps, Wireframes, and Prototypes.",
+        skill: SkillsEnum.UxUi,
     },
 ];
 

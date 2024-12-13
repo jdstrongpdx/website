@@ -20,7 +20,7 @@ const PortfolioLayout = () => {
     return (
         <>
             <HelmetComponent title="Portfolio"/>
-            <h2>Notable Projects</h2>
+            <h2>Portfolio of Selected Projects</h2>
             <nav className='centered'
                 style={{background: "#64799f", borderRadius: "5px", padding: "5px", height: "fit-content"}}
             >

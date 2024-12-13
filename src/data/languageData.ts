@@ -1,19 +1,7 @@
 import ISkillLanguage from "../interfaces/ISkillLanguage";
-import SkillsEnum from "@/data/SkillEnum";
+import SkillsEnum from "./SkillEnum";
 
 const languageData: ISkillLanguage[] = [
-    {
-        title: "Python",
-        image: "/logos/python.png",
-        description: "Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.",
-        skill: SkillsEnum.Python,
-    },
-    {
-        title: "Java",
-        image: "/logos/java.png",
-        description: "Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.",
-        skill: SkillsEnum.Java,
-    },
     {
         title: "C#",
         image: "/logos/cSharp.png",
@@ -25,6 +13,18 @@ const languageData: ISkillLanguage[] = [
         image: "/logos/net.png",
         description: "Basic proficiency with experience using dotnet to build console applications and basic backend APIs. Currently learning via courses on Coursera and Microsoft Learn.",
         skill: SkillsEnum.DotNet,
+    },
+    {
+        title: "Python",
+        image: "/logos/python.png",
+        description: "Advanced proficiency with experience building applications using OOP, file manipulation, database operations, networking, multi-threading, collections, wrappers, generators, library integrations and more.",
+        skill: SkillsEnum.Python,
+    },
+    {
+        title: "Java",
+        image: "/logos/java.png",
+        description: "Advanced proficiency with experience building applications using OOP, file manipulation, high and low level database operations, collections, streams, multi-threading, networking, serialization, generics and more.",
+        skill: SkillsEnum.Java,
     },
     {
         title: "JavaScript",
@@ -39,18 +39,6 @@ const languageData: ISkillLanguage[] = [
         skill: SkillsEnum.TypeScript,
     },
     {
-        title: "React",
-        image: "/logos/react.png",
-        description: "Advanced proficiency with experience in building dynamic Progressive Web Applications using hooks, props, context, reducer, memo, callback, Lodash, Formik, Yup, Jest, and React-Testing library.",
-        skill: SkillsEnum.React,
-    },
-    {
-        title: "SQL & NoSQL",
-        image: "/logos/database.png",
-        description: "Intermediate proficiency with experience designing, integrating, and maintaining SQL and NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation, transactions, stored procedures, and optimization.",
-        skill: SkillsEnum.SQL,
-    },
-    {
         title: "HTML",
         image: "/logos/html.png",
         description: "Advanced proficiency with experience creating accessible web pages using semantic HTML elements, building complex forms with validation, implementing responsive elements, and SEO optimization.",
@@ -61,6 +49,24 @@ const languageData: ISkillLanguage[] = [
         image: "/logos/css.png",
         description: "Intermediate proficiency in CSS syntax format and building highly stylized reactive websites. Experience using global CSS, inline CSS, Bootstrap and other styling tools.",
         skill: SkillsEnum.CSS,
+    },
+    {
+        title: "SQL & NoSQL",
+        image: "/logos/database.png",
+        description: "Intermediate proficiency with experience designing, integrating, and maintaining SQL and NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation, transactions, stored procedures, and optimization.",
+        skill: SkillsEnum.SQL,
+    },
+    {
+        title: "React",
+        image: "/logos/react.png",
+        description: "Advanced proficiency with experience in building dynamic Progressive Web Applications using hooks, props, context, reducer, memo, callback, Lodash, Formik, Yup, Jest, and React-Testing library.",
+        skill: SkillsEnum.React,
+    },
+    {
+        title: "ASP.NET",
+        image: "/logos/asp.png",
+        description: "Basic proficiency with experience using ASP.NET to build RESTful API backends. Currently learning via courses on Coursera and Microsoft Learn.",
+        skill: SkillsEnum.AspNet,
     },
     {
         title: "SpringBoot",
@@ -75,16 +81,16 @@ const languageData: ISkillLanguage[] = [
         skill: SkillsEnum.AWS,
     },
     {
+        title: "Azure",
+        image: "/logos/azure.png",
+        description: "Basic proficiency with experience configuring and deploying web applications using Azure offerings. Currently learning via courses on Coursera and Microsoft Learn.",
+        skill: SkillsEnum.Azure,
+    },
+    {
         title: "Google Cloud Platform",
         image: "/logos/gcp.png",
         description: "Intermediate proficiency with experience configuring and deploying web applications using GCP offerings: App Engine, Firestore, CloudSQL, Compute Engine, Storage, Artifact Registry.",
         skill: SkillsEnum.GCP,
-    },
-    {
-        title: "Artificial Intelligence",
-        image: "/logos/ai.png",
-        description: "Intermediate proficiency using AI as a development tool and using prompt engineering to create AI-powered applications.",
-        skill: SkillsEnum.AI,
     },
 ];
 
