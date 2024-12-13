@@ -26,7 +26,7 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, prof
                     <h3>{title}</h3>
                     <h5 style={{marginTop: '15px', marginBottom: '0'}}>{ProficiencyEnum[proficiency]}</h5>
                     <input
-                        style={{ marginTop: '0', marginBottom: '0'}}
+                        style={{marginTop: '0', marginBottom: '0', width: '90%'}}
                         type="range"
                         id="proficiency"
                         name="proficiency"
@@ -35,7 +35,7 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, prof
                         value={proficiency}
                         disabled
                     />
-                    <p className="centered" style={{color: '#4e6b97', fontWeight: '700'}}>{certificateCountString}</p>
+                    <p style={{color: '#4e6b97', fontWeight: '700'}}>{certificateCountString}</p>
                     {description && <p>{description}</p>}
                 </div>
                 : null}
