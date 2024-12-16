@@ -529,11 +529,20 @@ i {
   text-align: center;
 }
 
+.card .card-text {
+  justify-content: start;
+  align-items: start;
+  text-align: left;
+}
+
 .card p {
   font-size: 1.1rem;
   margin: 12px 0;
   color: #666;
 }
+
+
+
 
 .nav-link {
   display: inline-block;

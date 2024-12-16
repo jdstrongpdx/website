@@ -19,9 +19,9 @@ const skillsData: ISkillDataList = {
                 {
                     title: "C#",
                     image: "/logos/cSharp.png",
-                    description: "Using C# to build console applications, and Unity games. Currently learning via courses on Coursera and Microsoft Learn.",
+                    description: "Developing console, Unity and API applications using in OOP, generics, collections, asynchronous programming, exception handling, Entity Framework, and testing with NUnit and Moq.",
                     skill: SkillsEnum.CSharp,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
                     title: "Python",
@@ -90,25 +90,32 @@ const skillsData: ISkillDataList = {
             title: "Frameworks",
             items: [
                 {
+                    title: "Node.js",
+                    image: "/logos/node-js.png",
+                    description: "Building full stack web applications utilizing a MERN (Mongoose NoSql, Express, React, and Node.js) stack. Used Express for RESTful API development, middleware for request handling, Mongoose for MongoDB interactions, JWT for authentication, and asynchronous operations.",
+                    skill: SkillsEnum.NodeJs,
+                    proficiency: ProficiencyEnum.Intermediate,
+                },
+                {
                     title: "React",
                     image: "/logos/react.png",
-                    description: "Building dynamic Progressive Web Applications using hooks, props, context, reducer, memo, callback, Lodash, Formik, Yup, Jest, and React-Testing library.",
+                    description: "Building dynamic data-driven Progressive Web Applications using advanced component architecture, state management, testing with Jest and React-Testing library, and packages like Lodash, Immer, Formik, Yup, and others.",
                     skill: SkillsEnum.React,
                     proficiency: ProficiencyEnum.Advanced,
                 },
                 {
                     title: ".NET",
                     image: "/logos/net.png",
-                    description: "Building console applications and basic backend APIs. Currently learning via courses on Coursera and Microsoft Learn.",
+                    description: "Developing backend API applications leveraging ASP.NET Core, Entity Framework, dependency injection, middleware, asynchronous programming, and testing with NUnit and Moq.",
                     skill: SkillsEnum.DotNet,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
                     title: "ASP.NET",
                     image: "/logos/asp.png",
-                    description: "Using ASP.NET to build RESTful API backends. Currently learning via courses on Coursera and Microsoft Learn.",
+                    description: "Building ackend API applications utilizing MVC architecture, middleware (logging, error handling, routing, authentication and authorization), Entity Framework, dependency injection, and testing with NUnit and Moq.",
                     skill: SkillsEnum.AspNet,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
                     title: "SpringBoot",

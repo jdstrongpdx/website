@@ -36,7 +36,7 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, prof
                         disabled
                     />
                     <p style={{color: '#4e6b97', fontWeight: '700'}}>{certificateCountString}</p>
-                    {description && <p>{description}</p>}
+                    {description && <p><strong>Experience: </strong>{description}</p>}
                 </div>
                 : null}
 

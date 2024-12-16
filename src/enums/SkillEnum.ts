@@ -7,6 +7,7 @@ enum SkillsEnum {
     JavaScript = 'JavaScript',
     TypeScript = 'TypeScript',
     React = 'React',
+    NodeJs = 'Node.js',
     SQL = 'SQL',
     NoSQL = 'NoSQL',
     HTML = 'HTML',

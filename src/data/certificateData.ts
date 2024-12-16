@@ -34,7 +34,7 @@ const certificateData: ICertificationCategory[] = [
                 skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
             },
         ]}, {
-        title: "Meta Front-End Developer Professional",
+        title: "Meta Front-End Developer Professional Certificate",
         certifications: [
             {
                 link: "https://coursera.org/verify/professional-cert/R64MC41UJZ6N",
@@ -130,6 +130,13 @@ const certificateData: ICertificationCategory[] = [
                 imgLink: "./certifications/CSharp.png",
                 title: "Introduction to Programming with C#",
                 skills: [SkillsEnum.CSharp]
+            }
+            , {
+                link: "https://coursera.org/verify/P5SNT8T9G54C",
+                type: "wide",
+                imgLink: "./certifications/dotNetBackend.png",
+                title: "Back-End Development with .NET",
+                skills: [SkillsEnum.CSharp, SkillsEnum.DotNet, SkillsEnum.AspNet]
             }
         ]}, {
         title: "Python ",
