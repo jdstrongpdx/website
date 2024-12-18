@@ -5,8 +5,10 @@ import certificateData from "../data/certificateData";
 const Certifications = () => {
     return (
         <>
-        <div className="project">
-            <h2>Selected Certifications:</h2>
+            <div className="project">
+                <h2>Course Certificates:</h2>
+                <h4>These are a selection of certificates earned through courses aimed at gaining knowledge and
+                    experience across various skills in full-stack development.</h4>
                 {/* Map over the certification Data array to show categories and certifications */}
                 {certificateData.map((category, index) => (
                     <div key={index}>
@@ -24,10 +26,10 @@ const Certifications = () => {
                         </div>
                     </div>
                 ))}
-        </div>
+            </div>
 
-</>
-)
+        </>
+    )
 }
 
 export default Certifications;

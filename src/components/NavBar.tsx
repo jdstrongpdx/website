@@ -58,7 +58,7 @@ const Links = () => {
                 to="/resume"
                 className="nav-link"
                 style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
-                <IoDocument /> <span className="nav-text">Resume & Certifications</span>
+                <IoDocument /> <span className="nav-text">Resume & Certificates</span>
             </NavLink>
             <NavLink
                 to="/gallery"

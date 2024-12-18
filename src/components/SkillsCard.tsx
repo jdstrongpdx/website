@@ -14,8 +14,8 @@ interface SkillsCardProps {
 
 const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, skillMap}) => {
     const certificateCountString: string = !skillMap[skill]?.count ? ""
-                                            : skillMap[skill]?.count === 1 ? "1 Certification"
-                                            : `${skillMap[skill]?.count} Certifications`;
+                                            : skillMap[skill]?.count === 1 ? "1 Certificate"
+                                            : `${skillMap[skill]?.count} Certificates`;
 
     return (
         <div className="card"
