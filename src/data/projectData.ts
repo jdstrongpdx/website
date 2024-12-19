@@ -6,6 +6,27 @@ type ProductDataMap = {
 };
 
 const projectData: ProductDataMap = {
+    UM: {
+        title: "Azure DevOps UserManager",
+        image: "/images/UM/project.png",
+        imageDisplay: true,
+        data: null,
+        route: "/portfolio/usermanager",
+        project: ProjectEnum.UserManager,
+        name: "UserManager API Backend with Testing and CI/CD using Azure DevOps",
+        date: "December 2024 - Current",
+        type: "API Backend with Testing and CI/CD",
+        description: "Creation of a RESTful API backend using .NET and ASP.NET Core, Azure CosmosDB, Azure DevOps and testing using NUnit, Moq, and DevOps Test Plans.",
+        stack: {
+            frontend: null,
+            database: "Azure CosmosDB",
+            backend: ".NET and ASP.NET Core, Azure CosmosDB, NUnit and Moq",
+            hosting: "Azure Services and Azure DevOps"
+        },
+        website: null,
+        websiteText: null,
+        repo: "https://dev.azure.com/actuli/UserManager"
+    },
     FFR: {
         title: "FragranceFreeResources.com",
         image: "/images/FFR/home.png",

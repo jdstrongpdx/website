@@ -32,6 +32,12 @@ const PortfolioLayout = () => {
                     Projects List
                 </NavLink>
                 <NavLink
+                    to="/portfolio/usermanager"
+                    className="nav-link"
+                    style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    UserManager
+                </NavLink>
+                <NavLink
                     to="/portfolio/fragrancefreeresources"
                     className="nav-link"
                     style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>

@@ -36,7 +36,7 @@ const Project: React.FC<ProjectProps> = ({ project, childrenBefore, childrenAfte
                     </>
                 }
 
-                {project.repo ? <p><strong>GitHub Repository: </strong> <a href={project.repo}>{project.repo}</a></p> : null}
+                {project.repo ? <p><strong>Repository: </strong> <a href={project.repo}>{project.repo}</a></p> : null}
                 {project.website ? <p><strong>Website: </strong> <a href={project.website}>{project.websiteText}</a></p> : null}
 
                 {childrenBefore}

@@ -22,6 +22,7 @@ import Mlb from "./components/Projects/Mlb";
 import PersonalWebsite from "./components/Projects/PersonalWebsite";
 import LittleLemon from "./components/Projects/LittleLemon";
 import IdealConditions from "./components/Projects/IdealConditions";
+import UserManager from "./components/Projects/UserManager";
 
 function App() {
 
@@ -38,6 +39,7 @@ function App() {
                         <Route path="/resume" element={<ResumePage/>}/>
                         <Route path="portfolio" element={<PortfolioLayout />}>
                             <Route index element={<PortfolioPage />} />
+                            <Route path="usermanager" element={<UserManager />} />
                             <Route path="fragrancefreeresources" element={<Ffr />} />
                             <Route path="littlelemon" element={<LittleLemon />} />
                             <Route path="jdstrongpdx" element={<PersonalWebsite />} />

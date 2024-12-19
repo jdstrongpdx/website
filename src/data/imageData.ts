@@ -3,6 +3,23 @@ import ProjectEnum from "../enums/ProjectEnum";
 
 const imageData: IImageData[] = [
     {
+        src: 'images/UM/project.png',
+        description: 'UserManager Project using Azure DevOps',
+        project: ProjectEnum.UserManager,
+    }, {
+        src: 'images/UM/files.png',
+        description: 'Nested Application and Testing Project Structure',
+        project: ProjectEnum.UserManager,
+    },
+    {
+        src: 'images/UM/pipeline.png',
+        description: 'Pipeline build using self-hosted macOS agent for builds',
+        project: ProjectEnum.UserManager,
+    }, {
+        src: 'images/UM/testsCompleted.png',
+        description: 'Unit and Integration CI build tests in Azure DevOps',
+        project: ProjectEnum.UserManager,
+    }, {
         src: 'images/FFR/home.png',
         description: 'Fragrance Free Resources Home Page (Admin View)',
         project: ProjectEnum.FFR,
