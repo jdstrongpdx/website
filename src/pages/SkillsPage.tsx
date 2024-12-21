@@ -3,16 +3,23 @@ import SkillsCard from "../components/SkillsCard";
 import skillsData from "../data/skillsData";
 import HelmetComponent from "../components/HelmetComponent";
 import certificateData from "../data/certificateData";
-import {ICertification, ICertificationCategory} from "../interfaces/ICertificate";
+import {ICertificationCategory} from "../interfaces/ICertificate";
 import SkillsEnum from "../enums/SkillEnum";
+import IProjectData from "../interfaces/IProject";
+import projectData from "../data/projectData";
+
+type ProductDataMap = {
+    [key: string]: IProjectData;
+};
 
 const SkillsPage = () => {
 
-    function createSkillsMap(data: ICertificationCategory[]): Record<
+    // Creates a map of the number of certificates of each skill and the certificate names
+    function getSkillCertificateMap(data: ICertificationCategory[]): Record<
         SkillsEnum,
         { count: number; titles: string[] }
     > {
-        const skillsMap: Record<SkillsEnum, { count: number; titles: string[] }> = {} as Record<
+        const skillsCertificateMap: Record<SkillsEnum, { count: number; titles: string[] }> = {} as Record<
             SkillsEnum,
             { count: number; titles: string[] }
         >;
@@ -21,24 +28,40 @@ const SkillsPage = () => {
             category.certifications.forEach((certification) => {
                 certification.skills?.forEach((skill) => {
                     // Initialize the skills entry if it doesn't already exist
-                    if (!skillsMap[skill]) {
-                        skillsMap[skill] = { count: 0, titles: [] };
+                    if (!skillsCertificateMap[skill]) {
+                        skillsCertificateMap[skill] = { count: 0, titles: [] };
                     }
 
                     // Increment the skill count and add the title if it's not already present
-                    skillsMap[skill].count += 1;
-                    if (!skillsMap[skill].titles.includes(certification.title)) {
-                        skillsMap[skill].titles.push(certification.title);
+                    skillsCertificateMap[skill].count += 1;
+                    if (!skillsCertificateMap[skill].titles.includes(certification.title)) {
+                        skillsCertificateMap[skill].titles.push(certification.title);
                     }
                 });
             });
         });
 
-        return skillsMap;
+        return skillsCertificateMap;
     }
 
-    const skillsMap = createSkillsMap(certificateData);
+    // Creates a map of the number of projects created with each skill
+    function getSkillProjectMap(projectData: ProductDataMap): Map<SkillsEnum, number> {
+        const skillProjectCounts = new Map<SkillsEnum, number>();
 
+        // Iterate through each project in the dataset
+        Object.values(projectData).forEach(project => {
+            // For each skill in the project's skills list
+            project.skills.forEach(skill => {
+                // Increment the count for the skill
+                skillProjectCounts.set(skill, (skillProjectCounts.get(skill) || 0) + 1);
+            });
+        });
+
+        return skillProjectCounts;
+    }
+
+    const skillsCertificateMap = getSkillCertificateMap(certificateData);
+    const skillsProjectMap = getSkillProjectMap(projectData);
 
     return (
         <>
@@ -74,7 +97,8 @@ const SkillsPage = () => {
                                         description={skill.description}
                                         proficiency={skill.proficiency}
                                         skill={skill.skill}
-                                        skillMap={skillsMap}
+                                        skillsCertificateMap={skillsCertificateMap}
+                                        skillsProjectMap={skillsProjectMap}
                                     />
                                 ))}
                             </div>

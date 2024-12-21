@@ -184,13 +184,6 @@ const skillsData: ISkillDataList = {
                     proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
-                    title: "IDE's",
-                    image: "/logos/ide.png",
-                    description: "Utilizing built-in features to streamline development, linting to produce error-free code, using integrated features for debugging, command line calls, and database changes.",
-                    skill: SkillsEnum.Other,
-                    proficiency: ProficiencyEnum.Intermediate,
-                },
-                {
                     title: "Debugging",
                     image: "/logos/debugging.png",
                     description: "Utilizing a variety of debuggers to see the state of objects/threads at key points to make actionable design decisions.",

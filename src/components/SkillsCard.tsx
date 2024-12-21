@@ -9,13 +9,18 @@ interface SkillsCardProps {
     description: string;
     skill: SkillsEnum
     proficiency: ProficiencyEnum;
-    skillMap: Record<SkillsEnum, { count: number; titles: string[] }>;
+    skillsCertificateMap: Record<SkillsEnum, { count: number; titles: string[] }>;
+    skillsProjectMap: Map<SkillsEnum, number>;
 }
 
-const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, skillMap}) => {
-    const certificateCountString: string = !skillMap[skill]?.count ? ""
-                                            : skillMap[skill]?.count === 1 ? "1 Certificate"
-                                            : `${skillMap[skill]?.count} Certificates`;
+const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, skillsCertificateMap, skillsProjectMap}) => {
+    const certificateCountString: string = !skillsCertificateMap[skill]?.count ? ""
+                                            : skillsCertificateMap[skill]?.count === 1 ? "1 Certificate"
+                                            : `${skillsCertificateMap[skill]?.count} Certificates`;
+
+    const projectCountString: string = !skillsProjectMap.get(skill) ? ""
+        : skillsProjectMap.get(skill) === 1 ? "1 Portfolio Project"
+        : `${skillsProjectMap.get(skill)} Portfolio Projects`;
 
     return (
         <div className="card"
@@ -35,7 +40,13 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, prof
                         value={proficiency}
                         disabled
                     />
-                    <p style={{color: '#4e6b97', fontWeight: '700'}}>{certificateCountString}</p>
+                    <p style={{color: '#4e6b97', fontWeight: '700', marginBottom: '5px', textAlign: 'center'}}>{
+                        certificateCountString && projectCountString
+                            ? <>
+                                {certificateCountString} & <br/> {projectCountString}
+                            </>
+                            : certificateCountString || projectCountString
+                    }</p>
                     {description && <p><strong>Experience: </strong>{description}</p>}
                 </div>
                 : null}

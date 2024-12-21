@@ -8,16 +8,28 @@ const imageData: IImageData[] = [
         project: ProjectEnum.UserManager,
     }, {
         src: 'images/UM/files.png',
-        description: 'Nested Application and Testing Project Structure',
+        description: 'Nested Web and Web.Tests Project Structure using VS Code',
         project: ProjectEnum.UserManager,
     },
     {
         src: 'images/UM/pipeline.png',
-        description: 'Pipeline build using self-hosted macOS agent for builds',
+        description: 'Creation of a Pipeline build using self-hosted macOS agent for builds',
         project: ProjectEnum.UserManager,
     }, {
         src: 'images/UM/testsCompleted.png',
         description: 'Unit and Integration CI build tests in Azure DevOps',
+        project: ProjectEnum.UserManager,
+    }, {
+        src: 'images/UM/openApi.png',
+        description: 'Swagger/Swashbuckle integration for Open API documentation.',
+        project: ProjectEnum.UserManager,
+    }, {
+        src: 'images/UM/projectPlan.png',
+        description: 'Using Boards to create and manage the project plan and Sprint activity.',
+        project: ProjectEnum.UserManager,
+    }, {
+        src: 'images/UM/resourceWiki.png',
+        description: 'Creation of a Learning Resource Wiki page to easily access documentation and resources.',
         project: ProjectEnum.UserManager,
     }, {
         src: 'images/FFR/home.png',

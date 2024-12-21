@@ -1,5 +1,6 @@
 import IProjectData from "../interfaces/IProject";
 import ProjectEnum from "../enums/ProjectEnum";
+import SkillsEnum from "../enums/SkillEnum";
 
 type ProductDataMap = {
     [key: string]: IProjectData;
@@ -13,7 +14,7 @@ const projectData: ProductDataMap = {
         data: null,
         route: "/portfolio/usermanager",
         project: ProjectEnum.UserManager,
-        name: "UserManager API Backend with Testing and CI/CD using Azure DevOps",
+        name: "UserManager API with Testing and Azure DevOps CI/CD",
         date: "December 2024 - Current",
         type: "API Backend with Testing and CI/CD",
         description: "Creation of a RESTful API backend using .NET and ASP.NET Core, Azure CosmosDB, Azure DevOps and testing using NUnit, Moq, and DevOps Test Plans.",
@@ -25,7 +26,8 @@ const projectData: ProductDataMap = {
         },
         website: null,
         websiteText: null,
-        repo: "https://dev.azure.com/actuli/UserManager"
+        repo: "https://dev.azure.com/actuli/UserManager",
+        skills: [SkillsEnum.AspNet, SkillsEnum.Azure, SkillsEnum.CSharp, SkillsEnum.NoSQL, SkillsEnum.Architecture, SkillsEnum.DotNet, SkillsEnum.Testing, SkillsEnum.Agile, SkillsEnum.Git, SkillsEnum.Algorithms]
     },
     FFR: {
         title: "FragranceFreeResources.com",
@@ -47,6 +49,7 @@ const projectData: ProductDataMap = {
         website: "https://fragrancefreeresources.com",
         websiteText: "FragranceFreeResources.com",
         repo: null,
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Docker, SkillsEnum.Algorithms, SkillsEnum.Agile, SkillsEnum.Architecture, SkillsEnum.OOP, SkillsEnum.UxUi, SkillsEnum.Testing, SkillsEnum.AWS, SkillsEnum.CSS, SkillsEnum.SpringBoot, SkillsEnum.HTML, SkillsEnum.SQL, SkillsEnum.React, SkillsEnum.TypeScript, SkillsEnum.Java, SkillsEnum.NodeJs]
     },
     LL: {
         title: "Little Lemon",
@@ -68,6 +71,8 @@ const projectData: ProductDataMap = {
         website: null,
         websiteText: null,
         repo: "https://github.com/jdstrongpdx/Meta-Front-End-Developer-Capstone",
+        skills: [SkillsEnum.Git, SkillsEnum.UxUi, SkillsEnum.HTML, SkillsEnum.React, SkillsEnum.JavaScript, SkillsEnum.NodeJs, SkillsEnum.CSS, SkillsEnum.Algorithms]
+
     },
     Website:
         {
@@ -90,6 +95,8 @@ const projectData: ProductDataMap = {
             website: null,
             websiteText: null,
             repo: "https://github.com/jdstrongpdx/website",
+            skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.UxUi, SkillsEnum.AWS, SkillsEnum.CSS, SkillsEnum.HTML, SkillsEnum.React, SkillsEnum.TypeScript, SkillsEnum.NodeJs, SkillsEnum.Algorithms]
+
         },
     MLB: {
         title: "ML-Breakout",
@@ -114,6 +121,7 @@ const projectData: ProductDataMap = {
         website: "https://play.unity.com/en/games/29073861-10a0-4027-839c-303f0eb8d8ac/ml-breakout",
         websiteText: "ML-Breakout on Unity Play",
         repo: "https://github.com/ReuterJo/ML-Breakout",
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Agile, SkillsEnum.OOP, SkillsEnum.AI, SkillsEnum.Architecture, SkillsEnum.Algorithms, SkillsEnum.CSharp, SkillsEnum.UxUi]
     }
     ,
     GCP: {
@@ -136,6 +144,7 @@ const projectData: ProductDataMap = {
         website: null,
         websiteText: null,
         repo: null,
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Testing, SkillsEnum.GCP, SkillsEnum.NoSQL, SkillsEnum.Python, SkillsEnum.Docker, SkillsEnum.Algorithms]
     }
     ,
     IC: {
@@ -160,6 +169,7 @@ const projectData: ProductDataMap = {
         website: null,
         websiteText: null,
         repo: "https://github.com/jdstrongpdx/IdealConditionsWebApp",
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.AWS, SkillsEnum.Python, SkillsEnum.OOP, SkillsEnum.CSS, SkillsEnum.HTML, SkillsEnum.React, SkillsEnum.NodeJs, SkillsEnum.JavaScript, SkillsEnum.Algorithms]
     },
     NetworkMonitor: {
         title: "Network Monitor",
@@ -178,6 +188,7 @@ const projectData: ProductDataMap = {
         website: null,
         websiteText: null,
         repo: "https://github.com/jdstrongpdx/NetworkMonitor",
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Architecture, SkillsEnum.Python, SkillsEnum.OOP, SkillsEnum.Algorithms]
     }
     ,
     Blockchain: {
@@ -197,6 +208,7 @@ const projectData: ProductDataMap = {
         website: null,
         websiteText: null,
         repo: "https://github.com/jdstrongpdx/Blockchain-Java-App",
+        skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Java, SkillsEnum.OOP, SkillsEnum.Architecture, SkillsEnum.Algorithms]
     }
 }
 

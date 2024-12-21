@@ -1,4 +1,5 @@
 import ProjectEnum from "../enums/ProjectEnum";
+import SkillEnum from "../enums/SkillEnum";
 
 export default interface IProjectData {
     title: string;
@@ -15,6 +16,7 @@ export default interface IProjectData {
     website: string | null;
     websiteText: string | null;
     repo: string | null;
+    skills: SkillEnum[];
 }
 
 interface ProjectStack {
