@@ -1,5 +1,5 @@
 import SkillsEnum from "../enums/SkillEnum";
-import {ICertificationCategory} from "@/interfaces/ICertificate";
+import {ICertificationCategory} from "../interfaces/ICertificate";
 
 const certificateData: ICertificationCategory[] = [
     {

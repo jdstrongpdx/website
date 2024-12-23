@@ -20,6 +20,10 @@ const imageData: IImageData[] = [
         description: 'Unit and Integration CI build tests in Azure DevOps',
         project: ProjectEnum.UserManager,
     }, {
+        src: 'images/UM/codeCoverage.png',
+        description: 'Code Coverage integration in Azure DevOps',
+        project: ProjectEnum.UserManager,
+    }, {
         src: 'images/UM/openApi.png',
         description: 'Swagger/Swashbuckle integration for Open API documentation.',
         project: ProjectEnum.UserManager,

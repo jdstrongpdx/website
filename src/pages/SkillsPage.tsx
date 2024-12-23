@@ -68,15 +68,7 @@ const SkillsPage = () => {
 
             <HelmetComponent title="Skills and Languages Page"/>
             <article>
-                <h2>Welcome to my Website!</h2>
-                <h5>
-                    Hi, my name is Joel Strong and I am a full stack software engineer and September 2024 Computer
-                    Science graduate from Oregon State
-                    University. In addition to maintaining a 3.98 GPA in my Computer Science program, I spent hundreds
-                    of hours outside of class learning the languages, skills, and certifications needed to build
-                    beautiful and functional full stack web applications. Check out my Portfolio page to see examples
-                    of my websites and projects!
-                </h5>
+                <h2>Skills and Proficiencies</h2>
 
                 <h5>This is a list of skills that I have learned with the expressed interest in building
                     applications with them. I am a life-long learner and interested in adding new skills that help me

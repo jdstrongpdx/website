@@ -24,38 +24,47 @@ const ChildrenBefore = () => {
                                                  <div>
 
                                                  <h3>Features</h3>
-                                                 <ul>
-                                                 <li>
-                                                 <strong>RESTful API:</strong> Records user information using standard HTTP methods (GET,
-                                                 POST, PUT, DELETE).{' '}
-        </li>
-    <li>
-        <strong>Unit Tests:</strong> Thoroughly tests individual methods and components to ensure
-        code correctness.
-    </li>
-    <li>
-        <strong>Integration Tests:</strong> Verifies the interaction between different parts of
-        the API and external services.
-    </li>
-    <li>
-        <strong>Azure DevOps Integration:</strong> Leverages Azure DevOps for project management,
-        version control, build automation, and test management.
-    </li>
-    <li>
-        <strong>macOS Build Agent:</strong> Uses a self-hosted macOS agent for continuous
-        integration and build processes.
-    </li>
-    <li>
-        <strong>Comprehensive Test Plan:</strong> A detailed Test Plan in Azure DevOps ensures
-        complete test coverage and quality assurance.
-    </li>
-</ul>
+                                                     <ul>
+                                                         <li>
+                                                             <strong>RESTful API:</strong> Records user information
+                                                             using standard HTTP methods (GET,
+                                                             POST, PUT, DELETE).{' '}
+                                                         </li>
+                                                         <li>
+                                                             <strong>Unit Tests:</strong> Thoroughly tests individual
+                                                             methods and components to ensure
+                                                             code correctness.
+                                                         </li>
+                                                         <li>
+                                                             <strong>Integration Tests:</strong> Verifies the
+                                                             interaction between different parts of
+                                                             the API and external services.
+                                                         </li>
+                                                         <li>
+                                                             <strong>Code Coverage:</strong> Analyzes the testing code coverage for the project.
+                                                         </li>
+                                                         <li>
+                                                             <strong>Azure DevOps Integration:</strong> Leverages Azure
+                                                             DevOps for project management,
+                                                             version control, build automation, and test management.
+                                                         </li>
+                                                         <li>
+                                                             <strong>macOS Build Agent:</strong> Uses a self-hosted
+                                                             macOS agent for continuous
+                                                             integration and build processes.
+                                                         </li>
+                                                         <li>
+                                                             <strong>Comprehensive Test Plan:</strong> A detailed Test
+                                                             Plan in Azure DevOps ensures
+                                                             complete test coverage and quality assurance.
+                                                         </li>
+                                                     </ul>
 
-    <h3>Azure DevOps Integration</h3>
-    <p>This project utilizes several Azure DevOps services:</p>
-    <ul>
-        <li>
-            <strong>Boards:</strong> For managing project tasks, user stories, and sprint planning.
+                                                     <h3>Azure DevOps Integration</h3>
+                                                     <p>This project utilizes several Azure DevOps services:</p>
+                                                     <ul>
+                                                         <li>
+                                                             <strong>Boards:</strong> For managing project tasks, user stories, and sprint planning.
         </li>
         <li>
             <strong>Repos:</strong> Git repository for version control and collaboration.

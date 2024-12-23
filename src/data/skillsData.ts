@@ -137,9 +137,9 @@ const skillsData: ISkillDataList = {
                     proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
-                    title: "Azure",
+                    title: "Azure Services",
                     image: "/logos/azure.png",
-                    description: "Configuring and deploying web applications using Azure offerings. Currently learning via courses on Coursera and Microsoft Learn.",
+                    description: "Currently learning to deploy solutions using Azure Services and utilizing Azure DevOps Boards, Repos, Pipelines, Test Plans and Artifacts for project management.",
                     skill: SkillsEnum.Azure,
                     proficiency: ProficiencyEnum.Basic,
                 },
