@@ -116,7 +116,7 @@ const certificateData: ICertificationCategory[] = [
                 skills: [SkillsEnum.JavaScript]
             }
         ]}, {
-        title: "Microsoft Back-End Developer",
+        title: "Microsoft Developer Certifications",
         certifications: [
             {
                 link: "https://coursera.org/verify/CV3XUHHEAVSP",
@@ -137,6 +137,13 @@ const certificateData: ICertificationCategory[] = [
                 imgLink: "./certifications/dotNetBackend.png",
                 title: "Back-End Development with .NET",
                 skills: [SkillsEnum.CSharp, SkillsEnum.DotNet, SkillsEnum.AspNet]
+            }
+            , {
+                link: "https://coursera.org/verify/specialization/UXVG5T2J9G5Y",
+                type: "wide",
+                imgLink: "./certifications/AZ900prep.png",
+                title: "AZ-900 Azure Fundamentals Exam Prep",
+                skills: [SkillsEnum.Azure]
             }
         ]}, {
         title: "Python ",

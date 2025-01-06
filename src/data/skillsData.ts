@@ -139,9 +139,16 @@ const skillsData: ISkillDataList = {
                 {
                     title: "Azure Services",
                     image: "/logos/azure.png",
-                    description: "Currently learning to deploy solutions using Azure Services and utilizing Azure DevOps Boards, Repos, Pipelines, Test Plans and Artifacts for project management.",
+                    description: "Using Azure Services to deploy .NET, Cosmos DB and React applications. Knowledge of service offerings via Microsoft AZ-900 certification exam course.",
                     skill: SkillsEnum.Azure,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
+                },
+                {
+                    title: "Azure DevOps",
+                    image: "/logos/azureDevOps.png",
+                    description: "Utilizing Azure DevOps Boards for Agile Project Management, Repos for Version Control, Pipelines for CI/CD workflows including Building, Testing, and Deploying, Test Plans for comprehensive test case management and execution, and Artifacts for secure and efficient dependency management.",
+                    skill: SkillsEnum.AzureDevOps,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
                     title: "Google Cloud Platform",
@@ -200,14 +207,14 @@ const skillsData: ISkillDataList = {
                 {
                     title: "Testing",
                     image: "/logos/testing.png",
-                    description: "Utilizing a layered testing approach integrating Unit Tests, Integration Testing, and End-to-End testing. Experience using a wide range of testing tools including unittest, PyTest, JUnit, Jest, Postman/Newman, Spring Test, MockMVC and other tools.",
+                    description: "Utilizing a layered testing approach integrating Unit Tests, Integration Testing, and End-to-End testing. Experience using a wide range of testing tools including unittest, PyTest, JUnit, NUnit, Jest, Postman/Newman, Spring Test, MockMVC, Moq and other tools.",
                     skill: SkillsEnum.Testing,
                     proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
                     title: "Agile",
                     image: "/logos/agile.png",
-                    description: "Utilizing Agile methodologies including Scrum and Kanban for value-driven prioritization and sprint planning. Experience using task managers such as Jira, Trello, and Asana.",
+                    description: "Utilizing Agile methodologies including Scrum and Kanban for value-driven prioritization and sprint planning. Experience using task managers such as Jira, Trello, Azure DevOps Boards, and Asana.",
                     skill: SkillsEnum.Agile,
                     proficiency: ProficiencyEnum.Intermediate,
                 },
