@@ -116,9 +116,15 @@ const certificateData: ICertificationCategory[] = [
                 skills: [SkillsEnum.JavaScript]
             }
         ]}, {
-        title: "Microsoft Developer Certifications",
+        title: "Microsoft Certifications",
         certifications: [
             {
+                link: "https://learn.microsoft.com/api/credentials/share/en-us/JoelStrong-5632/3D4C9BB4C55BA02D?sharingId=70B86CF6B6C94B8",
+                type: "wide",
+                imgLink: "./certifications/AZ900.png",
+                title: "Microsoft Certified: Azure Fundamentals",
+                skills: [SkillsEnum.Azure]
+            }, {
                 link: "https://coursera.org/verify/CV3XUHHEAVSP",
                 type: "wide",
                 imgLink: "./certifications/MicrosoftBackend.png",
