@@ -6,5 +6,6 @@ export default interface ISkillLanguage {
     image: string;
     description: string;
     skill: SkillsEnum;
+    specialText?: string;
     proficiency: ProficiencyEnum;
 }

@@ -139,8 +139,9 @@ const skillsData: ISkillDataList = {
                 {
                     title: "Azure Services",
                     image: "/logos/azure.png",
-                    description: "Using Azure Services to deploy .NET, Cosmos DB and React applications. Microsoft AZ-900 Azure Fundamentals Certified.",
+                    description: "Using Azure Services to deploy .NET, Cosmos DB and React applications using App Service, Azure Cosmos DB, and Web Apps. Microsoft AZ-900 Azure Fundamentals Certified.",
                     skill: SkillsEnum.Azure,
+                    specialText: "AZ-900 Azure Fundamentals Certified",
                     proficiency: ProficiencyEnum.Intermediate,
                 },
                 {

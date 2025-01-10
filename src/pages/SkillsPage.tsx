@@ -89,6 +89,7 @@ const SkillsPage = () => {
                                         description={skill.description}
                                         proficiency={skill.proficiency}
                                         skill={skill.skill}
+                                        specialText={skill.specialText}
                                         skillsCertificateMap={skillsCertificateMap}
                                         skillsProjectMap={skillsProjectMap}
                                     />

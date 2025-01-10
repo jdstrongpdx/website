@@ -3,36 +3,42 @@ import {ICertificationCategory} from "../interfaces/ICertificate";
 
 const certificateData: ICertificationCategory[] = [
     {
-        title: "Java",
+        title: "Microsoft & Azure Certifications & Certificates",
         certifications: [
             {
-                link: "https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf",
-                type: "normal",
-                imgLink: "./certifications/IntroJava.png",
-                title: "Introduction to Java",
-                skills: [SkillsEnum.Java]
-            },
-            {
-                link: "https://hyperskill.org/certificates/df6a1e14-ac88-40f7-96bf-2a5e31fa7e14.pdf",
-                type: "normal",
-                imgLink: "./certifications/JavaDeveloper.png",
-                title: "Java Developer",
-                skills: [SkillsEnum.Java]
-            },
-            {
-                link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
-                type: "normal",
-                imgLink: "./certifications/IntroSpringBoot.png",
-                title: "Introduction to Spring Boot",
-                skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
-            },
-            {
-                link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
-                type: "normal",
-                imgLink: "./certifications/JavaBackend.png",
-                title: "Java Backend Developer (Spring Boot)",
-                skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
-            },
+                link: "https://learn.microsoft.com/api/credentials/share/en-us/JoelStrong-5632/3D4C9BB4C55BA02D?sharingId=70B86CF6B6C94B8",
+                type: "wide",
+                imgLink: "./certifications/AZ900.png",
+                title: "AZ-900 Azure Fundamentals Certified",
+                redText: "AZ-900 Azure Fundamentals Certified",
+                skills: [SkillsEnum.Azure]
+            }, {
+                link: "https://coursera.org/verify/CV3XUHHEAVSP",
+                type: "wide",
+                imgLink: "./certifications/MicrosoftBackend.png",
+                title: "Foundations of Coding Back-End",
+                skills: [SkillsEnum.CSharp, SkillsEnum.DotNet]
+            }, {
+                link: "https://coursera.org/verify/VRG300EL9FD4",
+                type: "wide",
+                imgLink: "./certifications/CSharp.png",
+                title: "Introduction to Programming with C#",
+                skills: [SkillsEnum.CSharp]
+            }
+            , {
+                link: "https://coursera.org/verify/P5SNT8T9G54C",
+                type: "wide",
+                imgLink: "./certifications/dotNetBackend.png",
+                title: "Back-End Development with .NET",
+                skills: [SkillsEnum.CSharp, SkillsEnum.DotNet, SkillsEnum.AspNet]
+            }
+            , {
+                link: "https://coursera.org/verify/specialization/UXVG5T2J9G5Y",
+                type: "wide",
+                imgLink: "./certifications/AZ900prep.png",
+                title: "AZ-900 Azure Fundamentals Exam Prep",
+                skills: [SkillsEnum.Azure]
+            }
         ]}, {
         title: "Meta Front-End Developer Professional Certificate",
         certifications: [
@@ -88,7 +94,7 @@ const certificateData: ICertificationCategory[] = [
                 skills: []
             }
         ]}, {
-        title: "Front-End",
+        title: "Front-End Certificates",
         certifications: [
             {
                 link: "https://coursera.org/verify/specialization/CFTYPY5EEDKE",
@@ -116,43 +122,38 @@ const certificateData: ICertificationCategory[] = [
                 skills: [SkillsEnum.JavaScript]
             }
         ]}, {
-        title: "Microsoft Certifications",
+        title: "Java",
         certifications: [
             {
-                link: "https://learn.microsoft.com/api/credentials/share/en-us/JoelStrong-5632/3D4C9BB4C55BA02D?sharingId=70B86CF6B6C94B8",
-                type: "wide",
-                imgLink: "./certifications/AZ900.png",
-                title: "Microsoft Certified: Azure Fundamentals",
-                skills: [SkillsEnum.Azure]
-            }, {
-                link: "https://coursera.org/verify/CV3XUHHEAVSP",
-                type: "wide",
-                imgLink: "./certifications/MicrosoftBackend.png",
-                title: "Foundations of Coding Back-End",
-                skills: [SkillsEnum.CSharp, SkillsEnum.DotNet]
-            }, {
-                link: "https://coursera.org/verify/VRG300EL9FD4",
-                type: "wide",
-                imgLink: "./certifications/CSharp.png",
-                title: "Introduction to Programming with C#",
-                skills: [SkillsEnum.CSharp]
-            }
-            , {
-                link: "https://coursera.org/verify/P5SNT8T9G54C",
-                type: "wide",
-                imgLink: "./certifications/dotNetBackend.png",
-                title: "Back-End Development with .NET",
-                skills: [SkillsEnum.CSharp, SkillsEnum.DotNet, SkillsEnum.AspNet]
-            }
-            , {
-                link: "https://coursera.org/verify/specialization/UXVG5T2J9G5Y",
-                type: "wide",
-                imgLink: "./certifications/AZ900prep.png",
-                title: "AZ-900 Azure Fundamentals Exam Prep",
-                skills: [SkillsEnum.Azure]
-            }
+                link: "https://hyperskill.org/certificates/f2e02db5-f71e-49f6-8d0e-16ab49feb9a7.pdf",
+                type: "normal",
+                imgLink: "./certifications/IntroJava.png",
+                title: "Introduction to Java",
+                skills: [SkillsEnum.Java]
+            },
+            {
+                link: "https://hyperskill.org/certificates/df6a1e14-ac88-40f7-96bf-2a5e31fa7e14.pdf",
+                type: "normal",
+                imgLink: "./certifications/JavaDeveloper.png",
+                title: "Java Developer",
+                skills: [SkillsEnum.Java]
+            },
+            {
+                link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
+                type: "normal",
+                imgLink: "./certifications/IntroSpringBoot.png",
+                title: "Introduction to Spring Boot",
+                skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
+            },
+            {
+                link: "https://hyperskill.org/certificates/e2d4693c-4e90-450d-a207-7d9acc9e374c.pdf",
+                type: "normal",
+                imgLink: "./certifications/JavaBackend.png",
+                title: "Java Backend Developer (Spring Boot)",
+                skills: [SkillsEnum.Java, SkillsEnum.SpringBoot]
+            },
         ]}, {
-        title: "Python ",
+        title: "Python Certificates",
         certifications: [
             {
                 link: "https://hyperskill.org/certificates/142107e4-68cd-4d83-bd0c-1d53b085e767.pdf",

@@ -7,13 +7,14 @@ interface SkillsCardProps {
     title: string
     image: string;
     description: string;
-    skill: SkillsEnum
+    skill: SkillsEnum;
+    specialText?: string;
     proficiency: ProficiencyEnum;
     skillsCertificateMap: Record<SkillsEnum, { count: number; titles: string[] }>;
     skillsProjectMap: Map<SkillsEnum, number>;
 }
 
-const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, skillsCertificateMap, skillsProjectMap}) => {
+const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, proficiency, skill, specialText, skillsCertificateMap, skillsProjectMap}) => {
     const certificateCountString: string = !skillsCertificateMap[skill]?.count ? ""
                                             : skillsCertificateMap[skill]?.count === 1 ? "1 Certificate"
                                             : `${skillsCertificateMap[skill]?.count} Certificates`;
@@ -40,7 +41,9 @@ const SkillsCard: React.FC<SkillsCardProps> = ({ title, image, description, prof
                         value={proficiency}
                         disabled
                     />
-                    <p style={{color: '#4e6b97', fontWeight: '700', marginBottom: '5px', textAlign: 'center'}}>
+                    {specialText && <p style={{color: 'green', fontWeight: '700', marginBottom: '5px', textAlign: 'center'}}>
+                        {specialText}</p>}
+                    <p style={{color: '#4e6b97', fontWeight: '700', marginTop: '0px', marginBottom: '5px', textAlign: 'center'}}>
                         {certificateCountString}</p>
                     {description && <p><strong>Experience: </strong>{description}</p>}
                 </div>
