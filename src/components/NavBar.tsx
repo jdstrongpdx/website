@@ -90,6 +90,10 @@ const Links = () => {
                     <img height="50" alt="GitHub logo" src="/logos/github.png"/>
                 </a>
 
+                <a href="https://learn.microsoft.com/en-us/users/jdstrongpdx/transcript" target="https://learn.microsoft.com/en-us/users/jdstrongpdx/transcript">
+                    <img height="50" alt="Microsoft logo" src="/logos/microsoft.png"/>
+                </a>
+
             </div>
         </>
     )

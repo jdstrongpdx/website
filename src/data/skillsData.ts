@@ -80,9 +80,9 @@ const skillsData: ISkillDataList = {
                 {
                     title: "NoSQL",
                     image: "/logos/noSql.png",
-                    description: "Designing, integrating, and maintaining NoSQL databases on local and hosted services. Performing data retrieval, manipulation, aggregation, and transactions.",
+                    description: "Developing and implementing data, partitioning, indexing, and replication strategies for NoSQL databases. Understanding of using metrics to monitor and optimize NoSQL queries and databases. Completed Microsoft DP-420 Azure Cosmos DB training.",
                     skill: SkillsEnum.NoSQL,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
             ],
         },

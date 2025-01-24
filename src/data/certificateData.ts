@@ -3,7 +3,7 @@ import {ICertificationCategory} from "../interfaces/ICertificate";
 
 const certificateData: ICertificationCategory[] = [
     {
-        title: "Microsoft & Azure Certifications & Certificates",
+        title: "Microsoft AZ-900 Certification",
         certifications: [
             {
                 link: "https://learn.microsoft.com/api/credentials/share/en-us/JoelStrong-5632/3D4C9BB4C55BA02D?sharingId=70B86CF6B6C94B8",
@@ -12,7 +12,17 @@ const certificateData: ICertificationCategory[] = [
                 title: "AZ-900 Azure Fundamentals Certified",
                 redText: "AZ-900 Azure Fundamentals Certified",
                 skills: [SkillsEnum.Azure]
-            }, {
+            } , {
+                link: "https://coursera.org/verify/specialization/UXVG5T2J9G5Y",
+                type: "wide",
+                imgLink: "./certifications/AZ900prep.png",
+                title: "AZ-900 Azure Fundamentals Exam Prep",
+                skills: [SkillsEnum.Azure]
+            }
+        ]}, {
+        title: "Microsoft Back-End Developer Professional Certificates",
+        certifications: [
+            {
                 link: "https://coursera.org/verify/CV3XUHHEAVSP",
                 type: "wide",
                 imgLink: "./certifications/MicrosoftBackend.png",
@@ -31,13 +41,12 @@ const certificateData: ICertificationCategory[] = [
                 imgLink: "./certifications/dotNetBackend.png",
                 title: "Back-End Development with .NET",
                 skills: [SkillsEnum.CSharp, SkillsEnum.DotNet, SkillsEnum.AspNet]
-            }
-            , {
-                link: "https://coursera.org/verify/specialization/UXVG5T2J9G5Y",
+            }, {
+                link: "https://coursera.org/verify/151QZMNKPYUA",
                 type: "wide",
-                imgLink: "./certifications/AZ900prep.png",
-                title: "AZ-900 Azure Fundamentals Exam Prep",
-                skills: [SkillsEnum.Azure]
+                imgLink: "./certifications/microsoft-database.png",
+                title: "Database Integration and Management",
+                skills: [SkillsEnum.SQL]
             }
         ]}, {
         title: "Meta Front-End Developer Professional Certificate",
