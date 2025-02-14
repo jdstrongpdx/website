@@ -28,6 +28,7 @@ enum SkillsEnum {
     Debugging = 'Debugging',
     Other = 'Other',
     AzureDevOps = 'Azure DevOps',
+    Security = 'Security',
 }
 
 export default SkillsEnum;

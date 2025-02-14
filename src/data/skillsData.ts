@@ -178,6 +178,12 @@ const skillsData: ISkillDataList = {
                     proficiency: ProficiencyEnum.Intermediate,
                 },
                 {
+                    title: "Security",
+                    image: "/logos/security.png",
+                    description: "Configuring web application security against injection attacks, implementing encryption, authentication, authorization (JWT, OAuth2, scopes, RBAC), and claim management. Leveraging OWASP Top 10 guidelines for enhanced security.",                    skill: SkillsEnum.Security,
+                    proficiency: ProficiencyEnum.Intermediate,
+                },
+                {
                     title: "OOP",
                     image: "/logos/oop.png",
                     description: "Utilizing classes, methods, static elements, nesting, inheritance, abstract classes, interfaces, overriding/overloading, and usage.",
@@ -233,7 +239,7 @@ const skillsData: ISkillDataList = {
                     skill: SkillsEnum.UxUi,
                     proficiency: ProficiencyEnum.Basic,
                 },
-            ],
+            ]
         },
     ],
 };

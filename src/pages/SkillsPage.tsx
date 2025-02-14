@@ -81,19 +81,21 @@ const SkillsPage = () => {
                         <div key={categoryIndex}>
                             <h3>{category.title}</h3>
                             <div className="skillsParent">
-                                {category.items.map((skill, skillIndex) => (
-                                    <SkillsCard
-                                        key={skillIndex}
-                                        title={skill.title}
-                                        image={skill.image}
-                                        description={skill.description}
-                                        proficiency={skill.proficiency}
-                                        skill={skill.skill}
-                                        specialText={skill.specialText}
-                                        skillsCertificateMap={skillsCertificateMap}
-                                        skillsProjectMap={skillsProjectMap}
-                                    />
-                                ))}
+                                {category.items
+                                    .sort((a, b) => a.title.localeCompare(b.title)) // Sort skills by title
+                                    .map((skill, skillIndex) => (
+                                        <SkillsCard
+                                            key={skillIndex}
+                                            title={skill.title}
+                                            image={skill.image}
+                                            description={skill.description}
+                                            proficiency={skill.proficiency}
+                                            skill={skill.skill}
+                                            specialText={skill.specialText}
+                                            skillsCertificateMap={skillsCertificateMap}
+                                            skillsProjectMap={skillsProjectMap}
+                                        />
+                                    ))}
                             </div>
                         </div>
                     ))}
