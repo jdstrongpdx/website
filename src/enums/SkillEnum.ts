@@ -29,6 +29,8 @@ enum SkillsEnum {
     Other = 'Other',
     AzureDevOps = 'Azure DevOps',
     Security = 'Security',
+    ReactNative = 'React Native',
+    Mobile = 'Mobile',
 }
 
 export default SkillsEnum;

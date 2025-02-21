@@ -102,6 +102,14 @@ const skillsData: ISkillDataList = {
                     description: "Building dynamic data-driven Progressive Web Applications using advanced component architecture, state management, testing with Jest and React-Testing library, and packages like Lodash, Immer, Formik, Yup, and others.",
                     skill: SkillsEnum.React,
                     proficiency: ProficiencyEnum.Advanced,
+                    specialText: "Meta Front-End Developer Professional Certificate",
+                },
+                {
+                    title: "React-Native",
+                    image: "/logos/react-native.png",
+                    description: "Learning to build cross-platform mobile apps using components, state, props, and basic navigation.",
+                    skill: SkillsEnum.ReactNative,
+                    proficiency: ProficiencyEnum.Basic,
                 },
                 {
                     title: ".NET",
@@ -237,6 +245,13 @@ const skillsData: ISkillDataList = {
                     image: "/logos/ux_ui.png",
                     description: "Designing UX/UI designs in Figma using Personas, Journey Maps, Wireframes, and Prototypes.",
                     skill: SkillsEnum.UxUi,
+                    proficiency: ProficiencyEnum.Basic,
+                },
+                {
+                    title: "Mobile Development",
+                    image: "/logos/mobile.png",
+                    description: "Learning to Develop and Deploy Cross-Platform Mobile Apps using React-Native.",
+                    skill: SkillsEnum.Mobile,
                     proficiency: ProficiencyEnum.Basic,
                 },
             ]
