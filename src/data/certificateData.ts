@@ -116,6 +116,12 @@ const certificateData: ICertificationCategory[] = [
                 type: "wide",
                 imgLink: "./certifications/mobile-development.png",
                 title: "Introduction to Mobile Development",
+                skills: [SkillsEnum.ReactNative, SkillsEnum.Mobile]
+            }, {
+                link: "https://coursera.org/verify/FQQAX9UPROPO",
+                type: "wide",
+                imgLink: "./certifications/reactNative.png",
+                title: "React Native",
                 skills: [SkillsEnum.ReactNative]
             }
         ]}, {
