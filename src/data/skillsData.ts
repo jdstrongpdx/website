@@ -107,9 +107,10 @@ const skillsData: ISkillDataList = {
                 {
                     title: "React-Native",
                     image: "/logos/react-native.png",
-                    description: "Learning to build cross-platform mobile apps using components, state, props, and basic navigation.",
+                    description: "Building and styling functional cross-platform mobile apps using components, navigation, state management, data persistence, and API integrations.",
                     skill: SkillsEnum.ReactNative,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
+                    specialText: "Meta React-Native Specialization Certificate",
                 },
                 {
                     title: ".NET",

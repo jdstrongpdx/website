@@ -122,7 +122,13 @@ const certificateData: ICertificationCategory[] = [
                 type: "wide",
                 imgLink: "./certifications/reactNative.png",
                 title: "React Native",
-                skills: [SkillsEnum.ReactNative]
+                skills: [SkillsEnum.ReactNative, SkillsEnum.Mobile]
+            }, {
+                link: "https://coursera.org/verify/NZFOCLKLGKED",
+                type: "wide",
+                imgLink: "./certifications/workingWithData.png",
+                title: "Working with Data (in React Native)",
+                skills: [SkillsEnum.ReactNative, SkillsEnum.Mobile]
             }
         ]}, {
         title: "Front-End Certificates",
