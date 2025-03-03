@@ -8,7 +8,9 @@ enum ProjectEnum {
     NetworkMonitor,
     Blockchain,
     Gallery,
-    UserManager
+    UserManager,
+    LLMobile,
+    Actuli,
 }
 
 export default ProjectEnum;

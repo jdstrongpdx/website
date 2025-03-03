@@ -3,6 +3,30 @@ import ProjectEnum from "../enums/ProjectEnum";
 
 const imageData: IImageData[] = [
     {
+        src: 'images/Actuli/home.png',
+        description: 'Actuli logo and introduction.',
+        project: ProjectEnum.Actuli,
+    }, {
+        src: 'images/Actuli/actuliHome.png',
+        description: 'Actuli Home Page with MSAL Login, Light/Dark Mode, and Navigation.',
+        project: ProjectEnum.Actuli,
+    }, {
+        src: 'images/Actuli/contactEdit.png',
+        description: 'Actuli Multi-Step Form with Validation.',
+        project: ProjectEnum.Actuli,
+    }, {
+        src: 'images/LLMobile/profile.png',
+        description: 'Mobile profile screen with validation and asyncStorage for user data.  Logout clears all data.',
+        project: ProjectEnum.LLMobile,
+    }, {
+        src: 'images/LLMobile/menu.png',
+        description: 'Menu data loaded from the backend and is saved locally in SQLite database.',
+        project: ProjectEnum.LLMobile,
+    }, {
+        src: 'images/LLMobile/filteredMenu.png',
+        description: 'Menu filtering by text and/or category using filtering SQLite SQL statements.',
+        project: ProjectEnum.LLMobile,
+    }, {
         src: 'images/UM/project.png',
         description: 'UserManager Project using Azure DevOps',
         project: ProjectEnum.UserManager,

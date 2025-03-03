@@ -20,7 +20,7 @@ const PortfolioLayout = () => {
     return (
         <>
             <HelmetComponent title="Portfolio"/>
-            <h2>Portfolio of Selected Projects</h2>
+            <h2>Portfolio</h2>
             <nav className='centered'
                 style={{background: "#64799f", borderRadius: "5px", padding: "5px", height: "fit-content"}}
             >
@@ -30,6 +30,18 @@ const PortfolioLayout = () => {
                          style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}
                 >
                     Projects List
+                </NavLink>
+                <NavLink
+                    to="/portfolio/actuli"
+                    className="nav-link"
+                    style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Actuli
+                </NavLink>
+                <NavLink
+                    to="/portfolio/llmobile"
+                    className="nav-link"
+                    style={({ isActive }) => (isActive ? activeLinkStyle : linkStyle)}>
+                    Little Lemon Mobile
                 </NavLink>
                 <NavLink
                     to="/portfolio/usermanager"

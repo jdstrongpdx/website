@@ -65,8 +65,42 @@ const SkillsPage = () => {
 
     return (
         <>
-
             <HelmetComponent title="Skills and Languages Page"/>
+            <article>
+
+                <h2>About Me</h2>
+
+                <p>My original background is in Manufacturing, where I worked my way from a temporary employee to managing half of the production departments in the company within 10 years. Three key factors drove my career growth: <strong>collaboration, Lean Manufacturing, and software development.</strong></p>
+
+                <p>I frequently identified business needs where software could improve efficiency and quality, and I built solutions to address them:</p>
+
+                <ul>
+                    <li>Creating custom MRP solutions for inventory management, labeling, formulations, production batching, and quality testing.</li>
+                    <li>Developing internal software tools that reduced errors, improved throughput, and optimized workflows.</li>
+                    <li>Serving as a backup IT administrator, troubleshooting systems, managing databases, and ensuring uptime.</li>
+                    <li>Serving as the technical lead for a SaaS ERP transition team, successfully migrating nine software modules over 16 months.</li>
+                </ul>
+
+                <p>I stepped away from my career to be a full-time parent and raised two fine young men. When it was time for me to return to work, I decided to return to software development. I pursued a Computer Science degree while independently developing the skills needed for enterprise software development, including React, TypeScript, Java, SQL, and Cloud Services.</p>
+
+                <p>As the job market and internship opportunities tightened during my junior year, my mentor recommended that I build a full-stack web application to demonstrate my skills. That project, FragranceFreeResources.com, became a hands-on learning experience that solidified my expertise in full-stack development.</p>
+
+                <p>Despite challenges in finding entry-level opportunities in my area, I have remained committed to continuous learning and upskilling. Since graduating, I have earned many certifications and certificates including:</p>
+
+                <ul>
+                    <li><strong>AZ-900 Azure Fundamentals Certified</strong></li>
+                    <li><strong>Meta Front-End Developer Professional Certificate (Advanced React)</strong></li>
+                    <li><strong>Meta React-Native Specialization Certificate</strong></li>
+                    <li><strong>JetBrains Academy Java Developer (Advanced Java)</strong></li>
+                    <li><strong>JetBrains Academy Java Backend Developer (Spring Boot)</strong></li>
+                    <li><strong>Google Agile Project Management</strong></li>
+                    <li><strong>Microsoft Back-End Developer Professional Certificate (In Progress)</strong></li>
+                </ul>
+
+                <p>I am currently developing <strong><a href="https://www.actuli.com">Actuli.com</a></strong>, a cross-platform AI-powered life coach and goal-setting application. This project allows me to apply my expertise in <strong>.NET, ASP.NET, React Native, Azure OpenAI, and CI/CD pipelines</strong> while continuing to grow as a developer.</p>
+
+
+            </article>
             <article>
                 <h2>Skills and Proficiencies</h2>
 

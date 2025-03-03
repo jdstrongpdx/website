@@ -7,6 +7,51 @@ type ProductDataMap = {
 };
 
 const projectData: ProductDataMap = {
+    Actuli: {
+        title: "Actuli.com",
+        image: "/images/Actuli/home.png",
+        imageDisplay: true,
+        data: null,
+        route: "/portfolio/actuli",
+        project: ProjectEnum.Actuli,
+        name: "AI-Powered Life Coach & Goal Setting App (in development)",
+        date: "December 2024 - Current",
+        type: "Full Stack Cross-Platform AI Powered Application",
+        description: "Creation of a cross-platform full stack application using React-Native, .NET, ASP.NET Core, Azure CosmosDB, Azure DevOps. Implementation details described on the project page.",
+        stack: {
+            frontend: "React-Native for iOS, Android, and Web",
+            database: "Azure CosmosDB",
+            backend: ".NET and ASP.NET Core, Azure CosmosDB, NUnit and Moq",
+            hosting: "Azure Services and Azure DevOps"
+        },
+        website: "https://www.actuli.com/",
+        websiteText: "actuli.com",
+        repo: null,
+        skills: [SkillsEnum.AspNet, SkillsEnum.Azure, SkillsEnum.CSharp, SkillsEnum.NoSQL, SkillsEnum.Architecture, SkillsEnum.DotNet, SkillsEnum.Testing, SkillsEnum.Agile, SkillsEnum.Git, SkillsEnum.Algorithms, SkillsEnum.AI, SkillsEnum.Agile]
+    },
+    LLMobile: {
+        title: "Little Lemon Cross-Platform Mobile App",
+        image: "/images/LLMobile/menu.png",
+        imageDisplay: true,
+        data: null,
+        route: "/portfolio/llmobile",
+        project: ProjectEnum.LLMobile,
+        name: "Little Lemon UX/UI design and React-Native implementation",
+        date: "February 2025",
+        type: "React-Native Cross-Platform Mobile App",
+        description: "This is the Capstone project for the Meta React-Native Specialization. Implementation details described on the project page.",
+        stack: {
+            frontend: "React-Native, JavaScript, CSS.",
+            database: "SQLite",
+            backend: null,
+            hosting: null,
+        },
+        website: null,
+        websiteText: null,
+        repo: "https://github.com/jdstrongpdx/meta-react-native-capstone",
+        skills: [SkillsEnum.Git, SkillsEnum.UxUi, SkillsEnum.HTML, SkillsEnum.ReactNative, SkillsEnum.JavaScript, SkillsEnum.Mobile, SkillsEnum.SQL, SkillsEnum.NodeJs, SkillsEnum.CSS, SkillsEnum.Algorithms]
+
+    },
     UM: {
         title: "Azure DevOps UserManager",
         image: "/images/UM/project.png",
@@ -15,7 +60,7 @@ const projectData: ProductDataMap = {
         route: "/portfolio/usermanager",
         project: ProjectEnum.UserManager,
         name: "UserManager API with Testing and Azure DevOps CI/CD",
-        date: "December 2024 - Current",
+        date: "December 2024",
         type: "API Backend with Testing and CI/CD",
         description: "Creation of a RESTful API backend using .NET and ASP.NET Core, Azure CosmosDB, Azure DevOps and testing using NUnit, Moq, and DevOps Test Plans.",
         stack: {
@@ -52,7 +97,7 @@ const projectData: ProductDataMap = {
         skills: [SkillsEnum.Git, SkillsEnum.Debugging, SkillsEnum.Docker, SkillsEnum.Algorithms, SkillsEnum.Agile, SkillsEnum.Architecture, SkillsEnum.OOP, SkillsEnum.UxUi, SkillsEnum.Testing, SkillsEnum.AWS, SkillsEnum.CSS, SkillsEnum.SpringBoot, SkillsEnum.HTML, SkillsEnum.SQL, SkillsEnum.React, SkillsEnum.TypeScript, SkillsEnum.Java, SkillsEnum.NodeJs]
     },
     LL: {
-        title: "Little Lemon",
+        title: "Little Lemon Website",
         image: "/images/LL/desktopThumb.png",
         imageDisplay: true,
         data: [["Figma:", "Development of a Persona, Journey Map, Wireframe, and Prototype"]],
@@ -61,7 +106,7 @@ const projectData: ProductDataMap = {
         name: "Little Lemon UX/UI design and React implementation",
         date: "November 2024",
         type: "Frontend Design & Implementation",
-        description: "This project was part of the Meta Front-End Developer Professional Certification and had the following objectives:",
+        description: "This project was part of the Meta Front-End Developer Professional Certification. Implementation details described on the project page.",
         stack: {
             frontend: "React, JavaScript, HTML, CSS.",
             database: null,
