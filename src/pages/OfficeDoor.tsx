@@ -13,7 +13,7 @@ const OfficeDoor = () => {
                 hope you do as well.</p>
 
             <div className="gallery-row">
-                {Array.from({length: 24}, (_, i) =>
+                {Array.from({length: 25}, (_, i) =>
                     <GalleryModal
                         key={i + 1}
                         imageSrc={`/memes/meme${i + 1}.png`}

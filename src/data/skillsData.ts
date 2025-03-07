@@ -132,6 +132,7 @@ const skillsData: ISkillDataList = {
                     description: "Using Spring Web, JPA, Security, MVC, Jackson, Validation, JUnit, Actuator, Model-Mapper modules with Gradle/Maven to build and deploy web applications.",
                     skill: SkillsEnum.SpringBoot,
                     proficiency: ProficiencyEnum.Intermediate,
+                    specialText: "JetBrains Academy Java Backend Developer Certificate",
                 },
             ],
         },
@@ -251,9 +252,9 @@ const skillsData: ISkillDataList = {
                 {
                     title: "Mobile Development",
                     image: "/logos/mobile.png",
-                    description: "Learning to Develop and Deploy Cross-Platform Mobile Apps using React-Native.",
+                    description: "Developing cross-platform mobile and web applications using React-Native.",
                     skill: SkillsEnum.Mobile,
-                    proficiency: ProficiencyEnum.Basic,
+                    proficiency: ProficiencyEnum.Intermediate,
                 },
             ]
         },

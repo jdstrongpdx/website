@@ -112,6 +112,12 @@ const certificateData: ICertificationCategory[] = [
         title: "Meta React Native Specialization (in addition to certificates above)",
         certifications: [
             {
+                link: "https://coursera.org/verify/specialization/66ZMAL2QFN74",
+                type: "wide",
+                imgLink: "./certifications/React-Native-Specialization.png",
+                title: "Meta React Native Specialization",
+                skills: [SkillsEnum.ReactNative, SkillsEnum.Mobile]
+            }, {
                 link: "https://coursera.org/verify/WKP8LC5MX26I",
                 type: "wide",
                 imgLink: "./certifications/mobile-development.png",
